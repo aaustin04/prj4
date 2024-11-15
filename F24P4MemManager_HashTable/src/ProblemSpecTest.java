@@ -54,7 +54,7 @@ public class ProblemSpecTest extends TestCase {
         SemManager.main(args);
         String output = systemOut().getHistory();
         String referenceOutput = readFile("P4Sample_output.txt");
-// assertFuzzyEquals(referenceOutput, output);
+ assertFuzzyEquals(referenceOutput, output);
     }
 
 

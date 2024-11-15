@@ -23,25 +23,28 @@
  * @version 2, Sept 2024
  */
 
-public class Hash {
+public class Hash <E extends Comparable<E>>
+{
 
     // Fields
-    private Record[] allRecords;
+    private Record<E>[] allRecords;
     private int numOfRecords;
-    private Record tombstone;
+    private final Record<E> tombstone;
 
     // Constructor
     /**
-     * Constructor for the Hash table class.
-     * Initializes the hash table with a given size.
+     * Constructor for the Hash table class. Initializes the hash table with a
+     * given size.
      * 
      * @param size
      *            The initial size of the hash table.
      */
-    public Hash(int size) {
-        this.allRecords = new Record[size];
+    @SuppressWarnings("unchecked")
+    public Hash(int size)
+    {
+        this.allRecords = (Record<E>[]) new Record[size];
         this.numOfRecords = 0;
-        this.tombstone = new Record("TOMBSTONE", null);
+        this.tombstone = new Record<>(-1,null);
 
     }
 
@@ -52,7 +55,8 @@ public class Hash {
      * 
      * @return The number of records in the hash table.
      */
-    public int getNumOfRecords() {
+    public int getNumOfRecords()
+    {
         return this.numOfRecords;
     }
 
@@ -62,7 +66,8 @@ public class Hash {
      * 
      * @return An array of all records.
      */
-    public Record[] getAllRecords() {
+    public Record<E>[] getAllRecords()
+    {
         return this.allRecords;
     }
 
@@ -72,7 +77,8 @@ public class Hash {
      * 
      * @return The Tombstone record.
      */
-    public Record getTombstone() {
+    public Record<E> getTombstone()
+    {
         return this.tombstone;
     }
 
@@ -86,24 +92,28 @@ public class Hash {
      * @param node
      *            The node;
      */
-    public void insert(String key, Node node) {
-        if (numOfRecords >= allRecords.length / 2) {
+    public void insert(int id, E sem)
+    {
+        if (numOfRecords >= allRecords.length / 2)
+        {
             resize();
         }
 
-        int home = h(key, allRecords.length);
+        int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null && allRecords[pos] != tombstone) {
-            if (i < allRecords.length) {
+        while (allRecords[pos] != null && allRecords[pos] != tombstone)
+        {
+            if (i < allRecords.length)
+            {
                 i++;
-                pos = (home + (i * i));
+                pos = ((home + (((i * i) + i) / 2)));
                 pos = pos % allRecords.length;
             }
         }
 
-        allRecords[pos] = new Record(key, node);
+        allRecords[pos] = new Record<>(id, sem);
         numOfRecords++;
     }
 
@@ -115,20 +125,22 @@ public class Hash {
      * @param key
      *            The key of the record to be removed.
      */
-    public void remove(String key) {
-        int home = h(key, allRecords.length);
+    public void remove(int id)
+    {
+        int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null) {
-            if (allRecords[pos].getKey().equals(key)
-                && allRecords[pos] != tombstone) {
+        while (allRecords[pos] != null)
+        {
+            if (allRecords[pos].key() == id && allRecords[pos] != tombstone)
+            {
                 allRecords[pos] = tombstone;
                 numOfRecords--;
                 return;
             }
             i++;
-            pos = (home + i * i) % allRecords.length;
+            pos = ((home + (((i * i) + i) / 2))) % allRecords.length;
         }
     }
 
@@ -140,18 +152,20 @@ public class Hash {
      *            The key to search for.
      * @return True if the key is found, false otherwise.
      */
-    public boolean find(String key) {
-        int home = h(key, allRecords.length);
+    public boolean find(int id)
+    {
+        int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null && i < allRecords.length) {
-            if (allRecords[pos].getKey().equals(key)
-                && allRecords[pos] != tombstone) {
+        while (allRecords[pos] != null && i < allRecords.length)
+        {
+            if (allRecords[pos].key() == id && allRecords[pos] != tombstone)
+            {
                 return true;
             }
             i++;
-            pos = (home + i * i) % allRecords.length;
+            pos = ((home + (((i * i) + i) / 2))) % allRecords.length;
         }
         return false;
     }
@@ -165,18 +179,20 @@ public class Hash {
      *            the key
      * @return the record
      */
-    public Record getRecord(String key) {
-        int home = h(key, allRecords.length);
+    public Record<E> getRecord(int id)
+    {
+        int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null && i < allRecords.length) {
-            if (allRecords[pos].getKey().equals(key)
-                && allRecords[pos] != tombstone) {
+        while (allRecords[pos] != null && i < allRecords.length)
+        {
+            if (allRecords[pos].key() == id && allRecords[pos] != tombstone)
+            {
                 return allRecords[pos];
             }
             i++;
-            pos = (home + i * i) % allRecords.length;
+            pos = ((home + (((i * i) + i) / 2))) % allRecords.length;
         }
         return null;
     }
@@ -185,18 +201,25 @@ public class Hash {
     /**
      * Prints all records in the hash table.
      */
-    public void print() {
-
-        for (int i = 0; i < allRecords.length; i++) {
-            if (allRecords[i] != null && allRecords[i] != tombstone) {
-                System.out.println("" + i + ": |" + allRecords[i].getKey()
-                    + "|");
+    public void print()
+    {
+        int count = 0;
+        for (int i = 0; i < allRecords.length; i++)
+        {
+            if (allRecords[i] != null && allRecords[i] != tombstone)
+            {
+                System.out
+                    .println("" + i + ": " + allRecords[i].key());
+                count++;
 
             }
-            if (allRecords[i] == tombstone) {
-                System.out.println("" + i + ": " + allRecords[i].getKey());
+            if (allRecords[i] == tombstone)
+            {
+                System.out.println("" + i + ": TOMBSTONE");
             }
+            
         }
+        System.out.println("total records: " + count);
 
     }
 
@@ -205,15 +228,19 @@ public class Hash {
      * Resizes the hash table when it becomes half full, rehashing all
      * non-tombstone records.
      */
-    private void resize() {
-        Record[] old = allRecords;
-        Record[] newRecord = new Record[allRecords.length * 2];
+    @SuppressWarnings("unchecked")
+    private void resize()
+    {
+        Record<E>[] old = allRecords;
+        Record<E>[] newRecord = new Record[allRecords.length * 2];
         this.allRecords = newRecord;
         numOfRecords = 0;
 
-        for (Record record : old) {
-            if (record != tombstone && record != null) {
-                insert(record.getKey(), record.getNode());
+        for (Record<E> record : old)
+        {
+            if (record != tombstone && record != null)
+            {
+                insert(record.key(), record.value());
             }
         }
 
@@ -228,29 +255,11 @@ public class Hash {
      * @param length
      *            Length of the hash table (needed because this method is
      *            static)
-     * @return
-     *         The hash function value (the home slot in the table for this key)
+     * @return The hash function value (the home slot in the table for this key)
      */
-    public static int h(String s, int length) {
-        int intLength = s.length() / 4;
-        long sum = 0;
-        for (int j = 0; j < intLength; j++) {
-            char[] c = s.substring(j * 4, (j * 4) + 4).toCharArray();
-            long mult = 1;
-            for (int k = 0; k < c.length; k++) {
-                sum += c[k] * mult;
-                mult *= 256;
-            }
-        }
-
-        char[] c = s.substring(intLength * 4).toCharArray();
-        long mult = 1;
-        for (int k = 0; k < c.length; k++) {
-            sum += c[k] * mult;
-            mult *= 256;
-        }
-
-        return (int)(Math.abs(sum) % length);
+    public static int h(int key, int length)
+    {
+        return key % length;
     }
 
 }

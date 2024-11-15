@@ -25,70 +25,89 @@
  * @author Andres Zaidan
  * @version Sep 4, 2024
  */
-public class Record {
-    // ~ Fields ................................................................
-    private String key; // could be artist/song
-    private Node node; // links to the adjacency list.
+public class Record<E>
+    implements Comparable<Record<E>>
+{
 
-    // ~ Constructors ..........................................................
+    private int theKey;
 
+    private E theVal;
+
+    // ----------------------------------------------------------
     /**
-     * Constructor for the Record class.
-     * Initializes the Record with a key and node.
+     * Create a new KVPair object.
      * 
-     * @param nKey
-     *            The key (artist or song).
-     * 
-     * @param nNode
-     *            The Node associated with the key.
-     * 
+     * @param k
+     *            the key
+     * @param v
+     *            the value
      */
-    public Record(String nKey, Node nNode) {
-        this.key = nKey;
-        this.node = nNode;
-    }
-
-    // ~Public Methods ........................................................
-
-
-    /**
-     * Returns the key associated with the record.
-     * 
-     * @return The key as a String (artist or song).
-     */
-    public String getKey() {
-        return this.key;
+    public Record(int k, E v)
+    {
+        theKey = k;
+        theVal = v;
     }
 
 
     /**
-     * Returns the Node associated with the record.
+     * Compares against a keyvalue pair.
      * 
-     * @return The Node associated with the key.
+     * @param it
+     *            the object to compare
+     * @return Int bigger than 0 smaller, lower than 0 larger
      */
-    public Node getNode() {
-        return this.node;
+    public int compareTo1(Record<E> it)
+    {
+        return Integer.compare(this.theKey, it.theKey);
     }
 
 
+    // Compare against a key
+    // ----------------------------------------------------------
     /**
-     * Sets a new key for the record.
+     * Compares against a key
      * 
-     * @param newKey
-     *            The new key to be set (artist or song).
+     * @param it
+     *            the key to compare
+     * @return Int bigger than 0 smaller, lower than 0 larger
      */
-    public void setKey(String newKey) {
-        this.key = newKey;
+    public int compareTo(int key)
+    {
+        return Integer.compare(this.theKey, key);
     }
 
 
+    // ----------------------------------------------------------
     /**
-     * Sets a new Node for the record.
+     * returns the key
      * 
-     * @param newNode
-     *            The new Node to be associated with the key.
+     * @return key
      */
-    public void setNode(Node newNode) {
-        this.node = newNode;
+    public int key()
+    {
+        return theKey;
+    }
+
+
+    // ----------------------------------------------------------
+    /**
+     * returns the value
+     * 
+     * @return val
+     */
+    public E value()
+    {
+        if (theVal != null)
+        {
+            return theVal;
+        }
+        return null;
+    }
+
+
+    @Override
+    public int compareTo(Record<E> o)
+    {
+        return 0;
     }
 }
