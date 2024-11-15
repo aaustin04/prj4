@@ -31,7 +31,7 @@ import java.util.Scanner;
 public class CommandProcessor
 {
     // ~ Fields ................................................................
-    private Controller<?> controller;
+    private Controller controller;
 
     // ~ Constructors ..........................................................
     /**
@@ -42,7 +42,7 @@ public class CommandProcessor
      *            The Controller object used to perform operations based on the
      *            commands.
      */
-    public CommandProcessor(Controller<?> control)
+    public CommandProcessor(Controller control)
     {
         this.controller = control;
     }

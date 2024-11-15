@@ -5,12 +5,11 @@
  * @author Andres Zaidan
  * @author Austin Anderson
  * @version Oct 1, 2024
- * @param <E>
  */
-public class Controller <E extends Comparable<E>>
+public class Controller
 {
     // ~ Fields ................................................................
-    private Hash <E> seminarHash;
+    private Hash<Seminar> seminarHash;
     private int worldSize;
 
     // ----------------------------------------------------------
@@ -24,7 +23,7 @@ public class Controller <E extends Comparable<E>>
     public Controller(int world) // takes world size parameter when we implement
                                  // bin tree
     {
-        this.seminarHash = new Hash <E>(world);
+        this.seminarHash = new Hash<Seminar>(world);
         this.worldSize = world;
     }
 
@@ -34,11 +33,29 @@ public class Controller <E extends Comparable<E>>
     /**
      * insert method for inserting seminars into the binary tree and bin tree
      * 
+     * @param semId
+     *            id
+     * @param semTitle
+     *            title
+     * @param date
+     *            date
+     * @param length
+     *            length
+     * @param x
+     *            x
+     * @param y
+     *            y
+     * @param cost
+     *            cost
+     * @param keywords
+     *            keywords
+     * @param description
+     *            description
      * @param sem
      *            seminar object
      */
-    @SuppressWarnings("unchecked")
-    public void insert(int semId,
+    public void insert(
+        int semId,
         String semTitle,
         String date,
         int length,
@@ -46,21 +63,24 @@ public class Controller <E extends Comparable<E>>
         double y,
         double cost,
         String[] keywords,
-        String description, Seminar sem)
+        String description,
+        Seminar sem)
     {
-        
         if (sem == null)
         {
             return;
         }
-        
+
         if (seminarHash.find(semId))
         {
             System.out.println(
                 "Insert FAILED - There is already a record with ID " + semId);
         }
-        seminarHash.insert(semId, (E)sem);
-        
+        else
+        {
+            seminarHash.insert(semId, sem);
+        }
+
     }
 
 
@@ -68,13 +88,13 @@ public class Controller <E extends Comparable<E>>
     /**
      * Delete method, deletes from binary tree and bin tree.
      * 
-     * @param id
-     *            id to look for
+     * @param semId
+     *            id to look for id to look for
      */
     public void delete(int semId)
     {
 
-        Record<E> sem = seminarHash.getRecord(semId);
+        Record<Seminar> sem = seminarHash.getRecord(semId);
         seminarHash.remove(semId);
 
         if (sem != null)
@@ -87,12 +107,11 @@ public class Controller <E extends Comparable<E>>
 
         else
         {
-            System.out
-                .println("delete FAILED -- There is no record with ID " + semId);
+            System.out.println(
+                "delete FAILED -- There is no record with ID " + semId);
         }
 
     }
-
 
     // ----------------------------------------------------------
     /**
@@ -101,24 +120,23 @@ public class Controller <E extends Comparable<E>>
      * @param id
      *            id to look for
      */
-//    public void searchID(int id)
-//    {
-//        if (idTree.find(id) != null)
-//        {
-//            if (idTree.find(id) == id)
-//            {
-//                System.out.println("Found record with ID " + id + ":");
-//                System.out.println(idTree.findSeminar(id));
-//            }
+// public void searchID(int id)
+// {
+// if (idTree.find(id) != null)
+// {
+// if (idTree.find(id) == id)
+// {
+// System.out.println("Found record with ID " + id + ":");
+// System.out.println(idTree.findSeminar(id));
+// }
 //
-//        }
-//        else
-//        {
-//            System.out
-//                .println("Search FAILED -- There is no record with ID " + id);
-//        }
-//    }
-
+// }
+// else
+// {
+// System.out
+// .println("Search FAILED -- There is no record with ID " + id);
+// }
+// }
 
     // ----------------------------------------------------------
     /**
@@ -129,16 +147,15 @@ public class Controller <E extends Comparable<E>>
      * @param maxCost
      *            the maxcost
      */
-//    public void searchCost(int minCost, int maxCost)
-//    {
-//        // should print 3.
-//        int num = costTree.searchRange(minCost, maxCost);
-//        if (num != 0)
-//        {
-//            System.out.println("" + num + " nodes visited in this search");
-//        }
-//    }
-
+// public void searchCost(int minCost, int maxCost)
+// {
+// // should print 3.
+// int num = costTree.searchRange(minCost, maxCost);
+// if (num != 0)
+// {
+// System.out.println("" + num + " nodes visited in this search");
+// }
+// }
 
     // ----------------------------------------------------------
     /**
@@ -149,15 +166,14 @@ public class Controller <E extends Comparable<E>>
      * @param endDate
      *            the enddate
      */
-//    public void searchDate(String startDate, String endDate)
-//    {
-//        int num = dateTree.searchRange(startDate, endDate);
-//        if (num != 0)
-//        {
-//            System.out.println("" + num + " nodes visited in this search");
-//        }
-//    }
-
+// public void searchDate(String startDate, String endDate)
+// {
+// int num = dateTree.searchRange(startDate, endDate);
+// if (num != 0)
+// {
+// System.out.println("" + num + " nodes visited in this search");
+// }
+// }
 
     // ----------------------------------------------------------
     /**
@@ -166,13 +182,12 @@ public class Controller <E extends Comparable<E>>
      * @param keyword
      *            the keyword
      */
-//    public void searchKeyword(String keyword)
-//    {
+// public void searchKeyword(String keyword)
+// {
 //
-//        keywordTree.searchRange(keyword, keyword);
+// keywordTree.searchRange(keyword, keyword);
 //
-//    }
-
+// }
 
     // ----------------------------------------------------------
     /**
@@ -185,10 +200,10 @@ public class Controller <E extends Comparable<E>>
      * @param radius
      *            the radius
      */
-//    public void searchLocation(int x, int y, int radius)
-//    {
-//        binTree.find(x, y, radius);
-//    }
+// public void searchLocation(int x, int y, int radius)
+// {
+// binTree.find(x, y, radius);
+// }
 
 
     // ----------------------------------------------------------

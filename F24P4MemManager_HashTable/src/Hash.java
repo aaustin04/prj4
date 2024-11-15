@@ -23,7 +23,7 @@
  * @version 2, Sept 2024
  */
 
-public class Hash <E extends Comparable<E>>
+public class Hash<E extends Comparable<E>>
 {
 
     // Fields
@@ -42,9 +42,9 @@ public class Hash <E extends Comparable<E>>
     @SuppressWarnings("unchecked")
     public Hash(int size)
     {
-        this.allRecords = (Record<E>[]) new Record[size];
+        this.allRecords = (Record<E>[])new Record[size];
         this.numOfRecords = 0;
-        this.tombstone = new Record<>(-1,null);
+        this.tombstone = new Record<>(-1, null);
 
     }
 
@@ -87,10 +87,10 @@ public class Hash <E extends Comparable<E>>
      * Inserts a new record into the hash table using quadratic probing if
      * necessary.
      * 
-     * @param key
+     * @param id
      *            The key (artist or song) to be inserted into the hash table.
-     * @param node
-     *            The node;
+     * @param sem
+     *            The seminar;
      */
     public void insert(int id, E sem)
     {
@@ -122,7 +122,7 @@ public class Hash <E extends Comparable<E>>
      * Removes a record from the hash table, marking its position with a
      * Tombstone.
      * 
-     * @param key
+     * @param id
      *            The key of the record to be removed.
      */
     public void remove(int id)
@@ -148,7 +148,7 @@ public class Hash <E extends Comparable<E>>
     /**
      * Searches for a record in the hash table.
      * 
-     * @param key
+     * @param id
      *            The key to search for.
      * @return True if the key is found, false otherwise.
      */
@@ -175,7 +175,7 @@ public class Hash <E extends Comparable<E>>
     /**
      * gets the record from the hash table given the key
      * 
-     * @param key
+     * @param id
      *            the key
      * @return the record
      */
@@ -208,8 +208,7 @@ public class Hash <E extends Comparable<E>>
         {
             if (allRecords[i] != null && allRecords[i] != tombstone)
             {
-                System.out
-                    .println("" + i + ": " + allRecords[i].key());
+                System.out.println("" + i + ": " + allRecords[i].key());
                 count++;
 
             }
@@ -217,7 +216,7 @@ public class Hash <E extends Comparable<E>>
             {
                 System.out.println("" + i + ": TOMBSTONE");
             }
-            
+
         }
         System.out.println("total records: " + count);
 
@@ -250,7 +249,7 @@ public class Hash <E extends Comparable<E>>
     /**
      * Compute the hash function
      * 
-     * @param s
+     * @param key
      *            The string that we are hashing
      * @param length
      *            Length of the hash table (needed because this method is

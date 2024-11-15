@@ -37,5 +37,10 @@ public class SemManager {
      */
     public static void main(String[] args) {
         // This is the main file for the program.
+        args[0] = "512";
+        args[1] = "4";
+        CommandProcessor cp =
+            new CommandProcessor(new Controller(Integer.parseInt(args[1])));
+        cp.beginParsingByLine(args[2]);
     }
 }

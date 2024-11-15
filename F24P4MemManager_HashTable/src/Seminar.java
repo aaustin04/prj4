@@ -10,7 +10,7 @@ import java.io.*;
  * @version July 2023, updated July 2024
  */
 
-public class Seminar implements Serializable {
+public class Seminar implements Serializable, Comparable<Seminar> {
     private String title; // Semianar title
     private String date; // Seminar date
     private int length; // Seminar length
@@ -158,5 +158,19 @@ public class Seminar implements Serializable {
         return "ID: " + id + ", Title: " + title + "\nDate: " + date
             + ", Length: " + length + ", X: " + x + ", Y: " + y + ", Cost: "
             + cost + "\nDescription: " + desc + "\nKeywords: " + mykeys;
+    }
+
+
+    @Override
+    public int compareTo(Seminar o)
+    {
+        return ((Integer)id).compareTo(o.getId());
+    }
+
+
+    private int getId()
+    {
+        // TODO Auto-generated method stub
+        return id;
     }
 }
