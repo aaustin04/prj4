@@ -28,7 +28,7 @@ public class SeminarTest extends TestCase {
             + "Description: This is a great seminar\n"
             + "Keywords: Good, Bad, Ugly";
         Seminar mysem = new Seminar(1729, "Seminar Title", "2405231000", 75,
-            (short)15, (short)33, 125, keywords, "This is a great seminar");
+            (short)15, (short)33, 125, keywords, "This is a great seminar",-1);
         String semPrint = mysem.toString();
         System.out.println("testtoString");
         System.out.println(semPrint);
@@ -48,7 +48,7 @@ public class SeminarTest extends TestCase {
         String[] keywords = {"Good", "Bad", "Ugly"};
 
         Seminar mysem = new Seminar(1729, "Seminar Title", "2405231000", 75,
-            (short)15, (short)33, 125, keywords, "This is a great seminar");
+            (short)15, (short)33, 125, keywords, "This is a great seminar",-1);
         String semPrint = mysem.toString();
         bytes = mysem.serialize();
         Seminar mysem2 = Seminar.deserialize(bytes);

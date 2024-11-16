@@ -1,0 +1,264 @@
+insert 1
+Overview of HCI Research at VT
+0610051600 90 10 10 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+
+insert 2
+Computational Biology and Bioinformatics in CS at Virginia Tech
+0610071600 60 20 10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+Introduction to bioinformatics and computation biology
+
+insert 3
+Computing Systems Research at VT
+0701250830 30 30 10 17
+high_performance_computing grids VT computer_science
+Seminar about the Computing systems research at VT
+
+insert 3
+Overview of HPC and CSE Research at VT
+0703301125 35 0 0 25
+HPC CSE computer_science
+Learn what kind of research is done on HPC and CSE at VT
+
+insert 10
+Overview of HPC and CSE Research at VT
+0703301125 35 0 0 25
+HPC CSE computer_science
+Learn what kind of research is done on HPC and CSE at VT
+
+search 3
+
+delete 2
+
+search 2
+
+delete 6
+
+insert 2
+Much More Computational Biology and Bioinformatics in CS at Virginia Tech
+0610071600 60 20 10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+Introduction to bioinformatics and lots of computation biology
+
+delete 10
+
+insert 4
+Artificial Intelligence Research at VT
+0802051430 75 20 5 50
+AI machine_learning Computer_Science VT Virginia_Tech
+An overview of artificial intelligence research conducted at VT
+
+insert 5
+Big Data Analytics and Applications
+0903151015 50 10 20 30
+Big_Data analytics Computer_Science VT
+Introduction to big data and analytics applications at VT
+
+insert 6
+Cybersecurity Research at VT
+1001021230 40 15 10 20
+Cybersecurity networks Computer_Science VT
+Learn about the ongoing cybersecurity research efforts at VT
+
+search 4
+
+insert 7
+Software Engineering Practices at VT
+1105100915 60 20 15 35
+Software_Engineering Agile Computer_Science VT
+An introduction to software engineering research and practices at VT
+
+delete 5
+
+search 5
+
+insert 8
+Data Visualization and Visual Analytics
+1202201430 70 30 10 40
+Data_Visualization Analytics Computer_Science VT
+Seminar on visual analytics and data visualization techniques
+
+delete 1
+
+insert 9
+Quantum Computing Research at VT
+0101201600 85 25 5 60
+Quantum_Computing Computer_Science VT
+Overview of quantum computing and its future research at VT
+
+search 8
+
+delete 4
+
+insert 4
+Updated Artificial Intelligence Research at VT
+0802051430 75 20 5 50
+AI machine_learning Computer_Science VT Virginia_Tech
+Updated overview of artificial intelligence research conducted at VT
+
+insert 10
+Updated Overview of HPC and CSE Research at VT
+0703301125 35 0 0 25
+HPC CSE computer_science
+Updated research on HPC and CSE at VT
+
+search 10
+
+delete 3
+
+insert 11
+Introduction to Neural Networks
+0202150910 65 15 20 30
+Neural_Networks AI Computer_Science VT
+Basic introduction to neural networks and deep learning research
+
+delete 11
+
+search 11
+
+insert 12
+Cloud Computing Applications at VT
+0501201300 55 25 10 35
+Cloud_Computing computer_science VT
+Overview of cloud computing applications at VT
+
+delete 9
+
+insert 13
+Advanced Algorithms and Complexity
+0701151115 80 35 15 45
+Algorithms Complexity computer_science VT
+Seminar on advanced algorithms and computational complexity
+
+
+insert 14
+Blockchain Research at VT
+0605201000 45 20 15 25
+Blockchain distributed_systems computer_science VT
+Overview of blockchain research and applications at VT
+
+insert 15
+Game Development and VR Research at VT
+0612150900 70 25 10 30
+Game_Development Virtual_Reality computer_science VT
+Seminar on game development and VR applications at VT
+
+insert 16
+Human-Robot Interaction Research
+0707151230 65 15 10 35
+HRI robotics AI computer_science VT
+Discussion on human-robot interaction and collaborative robotics
+
+delete 15
+
+insert 17
+Natural Language Processing at VT
+0715150945 85 35 5 40
+NLP machine_learning AI computer_science VT
+Seminar on natural language processing and its applications
+
+search 14
+
+delete 16
+
+insert 18
+Cyber-Physical Systems at VT
+0802201030 75 20 15 50
+CPS IoT computer_science VT
+Overview of cyber-physical systems and IoT research at VT
+
+insert 19
+Data Mining and Knowledge Discovery
+0815201300 60 30 10 35
+Data_Mining knowledge_discovery computer_science VT
+Introduction to data mining techniques and applications
+
+delete 17
+
+insert 20
+Artificial Intelligence in Education
+0903101500 80 25 5 45
+AI education computer_science VT
+How AI is transforming education and research on this topic at VT
+
+search 19
+
+insert 21
+High-Performance Computing Challenges
+0912201115 50 10 15 25
+HPC performance computer_science VT
+Seminar on challenges in high-performance computing at VT
+
+delete 21
+
+insert 22
+Introduction to Computational Geometry
+1001150900 55 20 10 30
+Computational_Geometry computer_science VT
+A seminar on computational geometry and its applications
+
+insert 23
+Ethical AI: Challenges and Solutions
+1010201400 70 30 5 40
+AI ethics computer_science VT
+A discussion on ethical AI and solutions to its challenges
+
+search 22
+
+insert 24
+Bioinformatics and Machine Learning Integration
+1102151030 65 25 10 35
+Bioinformatics machine_learning AI computer_science VT
+How machine learning is integrated into bioinformatics research
+
+delete 23
+
+insert 25
+Deep Learning Applications in Healthcare
+1201201100 90 40 5 50
+Deep_Learning healthcare AI computer_science VT
+Seminar on deep learning applications in healthcare
+
+delete 24
+
+search 25
+
+insert 26
+Quantum Cryptography: Current Trends
+0103151245 85 30 10 55
+Quantum_Cryptography cybersecurity computer_science VT
+Discussion on current trends in quantum cryptography research
+
+delete 14
+
+insert 27
+Autonomous Vehicles Research at VT
+0205201500 75 20 15 45
+Autonomous_Vehicles AI robotics computer_science VT
+Research on autonomous vehicles and self-driving technologies at VT
+
+search 26
+
+insert 28
+Cloud Security and Privacy
+0306201115 55 15 10 35
+Cloud_Security privacy cybersecurity computer_science VT
+Seminar on security and privacy in cloud computing
+
+delete 18
+
+insert 29
+Edge Computing: Challenges and Opportunities
+0407150915 65 20 15 40
+Edge_Computing IoT computer_science VT
+Seminar on edge computing research at VT
+
+search 28
+
+insert 30
+Future of Computing: Trends and Predictions
+0508151430 50 15 20 30
+Computing_Trends future computer_science VT
+Discussion on the future trends and predictions in computing

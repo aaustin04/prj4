@@ -6,8 +6,7 @@
  * @author Austin Anderson
  * @version Oct 1, 2024
  */
-public class Controller
-{
+public class Controller {
     // ~ Fields ................................................................
     private Hash<Seminar> seminarHash;
     private int worldSize;
@@ -53,6 +52,7 @@ public class Controller
      *            description
      * @param sem
      *            seminar object
+     * @throws Exception
      */
     public void insert(
         int semId,
@@ -65,20 +65,22 @@ public class Controller
         String[] keywords,
         String description,
         Seminar sem)
-    {
-        if (sem == null)
-        {
+        throws Exception {
+        if (sem == null) {
             return;
         }
 
-        if (seminarHash.find(semId))
-        {
+        if (seminarHash.find(semId)) {
             System.out.println(
                 "Insert FAILED - There is already a record with ID " + semId);
         }
-        else
-        {
+        else {
+
             seminarHash.insert(semId, sem);
+            System.out.println("Successfully inserted record with ID " + semId);
+            System.out.println(sem.toString());
+            System.out.println("Size: " + sem.serialize().length);
+            sem.setSize(sem.serialize().length);
         }
 
     }
@@ -91,27 +93,24 @@ public class Controller
      * @param semId
      *            id to look for id to look for
      */
-    public void delete(int semId)
-    {
+    public void delete(int semId) {
 
         Record<Seminar> sem = seminarHash.getRecord(semId);
         seminarHash.remove(semId);
 
-        if (sem != null)
-        {
+        if (sem != null) {
 
-            System.out.println(
-                "Record with ID " + semId
-                    + " successfully deleted from the database");
+            System.out.println("Record with ID " + semId
+                + " successfully deleted from the database");
         }
 
-        else
-        {
-            System.out.println(
-                "delete FAILED -- There is no record with ID " + semId);
+        else {
+            System.out.println("delete FAILED -- There is no record with ID "
+                + semId);
         }
 
     }
+
 
     // ----------------------------------------------------------
     /**
@@ -120,23 +119,18 @@ public class Controller
      * @param id
      *            id to look for
      */
-// public void searchID(int id)
-// {
-// if (idTree.find(id) != null)
-// {
-// if (idTree.find(id) == id)
-// {
-// System.out.println("Found record with ID " + id + ":");
-// System.out.println(idTree.findSeminar(id));
-// }
-//
-// }
-// else
-// {
-// System.out
-// .println("Search FAILED -- There is no record with ID " + id);
-// }
-// }
+    public void searchID(int id) {
+        if (seminarHash.find(id)) {
+            Seminar sem = seminarHash.getRecord(id).value();
+            System.out.println("Found record with ID " + id + ":");
+            System.out.println(sem.toString());
+        }
+        else {
+            System.out.println("Search FAILED -- There is no record with ID "
+                + id);
+        }
+
+    }
 
     // ----------------------------------------------------------
     /**
@@ -214,10 +208,8 @@ public class Controller
      * @param printType
      *            the type of print
      */
-    public void print(String printType)
-    {
-        switch (printType)
-        {
+    public void print(String printType) {
+        switch (printType) {
             case "hashtable":
                 System.out.println("Hash Table:");
                 seminarHash.print();

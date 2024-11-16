@@ -91,12 +91,15 @@ public class Hash<E extends Comparable<E>>
      *            The key (artist or song) to be inserted into the hash table.
      * @param sem
      *            The seminar;
+     *
      */
     public void insert(int id, E sem)
     {
         if (numOfRecords >= allRecords.length / 2)
         {
             resize();
+            System.out.println("Memory pool expanded to 1024 bytes\r\n"
+                + "Hash table expanded to 8 records");
         }
 
         int home = h(id, allRecords.length);
@@ -115,6 +118,8 @@ public class Hash<E extends Comparable<E>>
 
         allRecords[pos] = new Record<>(id, sem);
         numOfRecords++;
+        
+        
     }
 
 

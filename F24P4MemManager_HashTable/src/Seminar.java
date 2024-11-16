@@ -20,6 +20,7 @@ public class Seminar implements Serializable, Comparable<Seminar> {
     private String desc; // Seminar description
     private int cost; // Seminar cost
     private int id; // Seminar ID
+    private int size; // seminar size
 
     // ----------------------------------------------------------
     /**
@@ -51,6 +52,7 @@ public class Seminar implements Serializable, Comparable<Seminar> {
      *            input cost
      * @param idin
      *            input ID
+     * @param s sizes
      */
     public Seminar(
         int idin,
@@ -61,7 +63,8 @@ public class Seminar implements Serializable, Comparable<Seminar> {
         short yin,
         int cin,
         String[] kin,
-        String descin) {
+        String descin,
+        int s) {
         id = idin;
         title = tin;
         date = datein;
@@ -71,6 +74,8 @@ public class Seminar implements Serializable, Comparable<Seminar> {
         cost = cin;
         keywords = kin;
         desc = descin;
+        size = s;
+        
     }
 
     // ----------------------------------------------------------
@@ -106,7 +111,7 @@ public class Seminar implements Serializable, Comparable<Seminar> {
             String desc = inputStream.readUTF();
 
             return new Seminar(id, title, date, length, x, y, cost, keywords,
-                desc);
+                desc, inputbytes.length);
         }
     }
 
@@ -172,5 +177,15 @@ public class Seminar implements Serializable, Comparable<Seminar> {
     {
         // TODO Auto-generated method stub
         return id;
+    }
+    
+    // ----------------------------------------------------------
+    /**
+     * sets the size;
+     * @param s the new size;
+     */
+    public void setSize(int s) 
+    {
+        size = s;
     }
 }

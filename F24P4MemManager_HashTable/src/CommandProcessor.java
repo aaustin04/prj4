@@ -28,8 +28,7 @@ import java.util.Scanner;
  * @author Austin Anderson
  * @version Sep 11, 2024
  */
-public class CommandProcessor
-{
+public class CommandProcessor {
     // ~ Fields ................................................................
     private Controller controller;
 
@@ -42,8 +41,7 @@ public class CommandProcessor
      *            The Controller object used to perform operations based on the
      *            commands.
      */
-    public CommandProcessor(Controller control)
-    {
+    public CommandProcessor(Controller control) {
         this.controller = control;
     }
 
@@ -58,31 +56,25 @@ public class CommandProcessor
      * @param filename
      *            The name of the input file containing the commands.
      */
-    public void beginParsingByLine(String filename)
-    {
-        try
-        {
+    public void beginParsingByLine(String filename) {
+        try {
             Scanner sc = new Scanner(new File(filename));
             Scanner scancmd; // Declare two scanners, one to read the file and
                              // one to read each line
-            while (sc.hasNextLine())
-            {
+            while (sc.hasNextLine()) {
                 String line = sc.nextLine();
                 scancmd = new Scanner(line);
-                if (!scancmd.hasNext())
-                {
+                if (!scancmd.hasNext()) {
                     continue;
                 }
                 String cmd = scancmd.next(); // Get the command on each line
-                switch (cmd)
-                {
+                switch (cmd) {
 
                     case "insert":
 
                         int id = scancmd.nextInt();
                         String title = sc.nextLine().trim();
-                        if (!sc.hasNextLine())
-                        {
+                        if (!sc.hasNextLine()) {
                             break;
                         }
                         line = sc.nextLine();
@@ -93,41 +85,22 @@ public class CommandProcessor
                         short y = scancmd.nextShort();
                         int cost = scancmd.nextInt();
 
-                        if (!sc.hasNextLine())
-                        {
+                        if (!sc.hasNextLine()) {
                             break;
                         }
 
                         String[] keywords = sc.nextLine().trim().split("\\s+");
 
-                        if (!sc.hasNextLine())
-                        {
+                        if (!sc.hasNextLine()) {
                             break;
                         }
 
-                        String description =
-                            sc.nextLine().trim().replaceAll("\\s+", " ");
-                        Seminar sem = new Seminar(
-                            id,
-                            title,
-                            date,
-                            length,
-                            x,
-                            y,
-                            cost,
-                            keywords,
-                            description);
-                        controller.insert(
-                            id,
-                            title,
-                            date,
-                            length,
-                            x,
-                            y,
-                            cost,
-                            keywords,
-                            description,
-                            sem);
+                        String description = sc.nextLine().trim().replaceAll(
+                            "\\s+", " ");
+                        Seminar sem = new Seminar(id, title, date, length, x, y,
+                            cost, keywords, description, -1);
+                        controller.insert(id, title, date, length, x, y, cost,
+                            keywords, description, sem);
 
                         break;
 
@@ -142,59 +115,11 @@ public class CommandProcessor
 
                         break;
 
-// case "search":
-// String searchType = scancmd.next().trim();
-// switch (searchType)
-// {
-// case "ID":
-// int searchID = scancmd.nextInt();
-// controller.searchID(searchID);
-//
-// break;
-// case "keyword":
-// String keyword = scancmd.next().trim();
-// System.out.println(
-// "Seminars matching keyword " + keyword
-// + ":");
-// controller.searchKeyword(keyword);
-//
-// break;
-// case "cost":
-// int minCost = scancmd.nextInt();
-// int maxCost = scancmd.nextInt();
-//
-// System.out.println(
-// "Seminars with costs in range " + minCost
-// + " to " + maxCost + ":");
-// controller.searchCost(minCost, maxCost);
-// // not exactly sure why this doesnt work yet.
-//
-// break;
-// case "location":
-// int searchX = scancmd.nextInt();
-// int searchY = scancmd.nextInt();
-// int radius = scancmd.nextInt();
-// System.out.println(
-// "Seminars within " + radius + " units of "
-// + searchX + ", " + searchY + ":");
-// controller
-// .searchLocation(searchX, searchY, radius);
-//
-// break;
-// case "date":
-// String startDate = scancmd.next().trim();
-// String endDate = scancmd.next().trim();
-// System.out.println(
-// "Seminars with dates in range " + startDate
-// + " to " + endDate + ":");
-// controller.searchDate(startDate, endDate);
-// break;
-// default:
-// System.out.println(
-// "Unknown search type: " + searchType);
-// break;
-// }
-// break;
+                    case "search":
+                        int searchID = scancmd.nextInt();
+                        controller.searchID(searchID);
+
+                        break;
 
                     default:
                         System.out.println("Unrecognized input: " + cmd);
@@ -205,8 +130,7 @@ public class CommandProcessor
         }
         catch (
 
-        Exception e)
-        {
+        Exception e) {
             e.printStackTrace();
         }
     }

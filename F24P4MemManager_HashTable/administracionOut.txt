@@ -1,0 +1,275 @@
+Successfully inserted record with ID 1
+ID: 1, Title: Overview of HCI Research at VT
+Date: 0610051600, Length: 90, X: 10, Y: 10, Cost: 45
+Description: This seminar will present an overview of HCI research at VT
+Keywords: HCI, Computer_Science, VT, Virginia_Tech
+Size: 173
+Successfully inserted record with ID 2
+ID: 2, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 20, Y: 10, Cost: 30
+Description: Introduction to bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+Size: 242
+Successfully inserted record with ID 3
+ID: 3, Title: Computing Systems Research at VT
+Date: 0701250830, Length: 30, X: 30, Y: 10, Cost: 17
+Description: Seminar about the Computing systems research at VT
+Keywords: high_performance_computing, grids, VT, computer_science
+Size: 181
+Insert FAILED - There is already a record with ID 3
+Successfully inserted record with ID 10
+ID: 10, Title: Overview of HPC and CSE Research at VT
+Date: 0703301125, Length: 35, X: 0, Y: 0, Cost: 25
+Description: Learn what kind of research is done on HPC and CSE at VT
+Keywords: HPC, CSE, computer_science
+Size: 164
+Found record with ID 3:
+ID: 3, Title: Computing Systems Research at VT
+Date: 0701250830, Length: 30, X: 30, Y: 10, Cost: 17
+Description: Seminar about the Computing systems research at VT
+Keywords: high_performance_computing, grids, VT, computer_science
+Record with ID 2 successfully deleted from the database
+Search FAILED -- There is no record with ID 2
+delete FAILED -- There is no record with ID 6
+Successfully inserted record with ID 2
+ID: 2, Title: Much More Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 20, Y: 10, Cost: 30
+Description: Introduction to bioinformatics and lots of computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+Size: 260
+Record with ID 10 successfully deleted from the database
+Successfully inserted record with ID 4
+ID: 4, Title: Artificial Intelligence Research at VT
+Date: 0802051430, Length: 75, X: 20, Y: 5, Cost: 50
+Description: An overview of artificial intelligence research conducted at VT
+Keywords: AI, machine_learning, Computer_Science, VT, Virginia_Tech
+Size: 202
+Memory pool expanded to 1024 bytes
+Hash table expanded to 8 records
+Successfully inserted record with ID 5
+ID: 5, Title: Big Data Analytics and Applications
+Date: 0903151015, Length: 50, X: 10, Y: 20, Cost: 30
+Description: Introduction to big data and analytics applications at VT
+Keywords: Big_Data, analytics, Computer_Science, VT
+Size: 177
+Successfully inserted record with ID 6
+ID: 6, Title: Cybersecurity Research at VT
+Date: 1001021230, Length: 40, X: 15, Y: 10, Cost: 20
+Description: Learn about the ongoing cybersecurity research efforts at VT
+Keywords: Cybersecurity, networks, Computer_Science, VT
+Size: 177
+Found record with ID 4:
+ID: 4, Title: Artificial Intelligence Research at VT
+Date: 0802051430, Length: 75, X: 20, Y: 5, Cost: 50
+Description: An overview of artificial intelligence research conducted at VT
+Keywords: AI, machine_learning, Computer_Science, VT, Virginia_Tech
+Successfully inserted record with ID 7
+ID: 7, Title: Software Engineering Practices at VT
+Date: 1105100915, Length: 60, X: 20, Y: 15, Cost: 35
+Description: An introduction to software engineering research and practices at VT
+Keywords: Software_Engineering, Agile, Computer_Science, VT
+Size: 197
+Record with ID 5 successfully deleted from the database
+Search FAILED -- There is no record with ID 5
+Successfully inserted record with ID 8
+ID: 8, Title: Data Visualization and Visual Analytics
+Date: 1202201430, Length: 70, X: 30, Y: 10, Cost: 40
+Description: Seminar on visual analytics and data visualization techniques
+Keywords: Data_Visualization, Analytics, Computer_Science, VT
+Size: 195
+Record with ID 1 successfully deleted from the database
+Successfully inserted record with ID 9
+ID: 9, Title: Quantum Computing Research at VT
+Date: 0101201600, Length: 85, X: 25, Y: 5, Cost: 60
+Description: Overview of quantum computing and its future research at VT
+Keywords: Quantum_Computing, Computer_Science, VT
+Size: 174
+Found record with ID 8:
+ID: 8, Title: Data Visualization and Visual Analytics
+Date: 1202201430, Length: 70, X: 30, Y: 10, Cost: 40
+Description: Seminar on visual analytics and data visualization techniques
+Keywords: Data_Visualization, Analytics, Computer_Science, VT
+Record with ID 4 successfully deleted from the database
+Successfully inserted record with ID 4
+ID: 4, Title: Updated Artificial Intelligence Research at VT
+Date: 0802051430, Length: 75, X: 20, Y: 5, Cost: 50
+Description: Updated overview of artificial intelligence research conducted at VT
+Keywords: AI, machine_learning, Computer_Science, VT, Virginia_Tech
+Size: 215
+Successfully inserted record with ID 10
+ID: 10, Title: Updated Overview of HPC and CSE Research at VT
+Date: 0703301125, Length: 35, X: 0, Y: 0, Cost: 25
+Description: Updated research on HPC and CSE at VT
+Keywords: HPC, CSE, computer_science
+Size: 153
+Found record with ID 10:
+ID: 10, Title: Updated Overview of HPC and CSE Research at VT
+Date: 0703301125, Length: 35, X: 0, Y: 0, Cost: 25
+Description: Updated research on HPC and CSE at VT
+Keywords: HPC, CSE, computer_science
+Record with ID 3 successfully deleted from the database
+Successfully inserted record with ID 11
+ID: 11, Title: Introduction to Neural Networks
+Date: 0202150910, Length: 65, X: 15, Y: 20, Cost: 30
+Description: Basic introduction to neural networks and deep learning research
+Keywords: Neural_Networks, AI, Computer_Science, VT
+Size: 180
+Record with ID 11 successfully deleted from the database
+Search FAILED -- There is no record with ID 11
+Successfully inserted record with ID 12
+ID: 12, Title: Cloud Computing Applications at VT
+Date: 0501201300, Length: 55, X: 25, Y: 10, Cost: 35
+Description: Overview of cloud computing applications at VT
+Keywords: Cloud_Computing, computer_science, VT
+Size: 161
+Record with ID 9 successfully deleted from the database
+Successfully inserted record with ID 13
+ID: 13, Title: Advanced Algorithms and Complexity
+Date: 0701151115, Length: 80, X: 35, Y: 15, Cost: 45
+Description: Seminar on advanced algorithms and computational complexity
+Keywords: Algorithms, Complexity, computer_science, VT
+Size: 181
+Memory pool expanded to 1024 bytes
+Hash table expanded to 8 records
+Successfully inserted record with ID 14
+ID: 14, Title: Blockchain Research at VT
+Date: 0605201000, Length: 45, X: 20, Y: 15, Cost: 25
+Description: Overview of blockchain research and applications at VT
+Keywords: Blockchain, distributed_systems, computer_science, VT
+Size: 176
+Successfully inserted record with ID 15
+ID: 15, Title: Game Development and VR Research at VT
+Date: 0612150900, Length: 70, X: 25, Y: 10, Cost: 30
+Description: Seminar on game development and VR applications at VT
+Keywords: Game_Development, Virtual_Reality, computer_science, VT
+Size: 190
+Successfully inserted record with ID 16
+ID: 16, Title: Human-Robot Interaction Research
+Date: 0707151230, Length: 65, X: 15, Y: 10, Cost: 35
+Description: Discussion on human-robot interaction and collaborative robotics
+Keywords: HRI, robotics, AI, computer_science, VT
+Size: 179
+Record with ID 15 successfully deleted from the database
+Successfully inserted record with ID 17
+ID: 17, Title: Natural Language Processing at VT
+Date: 0715150945, Length: 85, X: 35, Y: 5, Cost: 40
+Description: Seminar on natural language processing and its applications
+Keywords: NLP, machine_learning, AI, computer_science, VT
+Size: 183
+Found record with ID 14:
+ID: 14, Title: Blockchain Research at VT
+Date: 0605201000, Length: 45, X: 20, Y: 15, Cost: 25
+Description: Overview of blockchain research and applications at VT
+Keywords: Blockchain, distributed_systems, computer_science, VT
+Record with ID 16 successfully deleted from the database
+Successfully inserted record with ID 18
+ID: 18, Title: Cyber-Physical Systems at VT
+Date: 0802201030, Length: 75, X: 20, Y: 15, Cost: 50
+Description: Overview of cyber-physical systems and IoT research at VT
+Keywords: CPS, IoT, computer_science, VT
+Size: 159
+Successfully inserted record with ID 19
+ID: 19, Title: Data Mining and Knowledge Discovery
+Date: 0815201300, Length: 60, X: 30, Y: 10, Cost: 35
+Description: Introduction to data mining techniques and applications
+Keywords: Data_Mining, knowledge_discovery, computer_science, VT
+Size: 188
+Record with ID 17 successfully deleted from the database
+Successfully inserted record with ID 20
+ID: 20, Title: Artificial Intelligence in Education
+Date: 0903101500, Length: 80, X: 25, Y: 5, Cost: 45
+Description: How AI is transforming education and research on this topic at VT
+Keywords: AI, education, computer_science, VT
+Size: 180
+Found record with ID 19:
+ID: 19, Title: Data Mining and Knowledge Discovery
+Date: 0815201300, Length: 60, X: 30, Y: 10, Cost: 35
+Description: Introduction to data mining techniques and applications
+Keywords: Data_Mining, knowledge_discovery, computer_science, VT
+Successfully inserted record with ID 21
+ID: 21, Title: High-Performance Computing Challenges
+Date: 0912201115, Length: 50, X: 10, Y: 15, Cost: 25
+Description: Seminar on challenges in high-performance computing at VT
+Keywords: HPC, performance, computer_science, VT
+Size: 176
+Record with ID 21 successfully deleted from the database
+Successfully inserted record with ID 22
+ID: 22, Title: Introduction to Computational Geometry
+Date: 1001150900, Length: 55, X: 20, Y: 10, Cost: 30
+Description: A seminar on computational geometry and its applications
+Keywords: Computational_Geometry, computer_science, VT
+Size: 182
+Successfully inserted record with ID 23
+ID: 23, Title: Ethical AI: Challenges and Solutions
+Date: 1010201400, Length: 70, X: 30, Y: 5, Cost: 40
+Description: A discussion on ethical AI and solutions to its challenges
+Keywords: AI, ethics, computer_science, VT
+Size: 170
+Found record with ID 22:
+ID: 22, Title: Introduction to Computational Geometry
+Date: 1001150900, Length: 55, X: 20, Y: 10, Cost: 30
+Description: A seminar on computational geometry and its applications
+Keywords: Computational_Geometry, computer_science, VT
+Successfully inserted record with ID 24
+ID: 24, Title: Bioinformatics and Machine Learning Integration
+Date: 1102151030, Length: 65, X: 25, Y: 10, Cost: 35
+Description: How machine learning is integrated into bioinformatics research
+Keywords: Bioinformatics, machine_learning, AI, computer_science, VT
+Size: 212
+Record with ID 23 successfully deleted from the database
+Successfully inserted record with ID 25
+ID: 25, Title: Deep Learning Applications in Healthcare
+Date: 1201201100, Length: 90, X: 40, Y: 5, Cost: 50
+Description: Seminar on deep learning applications in healthcare
+Keywords: Deep_Learning, healthcare, AI, computer_science, VT
+Size: 186
+Record with ID 24 successfully deleted from the database
+Found record with ID 25:
+ID: 25, Title: Deep Learning Applications in Healthcare
+Date: 1201201100, Length: 90, X: 40, Y: 5, Cost: 50
+Description: Seminar on deep learning applications in healthcare
+Keywords: Deep_Learning, healthcare, AI, computer_science, VT
+Successfully inserted record with ID 26
+ID: 26, Title: Quantum Cryptography: Current Trends
+Date: 0103151245, Length: 85, X: 30, Y: 10, Cost: 55
+Description: Discussion on current trends in quantum cryptography research
+Keywords: Quantum_Cryptography, cybersecurity, computer_science, VT
+Size: 198
+Record with ID 14 successfully deleted from the database
+Successfully inserted record with ID 27
+ID: 27, Title: Autonomous Vehicles Research at VT
+Date: 0205201500, Length: 75, X: 20, Y: 15, Cost: 45
+Description: Research on autonomous vehicles and self-driving technologies at VT
+Keywords: Autonomous_Vehicles, AI, robotics, computer_science, VT
+Size: 200
+Found record with ID 26:
+ID: 26, Title: Quantum Cryptography: Current Trends
+Date: 0103151245, Length: 85, X: 30, Y: 10, Cost: 55
+Description: Discussion on current trends in quantum cryptography research
+Keywords: Quantum_Cryptography, cybersecurity, computer_science, VT
+Successfully inserted record with ID 28
+ID: 28, Title: Cloud Security and Privacy
+Date: 0306201115, Length: 55, X: 15, Y: 10, Cost: 35
+Description: Seminar on security and privacy in cloud computing
+Keywords: Cloud_Security, privacy, cybersecurity, computer_science, VT
+Size: 180
+Record with ID 18 successfully deleted from the database
+Successfully inserted record with ID 29
+ID: 29, Title: Edge Computing: Challenges and Opportunities
+Date: 0407150915, Length: 65, X: 20, Y: 15, Cost: 40
+Description: Seminar on edge computing research at VT
+Keywords: Edge_Computing, IoT, computer_science, VT
+Size: 169
+Found record with ID 28:
+ID: 28, Title: Cloud Security and Privacy
+Date: 0306201115, Length: 55, X: 15, Y: 10, Cost: 35
+Description: Seminar on security and privacy in cloud computing
+Keywords: Cloud_Security, privacy, cybersecurity, computer_science, VT
+Memory pool expanded to 1024 bytes
+Hash table expanded to 8 records
+Successfully inserted record with ID 30
+ID: 30, Title: Future of Computing: Trends and Predictions
+Date: 0508151430, Length: 50, X: 15, Y: 20, Cost: 30
+Description: Discussion on the future trends and predictions in computing
+Keywords: Computing_Trends, future, computer_science, VT
+Size: 193
