@@ -13,3 +13,19 @@ Overview of HPC and CSE Research at VT
 Learn what kind of    research is done on HPC  and CSE at VT
 
 print hashtable
+
+
+search 3
+
+delete 3
+
+
+print hashtable
+
+search 3
+
+delete 10
+
+print hashtable
+
+search 10

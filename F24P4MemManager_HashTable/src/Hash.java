@@ -145,7 +145,8 @@ public class Hash<E extends Comparable<E>>
                 return;
             }
             i++;
-            pos = ((home + (((i * i) + i) / 2))) % allRecords.length;
+            pos = ((home + (((i * i) + i) / 2)));
+            pos = pos % allRecords.length;
         }
     }
 
@@ -170,7 +171,8 @@ public class Hash<E extends Comparable<E>>
                 return true;
             }
             i++;
-            pos = ((home + (((i * i) + i) / 2))) % allRecords.length;
+            pos = ((home + (((i * i) + i) / 2)));
+            pos = pos % allRecords.length;
         }
         return false;
     }
@@ -197,7 +199,8 @@ public class Hash<E extends Comparable<E>>
                 return allRecords[pos];
             }
             i++;
-            pos = ((home + (((i * i) + i) / 2))) % allRecords.length;
+            pos = ((home + (((i * i) + i) / 2)));
+            pos = pos % allRecords.length;
         }
         return null;
     }

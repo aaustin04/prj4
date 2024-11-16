@@ -81,5 +81,36 @@ public class SemManagerTest extends TestCase{
         assertFuzzyEquals(expectedOutput, actualOutput);
 
     }
+    
+    
+    /**
+     * Example 2: This method runs on a command sample IO file
+     * You will write similar test cases
+     * using different text files
+     *
+     * @throws Exception
+     */
+    public void testSampleIO2() throws Exception {
+        // Setting up all the parameters
+        String[] args = new String[3];
+        args[0] = "10";
+        args[1] = "8";
+        args[2] = "P4SimpSample_input.txt";
+
+        // Invoke main method of our Graph Project
+        SemManager.main(args);
+
+        // Actual output from your System console
+        String actualOutput = systemOut().getHistory();
+
+        // Expected output from file
+        String expectedOutput = readFile(
+            "P4SimpSample_output.txt");
+
+        // Compare the two outputs
+
+        assertFuzzyEquals(expectedOutput, actualOutput);
+
+    }
 
 }
