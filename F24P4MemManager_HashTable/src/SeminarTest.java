@@ -2,10 +2,10 @@ import student.TestCase;
 
 // -------------------------------------------------------------------------
 /**
- *  Test the Seminar class
+ * Test the Seminar class
  *
- * @author {Your Name Here}
- * @version {Put Something Here}
+ * @author Andres Zaidan
+ * @version 15 Nov 2024
  */
 public class SeminarTest extends TestCase {
     /**
@@ -20,15 +20,14 @@ public class SeminarTest extends TestCase {
     /**
      * Check the toString method
      */
-    public void testtoString()
-    {
-        String[] keywords = {"Good", "Bad", "Ugly"};
+    public void testtoString() {
+        String[] keywords = { "Good", "Bad", "Ugly" };
         String expected = "ID: 1729, Title: Seminar Title\n"
             + "Date: 2405231000, Length: 75, X: 15, Y: 33, Cost: 125\n"
             + "Description: This is a great seminar\n"
             + "Keywords: Good, Bad, Ugly";
         Seminar mysem = new Seminar(1729, "Seminar Title", "2405231000", 75,
-            (short)15, (short)33, 125, keywords, "This is a great seminar",-1);
+            (short)15, (short)33, 125, keywords, "This is a great seminar", -1);
         String semPrint = mysem.toString();
         System.out.println("testtoString");
         System.out.println(semPrint);
@@ -38,22 +37,21 @@ public class SeminarTest extends TestCase {
 
     /**
      * Check the serialization/deserialization process
+     * 
      * @throws Exception
      */
-    public void testSeminarDS()
-        throws Exception
-    {
+    public void testSeminarDS() throws Exception {
         System.out.println("testSeminarDS");
         byte[] bytes;
-        String[] keywords = {"Good", "Bad", "Ugly"};
+        String[] keywords = { "Good", "Bad", "Ugly" };
 
         Seminar mysem = new Seminar(1729, "Seminar Title", "2405231000", 75,
-            (short)15, (short)33, 125, keywords, "This is a great seminar",-1);
+            (short)15, (short)33, 125, keywords, "This is a great seminar", -1);
         String semPrint = mysem.toString();
         bytes = mysem.serialize();
         Seminar mysem2 = Seminar.deserialize(bytes);
-        System.out.println("Number of bytes in serialized object is: " +
-            bytes.length);
+        System.out.println("Number of bytes in serialized object is: "
+            + bytes.length);
         assertTrue(bytes.length == 95);
         String sem2Print = mysem2.toString();
         System.out.println(semPrint);

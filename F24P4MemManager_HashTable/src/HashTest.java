@@ -34,11 +34,11 @@ public class HashTest
     /**
      * Sets up the tests that follow. In general, used for initialization
      */
-
     public void setUp()
     {
         testHash = new Hash<>(4);
     }
+
 
 //
 // /**
@@ -345,7 +345,10 @@ public class HashTest
 // assertTrue(Hash.h("long Lonesome Blues", 10000) == 4667);
 // }
 
-
+ // ----------------------------------------------------------
+    /**
+     * IDk what this method does.
+     */
     public void setUp1()
     {
         testHash = new Hash<>(4);
@@ -386,7 +389,7 @@ public class HashTest
      */
     public void testPosCalculationMutations()
     {
-        Hash<String> testHash = new Hash<>(8);
+        testHash = new Hash<>(8);
 
         testHash.insert(1, "A");
         testHash.insert(9, "B");

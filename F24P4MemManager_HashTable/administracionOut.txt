@@ -44,8 +44,7 @@ Date: 0802051430, Length: 75, X: 20, Y: 5, Cost: 50
 Description: An overview of artificial intelligence research conducted at VT
 Keywords: AI, machine_learning, Computer_Science, VT, Virginia_Tech
 Size: 202
-Memory pool expanded to 1024 bytes
-Hash table expanded to 8 records
+Hash table expanded to 16 records
 Successfully inserted record with ID 5
 ID: 5, Title: Big Data Analytics and Applications
 Date: 0903151015, Length: 50, X: 10, Y: 20, Cost: 30
@@ -129,8 +128,7 @@ Date: 0701151115, Length: 80, X: 35, Y: 15, Cost: 45
 Description: Seminar on advanced algorithms and computational complexity
 Keywords: Algorithms, Complexity, computer_science, VT
 Size: 181
-Memory pool expanded to 1024 bytes
-Hash table expanded to 8 records
+Hash table expanded to 32 records
 Successfully inserted record with ID 14
 ID: 14, Title: Blockchain Research at VT
 Date: 0605201000, Length: 45, X: 20, Y: 15, Cost: 25
@@ -265,8 +263,7 @@ ID: 28, Title: Cloud Security and Privacy
 Date: 0306201115, Length: 55, X: 15, Y: 10, Cost: 35
 Description: Seminar on security and privacy in cloud computing
 Keywords: Cloud_Security, privacy, cybersecurity, computer_science, VT
-Memory pool expanded to 1024 bytes
-Hash table expanded to 8 records
+Hash table expanded to 64 records
 Successfully inserted record with ID 30
 ID: 30, Title: Future of Computing: Trends and Predictions
 Date: 0508151430, Length: 50, X: 15, Y: 20, Cost: 30

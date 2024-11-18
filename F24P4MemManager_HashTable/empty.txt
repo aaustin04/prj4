@@ -1,5 +1,6 @@
 delete 2
 search 2
+print hashtable
 insert 3
 Overview of HPC and CSE Research at VT
 0703301125     35        0  0                                           25

@@ -54,7 +54,7 @@ public class Record<E>
      * 
      * @param it
      *            the object to compare
-     * @return Int bigger than 0 smaller, lower than 0 larger
+     * @return It bigger than 0 smaller, lower than 0 larger
      */
     public int compareTo1(Record<E> it)
     {
@@ -67,7 +67,7 @@ public class Record<E>
     /**
      * Compares against a key
      * 
-     * @param it
+     * @param key
      *            the key to compare
      * @return Int bigger than 0 smaller, lower than 0 larger
      */

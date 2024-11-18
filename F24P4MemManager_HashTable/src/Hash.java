@@ -21,10 +21,11 @@
  *
  * @author Andres Zaidan
  * @version 2, Sept 2024
+ * @param <E>
+ *            the comparable obj
  */
 
-public class Hash<E extends Comparable<E>>
-{
+public class Hash<E extends Comparable<E>> {
 
     // Fields
     private Record<E>[] allRecords;
@@ -40,8 +41,7 @@ public class Hash<E extends Comparable<E>>
      *            The initial size of the hash table.
      */
     @SuppressWarnings("unchecked")
-    public Hash(int size)
-    {
+    public Hash(int size) {
         this.allRecords = (Record<E>[])new Record[size];
         this.numOfRecords = 0;
         this.tombstone = new Record<>(-1, null);
@@ -55,8 +55,7 @@ public class Hash<E extends Comparable<E>>
      * 
      * @return The number of records in the hash table.
      */
-    public int getNumOfRecords()
-    {
+    public int getNumOfRecords() {
         return this.numOfRecords;
     }
 
@@ -66,8 +65,7 @@ public class Hash<E extends Comparable<E>>
      * 
      * @return An array of all records.
      */
-    public Record<E>[] getAllRecords()
-    {
+    public Record<E>[] getAllRecords() {
         return this.allRecords;
     }
 
@@ -77,8 +75,7 @@ public class Hash<E extends Comparable<E>>
      * 
      * @return The Tombstone record.
      */
-    public Record<E> getTombstone()
-    {
+    public Record<E> getTombstone() {
         return this.tombstone;
     }
 
@@ -93,23 +90,19 @@ public class Hash<E extends Comparable<E>>
      *            The seminar;
      *
      */
-    public void insert(int id, E sem)
-    {
-        if (numOfRecords >= allRecords.length / 2)
-        {
+    public void insert(int id, E sem) {
+        if (numOfRecords >= allRecords.length / 2) {
             resize();
-            System.out.println("Memory pool expanded to 1024 bytes\r\n"
-                + "Hash table expanded to 8 records");
+            System.out.println("Hash table expanded to " + allRecords.length
+                + " records");
         }
 
         int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null && allRecords[pos] != tombstone)
-        {
-            if (i < allRecords.length)
-            {
+        while (allRecords[pos] != null && allRecords[pos] != tombstone) {
+            if (i < allRecords.length) {
                 i++;
                 pos = ((home + (((i * i) + i) / 2)));
                 pos = pos % allRecords.length;
@@ -118,8 +111,7 @@ public class Hash<E extends Comparable<E>>
 
         allRecords[pos] = new Record<>(id, sem);
         numOfRecords++;
-        
-        
+
     }
 
 
@@ -130,16 +122,13 @@ public class Hash<E extends Comparable<E>>
      * @param id
      *            The key of the record to be removed.
      */
-    public void remove(int id)
-    {
+    public void remove(int id) {
         int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null)
-        {
-            if (allRecords[pos].key() == id && allRecords[pos] != tombstone)
-            {
+        while (allRecords[pos] != null) {
+            if (allRecords[pos].key() == id && allRecords[pos] != tombstone) {
                 allRecords[pos] = tombstone;
                 numOfRecords--;
                 return;
@@ -158,16 +147,13 @@ public class Hash<E extends Comparable<E>>
      *            The key to search for.
      * @return True if the key is found, false otherwise.
      */
-    public boolean find(int id)
-    {
+    public boolean find(int id) {
         int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null && i < allRecords.length)
-        {
-            if (allRecords[pos].key() == id && allRecords[pos] != tombstone)
-            {
+        while (allRecords[pos] != null && i < allRecords.length) {
+            if (allRecords[pos].key() == id && allRecords[pos] != tombstone) {
                 return true;
             }
             i++;
@@ -186,16 +172,13 @@ public class Hash<E extends Comparable<E>>
      *            the key
      * @return the record
      */
-    public Record<E> getRecord(int id)
-    {
+    public Record<E> getRecord(int id) {
         int home = h(id, allRecords.length);
         int i = 0;
         int pos = home;
 
-        while (allRecords[pos] != null && i < allRecords.length)
-        {
-            if (allRecords[pos].key() == id && allRecords[pos] != tombstone)
-            {
+        while (allRecords[pos] != null && i < allRecords.length) {
+            if (allRecords[pos].key() == id && allRecords[pos] != tombstone) {
                 return allRecords[pos];
             }
             i++;
@@ -209,19 +192,15 @@ public class Hash<E extends Comparable<E>>
     /**
      * Prints all records in the hash table.
      */
-    public void print()
-    {
+    public void print() {
         int count = 0;
-        for (int i = 0; i < allRecords.length; i++)
-        {
-            if (allRecords[i] != null && allRecords[i] != tombstone)
-            {
+        for (int i = 0; i < allRecords.length; i++) {
+            if (allRecords[i] != null && allRecords[i] != tombstone) {
                 System.out.println("" + i + ": " + allRecords[i].key());
                 count++;
 
             }
-            if (allRecords[i] == tombstone)
-            {
+            if (allRecords[i] == tombstone) {
                 System.out.println("" + i + ": TOMBSTONE");
             }
 
@@ -236,17 +215,14 @@ public class Hash<E extends Comparable<E>>
      * non-tombstone records.
      */
     @SuppressWarnings("unchecked")
-    private void resize()
-    {
+    private void resize() {
         Record<E>[] old = allRecords;
         Record<E>[] newRecord = new Record[allRecords.length * 2];
         this.allRecords = newRecord;
         numOfRecords = 0;
 
-        for (Record<E> record : old)
-        {
-            if (record != tombstone && record != null)
-            {
+        for (Record<E> record : old) {
+            if (record != tombstone && record != null) {
                 insert(record.key(), record.value());
             }
         }
@@ -264,8 +240,7 @@ public class Hash<E extends Comparable<E>>
      *            static)
      * @return The hash function value (the home slot in the table for this key)
      */
-    public static int h(int key, int length)
-    {
+    public static int h(int key, int length) {
         return key % length;
     }
 

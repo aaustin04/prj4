@@ -211,7 +211,7 @@ public class Controller {
     public void print(String printType) {
         switch (printType) {
             case "hashtable":
-                System.out.println("Hash Table:");
+                System.out.println("Hashtable:");
                 seminarHash.print();
                 break;
             default:
