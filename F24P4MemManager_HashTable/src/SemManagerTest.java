@@ -62,7 +62,7 @@ public class SemManagerTest extends TestCase{
     public void testSampleIO() throws Exception {
         // Setting up all the parameters
         String[] args = new String[3];
-        args[0] = "10";
+        args[0] = "512";
         args[1] = "8";
         args[2] = "administracion.txt";
 
@@ -93,7 +93,7 @@ public class SemManagerTest extends TestCase{
     public void testSampleIO2() throws Exception {
         // Setting up all the parameters
         String[] args = new String[3];
-        args[0] = "10";
+        args[0] = "512";
         args[1] = "8";
         args[2] = "P4SimpSample_input.txt";
 

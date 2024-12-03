@@ -39,7 +39,7 @@ public class SemManager {
         // This is the main file for the program.
 
         CommandProcessor cp =
-            new CommandProcessor(new Controller(Integer.parseInt(args[1])));
+            new CommandProcessor(new Controller(Integer.parseInt(args[0]),Integer.parseInt(args[1])));
         cp.beginParsingByLine(args[2]);
     }
 }

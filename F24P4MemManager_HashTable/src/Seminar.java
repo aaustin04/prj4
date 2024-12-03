@@ -21,6 +21,7 @@ public class Seminar implements Serializable, Comparable<Seminar> {
     private int cost; // Seminar cost
     private int id; // Seminar ID
     private int size; // seminar size
+    private Handle handle;
 
     // ----------------------------------------------------------
     /**
@@ -187,5 +188,17 @@ public class Seminar implements Serializable, Comparable<Seminar> {
     public void setSize(int s) 
     {
         size = s;
+    }
+    
+    
+    
+    // ----------------------------------------------------------
+    /**
+     * sets the handle(location of this seminar in mempool)
+     * @param h the handle.
+     */
+    public void setHandle(Handle h)
+    {
+        this.handle = h;
     }
 }

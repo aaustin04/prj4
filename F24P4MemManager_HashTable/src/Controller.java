@@ -9,7 +9,9 @@
 public class Controller {
     // ~ Fields ................................................................
     private Hash<Seminar> seminarHash;
-    private int worldSize;
+    private int hashSize;
+    private int memSize;
+    private MemManager memManager;
 
     // ----------------------------------------------------------
     /**
@@ -19,11 +21,13 @@ public class Controller {
      *            the size of the bin tree.
      */
     // ~ Constructors ..........................................................
-    public Controller(int world) // takes world size parameter when we implement
+    public Controller(int mem, int hash) // takes world size parameter when we implement
                                  // bin tree
     {
-        this.seminarHash = new Hash<Seminar>(world);
-        this.worldSize = world;
+        this.seminarHash = new Hash<Seminar>(hash);
+        this.hashSize = hash;
+        this.memSize = mem;
+        this.memManager = new MemManager(mem);
     }
 
 
@@ -75,7 +79,10 @@ public class Controller {
                 "Insert FAILED - There is already a record with ID " + semId);
         }
         else {
-
+            byte[] serialized = sem.serialize();
+            Handle h = memManager.insert(sem.serialize(),serialized.length);
+            sem.setHandle(h);
+            
             seminarHash.insert(semId, sem);
             System.out.println("Successfully inserted record with ID " + semId);
             System.out.println(sem.toString());
@@ -132,74 +139,7 @@ public class Controller {
 
     }
 
-    // ----------------------------------------------------------
-    /**
-     * searches for all seminars between a range of costs.
-     * 
-     * @param minCost
-     *            the mincost
-     * @param maxCost
-     *            the maxcost
-     */
-// public void searchCost(int minCost, int maxCost)
-// {
-// // should print 3.
-// int num = costTree.searchRange(minCost, maxCost);
-// if (num != 0)
-// {
-// System.out.println("" + num + " nodes visited in this search");
-// }
-// }
-
-    // ----------------------------------------------------------
-    /**
-     * searches for all seminars between a range of dates
-     * 
-     * @param startDate
-     *            the startdate
-     * @param endDate
-     *            the enddate
-     */
-// public void searchDate(String startDate, String endDate)
-// {
-// int num = dateTree.searchRange(startDate, endDate);
-// if (num != 0)
-// {
-// System.out.println("" + num + " nodes visited in this search");
-// }
-// }
-
-    // ----------------------------------------------------------
-    /**
-     * searches for all seminars that match a keyword.
-     * 
-     * @param keyword
-     *            the keyword
-     */
-// public void searchKeyword(String keyword)
-// {
-//
-// keywordTree.searchRange(keyword, keyword);
-//
-// }
-
-    // ----------------------------------------------------------
-    /**
-     * search method for bintree
-     * 
-     * @param x
-     *            the x val
-     * @param y
-     *            the y val
-     * @param radius
-     *            the radius
-     */
-// public void searchLocation(int x, int y, int radius)
-// {
-// binTree.find(x, y, radius);
-// }
-
-
+ 
     // ----------------------------------------------------------
     /**
      * Takes in the type of tree we want to print, prints it with correct
@@ -214,6 +154,12 @@ public class Controller {
                 System.out.println("Hashtable:");
                 seminarHash.print();
                 break;
+                
+            case "blocks":
+                System.out.println("Freeblock List:");
+                memManager.print();
+                break;
+                
             default:
                 System.out.println("Unknown print type: " + printType);
                 break;
