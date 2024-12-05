@@ -200,7 +200,6 @@ public class Seminar
 
     private int getId()
     {
-        // TODO Auto-generated method stub
         return id;
     }
 

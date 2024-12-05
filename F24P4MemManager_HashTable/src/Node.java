@@ -2,9 +2,10 @@
 /**
  * Creates a simple node to be used in DLL with a next and previous pointer.
  * 
- * @author Austin Anderson and Harini Ramaswamy (aaustin04 and harinir)
+ * @author Austin Anderson 
+ * @author Andres Zaidan
  * @version Sep 17, 2024
- * @param <T>
+ * @param <T> generic for data such that we want to interchange
  */
 public class Node<T> {
 
