@@ -24,6 +24,7 @@
  * 
  * @author Andres Zaidan
  * @version Sep 4, 2024
+ * @param <E> generic typing for ease of use
  */
 public class Record<E>
     implements Comparable<Record<E>>

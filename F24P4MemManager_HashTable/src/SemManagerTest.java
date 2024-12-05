@@ -25,10 +25,13 @@ import java.nio.file.Paths;
 /**
  * This class was designed to test the GraphProject
  * 
- *  @author Andres Zaidan
- *  @version Nov 15, 2024
+ * @author Andres Zaidan
+ * @author Austin Anderson
+ * @version Nov 15, 2024
  */
-public class SemManagerTest extends TestCase{
+public class SemManagerTest
+    extends TestCase
+{
     // ----------------------------------------------------------
     /**
      * Read contents of a file into a string
@@ -38,7 +41,9 @@ public class SemManagerTest extends TestCase{
      * @return the string
      * @throws IOException
      */
-    static String readFile(String path) throws IOException {
+    static String readFile(String path)
+        throws IOException
+    {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
         return new String(encoded);
     }
@@ -47,19 +52,21 @@ public class SemManagerTest extends TestCase{
     /**
      * Set up the tests that follow.
      */
-    public void setUp() { // Nothing needed yet
+    public void setUp()
+    { // Nothing needed yet
 
     }
 
-    
+
     /**
-     * Example 2: This method runs on a command sample IO file
-     * You will write similar test cases
-     * using different text files
+     * Example 2: This method runs on a command sample IO file You will write
+     * similar test cases using different text files
      *
      * @throws Exception
      */
-    public void testSampleIO() throws Exception {
+    public void testSampleIO()
+        throws Exception
+    {
         // Setting up all the parameters
         String[] args = new String[3];
         args[0] = "512";
@@ -73,24 +80,24 @@ public class SemManagerTest extends TestCase{
         String actualOutput = systemOut().getHistory();
 
         // Expected output from file
-        String expectedOutput = readFile(
-            "administracionOut.txt");
+        String expectedOutput = readFile("administracionOut.txt");
 
         // Compare the two outputs
 
         assertFuzzyEquals(expectedOutput, actualOutput);
 
     }
-    
-    
+
+
     /**
-     * Example 2: This method runs on a command sample IO file
-     * You will write similar test cases
-     * using different text files
+     * Example 2: This method runs on a command sample IO file You will write
+     * similar test cases using different text files
      *
      * @throws Exception
      */
-    public void testSampleIO2() throws Exception {
+    public void testSampleIO2()
+        throws Exception
+    {
         // Setting up all the parameters
         String[] args = new String[3];
         args[0] = "512";
@@ -104,8 +111,7 @@ public class SemManagerTest extends TestCase{
         String actualOutput = systemOut().getHistory();
 
         // Expected output from file
-        String expectedOutput = readFile(
-            "P4SimpSample_output.txt");
+        String expectedOutput = readFile("P4SimpSample_output.txt");
 
         // Compare the two outputs
 

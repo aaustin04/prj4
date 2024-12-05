@@ -10,7 +10,9 @@ import java.io.*;
  * @version July 2023, updated July 2024
  */
 
-public class Seminar implements Serializable, Comparable<Seminar> {
+public class Seminar
+    implements Serializable, Comparable<Seminar>
+{
     private String title; // Semianar title
     private String date; // Seminar date
     private int length; // Seminar length
@@ -27,7 +29,8 @@ public class Seminar implements Serializable, Comparable<Seminar> {
     /**
      * Dummy seminar constructor
      */
-    public Seminar() {
+    public Seminar()
+    {
         // Nothing here
     }
 
@@ -53,7 +56,8 @@ public class Seminar implements Serializable, Comparable<Seminar> {
      *            input cost
      * @param idin
      *            input ID
-     * @param s sizes
+     * @param s
+     *            sizes
      */
     public Seminar(
         int idin,
@@ -65,7 +69,8 @@ public class Seminar implements Serializable, Comparable<Seminar> {
         int cin,
         String[] kin,
         String descin,
-        int s) {
+        int s)
+    {
         id = idin;
         title = tin;
         date = datein;
@@ -76,7 +81,7 @@ public class Seminar implements Serializable, Comparable<Seminar> {
         keywords = kin;
         desc = descin;
         size = s;
-        
+
     }
 
     // ----------------------------------------------------------
@@ -92,9 +97,12 @@ public class Seminar implements Serializable, Comparable<Seminar> {
      *             from byte stream
      */
 
-    public static Seminar deserialize(byte[] inputbytes) throws Exception {
+    public static Seminar deserialize(byte[] inputbytes)
+        throws Exception
+    {
         ByteArrayInputStream bis = new ByteArrayInputStream(inputbytes);
-        try (ObjectInputStream inputStream = new ObjectInputStream(bis)) {
+        try (ObjectInputStream inputStream = new ObjectInputStream(bis))
+        {
             int id = inputStream.readInt();
             String title = inputStream.readUTF();
             String date = inputStream.readUTF();
@@ -105,14 +113,24 @@ public class Seminar implements Serializable, Comparable<Seminar> {
 
             int numKeywords = inputStream.readInt();
             String[] keywords = new String[numKeywords];
-            for (int i = 0; i < numKeywords; i++) {
+            for (int i = 0; i < numKeywords; i++)
+            {
                 keywords[i] = inputStream.readUTF();
             }
 
             String desc = inputStream.readUTF();
 
-            return new Seminar(id, title, date, length, x, y, cost, keywords,
-                desc, inputbytes.length);
+            return new Seminar(
+                id,
+                title,
+                date,
+                length,
+                x,
+                y,
+                cost,
+                keywords,
+                desc,
+                inputbytes.length);
         }
     }
 
@@ -127,9 +145,12 @@ public class Seminar implements Serializable, Comparable<Seminar> {
      *             from serialization
      */
 
-    public byte[] serialize() throws Exception {
+    public byte[] serialize()
+        throws Exception
+    {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
-        try (ObjectOutputStream outputStream = new ObjectOutputStream(out)) {
+        try (ObjectOutputStream outputStream = new ObjectOutputStream(out))
+        {
             outputStream.writeInt(id);
             outputStream.writeUTF(title);
             outputStream.writeUTF(date);
@@ -140,7 +161,8 @@ public class Seminar implements Serializable, Comparable<Seminar> {
 
             // Write the number of keywords and then each keyword
             outputStream.writeInt(keywords.length);
-            for (String keyword : keywords) {
+            for (String keyword : keywords)
+            {
                 outputStream.writeUTF(keyword);
             }
 
@@ -153,10 +175,12 @@ public class Seminar implements Serializable, Comparable<Seminar> {
     /**
      * @return a string representation of the object.
      */
-    public String toString() {
+    public String toString()
+    {
         int i;
         String mykeys = "";
-        for (i = 0; i < keywords.length; i++) {
+        for (i = 0; i < keywords.length; i++)
+        {
             mykeys += keywords[i];
             if (i != keywords.length - 1)
                 mykeys += ", ";
@@ -179,30 +203,41 @@ public class Seminar implements Serializable, Comparable<Seminar> {
         // TODO Auto-generated method stub
         return id;
     }
-    
+
+
     // ----------------------------------------------------------
     /**
      * sets the size;
-     * @param s the new size;
+     * 
+     * @param s
+     *            the new size;
      */
-    public void setSize(int s) 
+    public void setSize(int s)
     {
         size = s;
     }
-    
-    
-    
+
+
     // ----------------------------------------------------------
     /**
      * sets the handle(location of this seminar in mempool)
-     * @param h the handle.
+     * 
+     * @param h
+     *            the handle.
      */
     public void setHandle(Handle h)
     {
         this.handle = h;
     }
-    
-    public Handle getHandle() 
+
+
+    // ----------------------------------------------------------
+    /**
+     * get the handle to return
+     * 
+     * @return the handle
+     */
+    public Handle getHandle()
     {
         return handle;
     }
