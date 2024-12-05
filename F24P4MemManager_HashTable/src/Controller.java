@@ -104,9 +104,9 @@ public class Controller {
 
         Record<Seminar> sem = seminarHash.getRecord(semId);
         seminarHash.remove(semId);
-
+        
         if (sem != null) {
-
+            memManager.remove(sem.value().getHandle());
             System.out.println("Record with ID " + semId
                 + " successfully deleted from the database");
         }

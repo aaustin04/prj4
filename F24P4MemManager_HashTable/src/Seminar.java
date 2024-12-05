@@ -201,4 +201,9 @@ public class Seminar implements Serializable, Comparable<Seminar> {
     {
         this.handle = h;
     }
+    
+    public Handle getHandle() 
+    {
+        return handle;
+    }
 }
