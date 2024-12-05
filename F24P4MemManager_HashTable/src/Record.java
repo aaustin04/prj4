@@ -50,33 +50,33 @@ public class Record<E>
     }
 
 
-    /**
-     * Compares against a keyvalue pair.
-     * 
-     * @param it
-     *            the object to compare
-     * @return It bigger than 0 smaller, lower than 0 larger
-     */
-    public int compareTo1(Record<E> it)
-    {
-        return Integer.compare(this.theKey, it.theKey);
-    }
+//    /**
+//     * Compares against a keyvalue pair.
+//     * 
+//     * @param it
+//     *            the object to compare
+//     * @return It bigger than 0 smaller, lower than 0 larger
+//     */
+//    public int compareTo1(Record<E> it)
+//    {
+//        return Integer.compare(this.theKey, it.theKey);
+//    }
 
 
     // Compare against a key
     // ----------------------------------------------------------
-    /**
-     * Compares against a key
-     * 
-     * @param key
-     *            the key to compare
-     * @return Int bigger than 0 smaller, lower than 0 larger
-     */
-    public int compareTo(int key)
-    {
-        return Integer.compare(this.theKey, key);
-    }
-
+//    /**
+//     * Compares against a key
+//     * 
+//     * @param key
+//     *            the key to compare
+//     * @return Int bigger than 0 smaller, lower than 0 larger
+//     */
+//    public int compareTo(int key)
+//    {
+//        return Integer.compare(this.theKey, key);
+//    }
+//
 
     // ----------------------------------------------------------
     /**

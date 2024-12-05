@@ -54,5 +54,16 @@ public class RecordTest
         assertTrue(testNum == testRecord.value());
         assertEquals(1, testRecord.key());
     }
+    
+    public void testNull() 
+    {
+        Record<Integer> n = new Record<Integer>(1,null);
+        assertNull(n.value());
+    }
+    
+    public void testCompare() 
+    {
+        assertEquals(0,testRecord.compareTo(testRecord));
+    }
 
 }

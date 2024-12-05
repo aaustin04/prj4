@@ -1,0 +1,5274 @@
+Search FAILED -- There is no record with ID 1
+delete FAILED -- There is no record with ID 1
+Search FAILED -- There is no record with ID 9
+Search FAILED -- There is no record with ID 6
+Hashtable:
+total records: 0
+Freeblock List:
+(0,512)
+Search FAILED -- There is no record with ID 2
+Search FAILED -- There is no record with ID 3
+delete FAILED -- There is no record with ID 7
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 9
+Date: 01041935, Length: 36, X: 34, Y: 41, Cost: 94
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, HPC, Grids, Computer_Science
+Size: 149
+Hashtable:
+3: 3
+total records: 1
+Freeblock List:
+(149,363)
+Hashtable:
+3: 3
+total records: 1
+Freeblock List:
+(149,363)
+delete FAILED -- There is no record with ID 9
+Hashtable:
+3: 3
+total records: 1
+Freeblock List:
+(149,363)
+Search FAILED -- There is no record with ID 7
+Search FAILED -- There is no record with ID 1
+Record with ID 3 successfully deleted from the database
+Hashtable:
+3: TOMBSTONE
+total records: 0
+Freeblock List:
+(0,512)
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 18
+Date: 10130404, Length: 20, X: 15, Y: 81, Cost: 33
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, Research, HCI, Seminar
+Size: 157
+Hashtable:
+1: 9
+3: TOMBSTONE
+total records: 1
+Freeblock List:
+(157,355)
+Hashtable:
+1: 9
+3: TOMBSTONE
+total records: 1
+Freeblock List:
+(157,355)
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 21
+Date: 11041839, Length: 52, X: 38, Y: 66, Cost: 39
+Description: Random description for seminar or research topic.
+Keywords: HCI, Grids, Research, VT, Computer_Science
+Size: 148
+Insert FAILED - There is already a record with ID 10
+Record with ID 10 successfully deleted from the database
+Hashtable:
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+total records: 1
+Freeblock List:
+(157,355)
+Hashtable:
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+total records: 1
+Freeblock List:
+(157,355)
+Search FAILED -- There is no record with ID 1
+delete FAILED -- There is no record with ID 7
+Hashtable:
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+total records: 1
+Freeblock List:
+(157,355)
+Hashtable:
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+total records: 1
+Freeblock List:
+(157,355)
+delete FAILED -- There is no record with ID 7
+Hashtable:
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+total records: 1
+Freeblock List:
+(157,355)
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 32
+Date: 12090050, Length: 59, X: 51, Y: 11, Cost: 26
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, VT, Computing, HCI
+Size: 151
+Hashtable:
+1: 9
+2: 1
+3: TOMBSTONE
+total records: 2
+Freeblock List:
+(308,204)
+delete FAILED -- There is no record with ID 7
+Hashtable:
+1: 9
+2: 1
+3: TOMBSTONE
+total records: 2
+Freeblock List:
+(308,204)
+Record with ID 1 successfully deleted from the database
+delete FAILED -- There is no record with ID 6
+Found record with ID 9:
+ID: 9, Title: Random Title 18
+Date: 10130404, Length: 20, X: 15, Y: 81, Cost: 33
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, Research, HCI, Seminar
+Search FAILED -- There is no record with ID 6
+Insert FAILED - There is already a record with ID 9
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 41
+Date: 10041951, Length: 72, X: 33, Y: 76, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: HPC, HCI, Grids, Seminar, Computing
+Size: 141
+delete FAILED -- There is no record with ID 10
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 43
+Date: 05071033, Length: 61, X: 97, Y: 14, Cost: 28
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Research, VT, HPC, Grids
+Size: 146
+Hashtable:
+0: 8
+1: 9
+2: 2
+3: TOMBSTONE
+total records: 3
+Freeblock List:
+(444,68)
+Insert FAILED - There is already a record with ID 8
+Hashtable:
+0: 8
+1: 9
+2: 2
+3: TOMBSTONE
+total records: 3
+Freeblock List:
+(444,68)
+Insert FAILED - There is already a record with ID 9
+Found record with ID 2:
+ID: 2, Title: Random Title 41
+Date: 10041951, Length: 72, X: 33, Y: 76, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: HPC, HCI, Grids, Seminar, Computing
+Hashtable:
+0: 8
+1: 9
+2: 2
+3: TOMBSTONE
+total records: 3
+Freeblock List:
+(444,68)
+Search FAILED -- There is no record with ID 7
+Hashtable:
+0: 8
+1: 9
+2: 2
+3: TOMBSTONE
+total records: 3
+Freeblock List:
+(444,68)
+Found record with ID 2:
+ID: 2, Title: Random Title 41
+Date: 10041951, Length: 72, X: 33, Y: 76, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: HPC, HCI, Grids, Seminar, Computing
+Record with ID 2 successfully deleted from the database
+Hashtable:
+0: 8
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+total records: 2
+Freeblock List:
+(157,141) -> (444,68)
+Hashtable:
+0: 8
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+total records: 2
+Freeblock List:
+(157,141) -> (444,68)
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 56
+Date: 08070337, Length: 17, X: 60, Y: 76, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: VT, HCI, Seminar, Research, Grids
+Size: 139
+Hashtable:
+0: 8
+1: 9
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+total records: 3
+Freeblock List:
+(296,2) -> (444,68)
+Search FAILED -- There is no record with ID 1
+Insert FAILED - There is already a record with ID 9
+Record with ID 9 successfully deleted from the database
+Hashtable:
+0: 8
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+total records: 2
+Freeblock List:
+(0,157) -> (296,2) -> (444,68)
+Hashtable:
+0: 8
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+total records: 2
+Freeblock List:
+(0,157) -> (296,2) -> (444,68)
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 63
+Date: 02252257, Length: 93, X: 26, Y: 63, Cost: 99
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, HCI, VT, Computer_Science, Grids
+Size: 154
+Hashtable:
+0: 8
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+total records: 3
+Freeblock List:
+(154,3) -> (296,2) -> (444,68)
+Memory pool expanded to 1024 bytes
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 65
+Date: 10240130, Length: 39, X: 72, Y: 88, Cost: 19
+Description: Random description for seminar or research topic.
+Keywords: Computing, Research, Seminar, Computer_Science, Bioinformatics
+Size: 168
+Hashtable:
+0: 8
+1: TOMBSTONE
+2: 2
+3: 10
+4: 4
+total records: 4
+Freeblock List:
+(154,3) -> (296,2) -> (612,412)
+Record with ID 8 successfully deleted from the database
+Hashtable:
+0: TOMBSTONE
+1: TOMBSTONE
+2: 2
+3: 10
+4: 4
+total records: 3
+Freeblock List:
+(154,3) -> (296,148) -> (612,412)
+Search FAILED -- There is no record with ID 7
+Search FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 5
+Found record with ID 4:
+ID: 4, Title: Random Title 56
+Date: 08070337, Length: 17, X: 60, Y: 76, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: VT, HCI, Seminar, Research, Grids
+Search FAILED -- There is no record with ID 1
+Record with ID 4 successfully deleted from the database
+Search FAILED -- There is no record with ID 9
+Record with ID 2 successfully deleted from the database
+Search FAILED -- There is no record with ID 6
+delete FAILED -- There is no record with ID 2
+delete FAILED -- There is no record with ID 7
+Hashtable:
+0: TOMBSTONE
+1: TOMBSTONE
+2: TOMBSTONE
+3: 10
+4: TOMBSTONE
+total records: 1
+Freeblock List:
+(0,444) -> (612,412)
+Search FAILED -- There is no record with ID 7
+Hashtable:
+0: TOMBSTONE
+1: TOMBSTONE
+2: TOMBSTONE
+3: 10
+4: TOMBSTONE
+total records: 1
+Freeblock List:
+(0,444) -> (612,412)
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 83
+Date: 06012008, Length: 96, X: 39, Y: 34, Cost: 55
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, Bioinformatics, HPC, Computer_Science
+Size: 159
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 84
+Date: 12240158, Length: 33, X: 95, Y: 34, Cost: 44
+Description: Random description for seminar or research topic.
+Keywords: Computing, Bioinformatics, HPC, Grids, Computer_Science
+Size: 161
+Search FAILED -- There is no record with ID 5
+Insert FAILED - There is already a record with ID 8
+Record with ID 1 successfully deleted from the database
+Search FAILED -- There is no record with ID 7
+Hashtable:
+0: 8
+1: TOMBSTONE
+2: TOMBSTONE
+3: 10
+4: TOMBSTONE
+total records: 2
+Freeblock List:
+(159,285) -> (612,412)
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 90
+Date: 06031451, Length: 89, X: 36, Y: 51, Cost: 72
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, HCI, Computer_Science, HPC
+Size: 153
+Hashtable:
+0: 8
+1: TOMBSTONE
+2: 2
+3: 10
+4: TOMBSTONE
+total records: 3
+Freeblock List:
+(312,132) -> (612,412)
+delete FAILED -- There is no record with ID 5
+delete FAILED -- There is no record with ID 9
+Insert FAILED - There is already a record with ID 2
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 95
+Date: 02311545, Length: 64, X: 65, Y: 52, Cost: 45
+Description: Random description for seminar or research topic.
+Keywords: Research, Seminar, Computing, Grids, VT
+Size: 145
+Search FAILED -- There is no record with ID 3
+Insert FAILED - There is already a record with ID 2
+Insert FAILED - There is already a record with ID 7
+Insert FAILED - There is already a record with ID 7
+Search FAILED -- There is no record with ID 4
+Hash table expanded to 16 records
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 101
+Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, Seminar, HPC, HCI
+Size: 145
+Memory pool expanded to 1536 bytes
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 102
+Date: 11152101, Length: 14, X: 52, Y: 72, Cost: 19
+Description: Random description for seminar or research topic.
+Keywords: HPC, VT, Bioinformatics, Seminar, Computer_Science
+Size: 157
+Hashtable:
+1: 1
+2: 2
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(312,132) -> (1059,477)
+Hashtable:
+1: 1
+2: 2
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(312,132) -> (1059,477)
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 105
+Date: 12160756, Length: 73, X: 48, Y: 49, Cost: 81
+Description: Random description for seminar or research topic.
+Keywords: Grids, Computing, Bioinformatics, VT, Seminar
+Size: 152
+Hashtable:
+1: 1
+2: 2
+4: 4
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(312,132) -> (1211,325)
+Found record with ID 4:
+ID: 4, Title: Random Title 105
+Date: 12160756, Length: 73, X: 48, Y: 49, Cost: 81
+Description: Random description for seminar or research topic.
+Keywords: Grids, Computing, Bioinformatics, VT, Seminar
+delete FAILED -- There is no record with ID 5
+Record with ID 4 successfully deleted from the database
+Search FAILED -- There is no record with ID 4
+Found record with ID 8:
+ID: 8, Title: Random Title 83
+Date: 06012008, Length: 96, X: 39, Y: 34, Cost: 55
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, Bioinformatics, HPC, Computer_Science
+Hashtable:
+1: 1
+2: 2
+4: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(312,132) -> (1059,477)
+Found record with ID 8:
+ID: 8, Title: Random Title 83
+Date: 06012008, Length: 96, X: 39, Y: 34, Cost: 55
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, Bioinformatics, HPC, Computer_Science
+Hashtable:
+1: 1
+2: 2
+4: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(312,132) -> (1059,477)
+Found record with ID 1:
+ID: 1, Title: Random Title 101
+Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, Seminar, HPC, HCI
+delete FAILED -- There is no record with ID 6
+Found record with ID 2:
+ID: 2, Title: Random Title 90
+Date: 06031451, Length: 89, X: 36, Y: 51, Cost: 72
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, HCI, Computer_Science, HPC
+Record with ID 7 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+4: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(312,132) -> (612,145) -> (1059,477)
+Search FAILED -- There is no record with ID 3
+delete FAILED -- There is no record with ID 7
+Hashtable:
+1: 1
+2: 2
+4: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(312,132) -> (612,145) -> (1059,477)
+Found record with ID 2:
+ID: 2, Title: Random Title 90
+Date: 06031451, Length: 89, X: 36, Y: 51, Cost: 72
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, HCI, Computer_Science, HPC
+Found record with ID 2:
+ID: 2, Title: Random Title 90
+Date: 06031451, Length: 89, X: 36, Y: 51, Cost: 72
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, HCI, Computer_Science, HPC
+Search FAILED -- There is no record with ID 7
+Hashtable:
+1: 1
+2: 2
+4: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(312,132) -> (612,145) -> (1059,477)
+Search FAILED -- There is no record with ID 3
+Hashtable:
+1: 1
+2: 2
+4: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(312,132) -> (612,145) -> (1059,477)
+Record with ID 8 successfully deleted from the database
+Found record with ID 2:
+ID: 2, Title: Random Title 90
+Date: 06031451, Length: 89, X: 36, Y: 51, Cost: 72
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, HCI, Computer_Science, HPC
+Search FAILED -- There is no record with ID 4
+Hashtable:
+1: 1
+2: 2
+4: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,159) -> (312,132) -> (612,145) -> (1059,477)
+Insert FAILED - There is already a record with ID 1
+Search FAILED -- There is no record with ID 3
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 135
+Date: 05080645, Length: 13, X: 78, Y: 10, Cost: 91
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Seminar, Research, Computing
+Size: 169
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 136
+Date: 10091046, Length: 51, X: 94, Y: 16, Cost: 12
+Description: Random description for seminar or research topic.
+Keywords: HPC, Computer_Science, Grids, Computing, Bioinformatics
+Size: 162
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,159) -> (312,132) -> (612,145) -> (1390,146)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,159) -> (312,132) -> (612,145) -> (1390,146)
+delete FAILED -- There is no record with ID 6
+Record with ID 9 successfully deleted from the database
+Memory pool expanded to 2048 bytes
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 141
+Date: 10270953, Length: 48, X: 66, Y: 61, Cost: 76
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, HPC, Computing, Computer_Science
+Size: 162
+Record with ID 2 successfully deleted from the database
+Record with ID 6 successfully deleted from the database
+Search FAILED -- There is no record with ID 2
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: 4
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(0,444) -> (612,145) -> (902,157) -> (1390,658)
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: 4
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(0,444) -> (612,145) -> (902,157) -> (1390,658)
+delete FAILED -- There is no record with ID 9
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: 4
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(0,444) -> (612,145) -> (902,157) -> (1390,658)
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: 4
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(0,444) -> (612,145) -> (902,157) -> (1390,658)
+Search FAILED -- There is no record with ID 6
+Search FAILED -- There is no record with ID 6
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: 4
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(0,444) -> (612,145) -> (902,157) -> (1390,658)
+delete FAILED -- There is no record with ID 2
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: 4
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(0,444) -> (612,145) -> (902,157) -> (1390,658)
+delete FAILED -- There is no record with ID 6
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 156
+Date: 08142057, Length: 78, X: 65, Y: 82, Cost: 73
+Description: Random description for seminar or research topic.
+Keywords: HCI, Research, HPC, Computer_Science, Seminar
+Size: 152
+Found record with ID 3:
+ID: 3, Title: Random Title 136
+Date: 10091046, Length: 51, X: 94, Y: 16, Cost: 12
+Description: Random description for seminar or research topic.
+Keywords: HPC, Computer_Science, Grids, Computing, Bioinformatics
+Insert FAILED - There is already a record with ID 10
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 159
+Date: 11300959, Length: 33, X: 29, Y: 68, Cost: 16
+Description: Random description for seminar or research topic.
+Keywords: HPC, Seminar, VT, Bioinformatics, Computing
+Size: 150
+Insert FAILED - There is already a record with ID 1
+Insert FAILED - There is already a record with ID 10
+Found record with ID 3:
+ID: 3, Title: Random Title 136
+Date: 10091046, Length: 51, X: 94, Y: 16, Cost: 12
+Description: Random description for seminar or research topic.
+Keywords: HPC, Computer_Science, Grids, Computing, Bioinformatics
+Search FAILED -- There is no record with ID 5
+Found record with ID 2:
+ID: 2, Title: Random Title 159
+Date: 11300959, Length: 33, X: 29, Y: 68, Cost: 16
+Description: Random description for seminar or research topic.
+Keywords: HPC, Seminar, VT, Bioinformatics, Computing
+Search FAILED -- There is no record with ID 5
+Found record with ID 10:
+ID: 10, Title: Random Title 65
+Date: 10240130, Length: 39, X: 72, Y: 88, Cost: 19
+Description: Random description for seminar or research topic.
+Keywords: Computing, Research, Seminar, Computer_Science, Bioinformatics
+Found record with ID 4:
+ID: 4, Title: Random Title 135
+Date: 05080645, Length: 13, X: 78, Y: 10, Cost: 91
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Seminar, Research, Computing
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 168
+Date: 11192028, Length: 73, X: 27, Y: 45, Cost: 75
+Description: Random description for seminar or research topic.
+Keywords: VT, Grids, Seminar, Bioinformatics, HCI
+Size: 146
+Insert FAILED - There is already a record with ID 4
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(302,142) -> (612,145) -> (1048,11) -> (1390,658)
+Found record with ID 10:
+ID: 10, Title: Random Title 65
+Date: 10240130, Length: 39, X: 72, Y: 88, Cost: 19
+Description: Random description for seminar or research topic.
+Keywords: Computing, Research, Seminar, Computer_Science, Bioinformatics
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(302,142) -> (612,145) -> (1048,11) -> (1390,658)
+delete FAILED -- There is no record with ID 8
+Found record with ID 5:
+ID: 5, Title: Random Title 168
+Date: 11192028, Length: 73, X: 27, Y: 45, Cost: 75
+Description: Random description for seminar or research topic.
+Keywords: VT, Grids, Seminar, Bioinformatics, HCI
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(302,142) -> (612,145) -> (1048,11) -> (1390,658)
+Record with ID 5 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(302,142) -> (612,145) -> (902,157) -> (1390,658)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(302,142) -> (612,145) -> (902,157) -> (1390,658)
+Found record with ID 10:
+ID: 10, Title: Random Title 65
+Date: 10240130, Length: 39, X: 72, Y: 88, Cost: 19
+Description: Random description for seminar or research topic.
+Keywords: Computing, Research, Seminar, Computer_Science, Bioinformatics
+delete FAILED -- There is no record with ID 8
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(302,142) -> (612,145) -> (902,157) -> (1390,658)
+Record with ID 2 successfully deleted from the database
+Search FAILED -- There is no record with ID 2
+Insert FAILED - There is already a record with ID 4
+Found record with ID 3:
+ID: 3, Title: Random Title 136
+Date: 10091046, Length: 51, X: 94, Y: 16, Cost: 12
+Description: Random description for seminar or research topic.
+Keywords: HPC, Computer_Science, Grids, Computing, Bioinformatics
+Insert FAILED - There is already a record with ID 4
+Search FAILED -- There is no record with ID 7
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(152,292) -> (612,145) -> (902,157) -> (1390,658)
+Found record with ID 4:
+ID: 4, Title: Random Title 135
+Date: 05080645, Length: 13, X: 78, Y: 10, Cost: 91
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Seminar, Research, Computing
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 190
+Date: 06022212, Length: 47, X: 75, Y: 74, Cost: 61
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computing, HCI, VT, Computer_Science
+Size: 152
+Found record with ID 1:
+ID: 1, Title: Random Title 101
+Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, Seminar, HPC, HCI
+Found record with ID 9:
+ID: 9, Title: Random Title 156
+Date: 08142057, Length: 78, X: 65, Y: 82, Cost: 73
+Description: Random description for seminar or research topic.
+Keywords: HCI, Research, HPC, Computer_Science, Seminar
+Insert FAILED - There is already a record with ID 10
+Found record with ID 9:
+ID: 9, Title: Random Title 156
+Date: 08142057, Length: 78, X: 65, Y: 82, Cost: 73
+Description: Random description for seminar or research topic.
+Keywords: HCI, Research, HPC, Computer_Science, Seminar
+Search FAILED -- There is no record with ID 6
+Insert FAILED - There is already a record with ID 4
+Insert FAILED - There is already a record with ID 7
+Insert FAILED - There is already a record with ID 7
+delete FAILED -- There is no record with ID 2
+Found record with ID 1:
+ID: 1, Title: Random Title 101
+Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, Seminar, HPC, HCI
+Insert FAILED - There is already a record with ID 4
+Record with ID 3 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(304,140) -> (612,145) -> (902,157) -> (1228,820)
+Insert FAILED - There is already a record with ID 10
+Record with ID 10 successfully deleted from the database
+Found record with ID 9:
+ID: 9, Title: Random Title 156
+Date: 08142057, Length: 78, X: 65, Y: 82, Cost: 73
+Description: Random description for seminar or research topic.
+Keywords: HCI, Research, HPC, Computer_Science, Seminar
+delete FAILED -- There is no record with ID 3
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(304,453) -> (902,157) -> (1228,820)
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(304,453) -> (902,1146)
+Record with ID 9 successfully deleted from the database
+Insert FAILED - There is already a record with ID 1
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,152) -> (304,453) -> (902,1146)
+delete FAILED -- There is no record with ID 5
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,152) -> (304,453) -> (902,1146)
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,152) -> (304,453) -> (902,1146)
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 217
+Date: 02100122, Length: 74, X: 19, Y: 96, Cost: 59
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, HCI, Research, Grids
+Size: 154
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 218
+Date: 12090518, Length: 95, X: 49, Y: 32, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HPC, Computer_Science, Computing, VT
+Size: 152
+delete FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 4
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(458,299) -> (902,1146)
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(458,299) -> (902,1146)
+delete FAILED -- There is no record with ID 5
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 224
+Date: 08230557, Length: 50, X: 73, Y: 37, Cost: 77
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, Bioinformatics, Computing, HCI
+Size: 151
+Insert FAILED - There is already a record with ID 1
+Insert FAILED - There is already a record with ID 1
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(609,148) -> (902,1146)
+Insert FAILED - There is already a record with ID 2
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 229
+Date: 08220217, Length: 23, X: 25, Y: 80, Cost: 91
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, HPC, VT, Computing, HCI
+Size: 146
+Insert FAILED - There is already a record with ID 9
+Found record with ID 7:
+ID: 7, Title: Random Title 190
+Date: 06022212, Length: 47, X: 75, Y: 74, Cost: 61
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computing, HCI, VT, Computer_Science
+Found record with ID 7:
+ID: 7, Title: Random Title 190
+Date: 06022212, Length: 47, X: 75, Y: 74, Cost: 61
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computing, HCI, VT, Computer_Science
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 233
+Date: 08012027, Length: 26, X: 42, Y: 28, Cost: 75
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, HPC, HCI, VT, Grids
+Size: 144
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(755,2) -> (1046,1002)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(755,2) -> (1046,1002)
+Record with ID 3 successfully deleted from the database
+Insert FAILED - There is already a record with ID 2
+Found record with ID 9:
+ID: 9, Title: Random Title 217
+Date: 02100122, Length: 74, X: 19, Y: 96, Cost: 59
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, HCI, Research, Grids
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(755,2) -> (902,1146)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 240
+Date: 05111029, Length: 94, X: 92, Y: 82, Cost: 31
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, VT, HCI, Research, HPC
+Size: 145
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(755,2) -> (1047,1001)
+Insert FAILED - There is already a record with ID 8
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(755,2) -> (1047,1001)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(755,2) -> (1047,1001)
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 245
+Date: 07201340, Length: 69, X: 35, Y: 78, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HCI, Computer_Science, HPC, VT
+Size: 146
+Record with ID 6 successfully deleted from the database
+Search FAILED -- There is no record with ID 6
+Found record with ID 8:
+ID: 8, Title: Random Title 218
+Date: 12090518, Length: 95, X: 49, Y: 32, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HPC, Computer_Science, Computing, VT
+Insert FAILED - There is already a record with ID 9
+Record with ID 7 successfully deleted from the database
+Found record with ID 10:
+ID: 10, Title: Random Title 245
+Date: 07201340, Length: 69, X: 35, Y: 78, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HCI, Computer_Science, HPC, VT
+Found record with ID 9:
+ID: 9, Title: Random Title 217
+Date: 02100122, Length: 74, X: 19, Y: 96, Cost: 59
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, HCI, Research, Grids
+Found record with ID 8:
+ID: 8, Title: Random Title 218
+Date: 12090518, Length: 95, X: 49, Y: 32, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HPC, Computer_Science, Computing, VT
+Insert FAILED - There is already a record with ID 10
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (755,2) -> (902,145) -> (1193,855)
+Insert FAILED - There is already a record with ID 1
+delete FAILED -- There is no record with ID 3
+Found record with ID 9:
+ID: 9, Title: Random Title 217
+Date: 02100122, Length: 74, X: 19, Y: 96, Cost: 59
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, HCI, Research, Grids
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (755,2) -> (902,145) -> (1193,855)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (755,2) -> (902,145) -> (1193,855)
+Search FAILED -- There is no record with ID 6
+Found record with ID 1:
+ID: 1, Title: Random Title 101
+Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, Seminar, HPC, HCI
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 263
+Date: 02150240, Length: 30, X: 69, Y: 92, Cost: 60
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, Grids, Research, Seminar
+Size: 147
+Search FAILED -- There is no record with ID 6
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 265
+Date: 06011453, Length: 31, X: 66, Y: 63, Cost: 79
+Description: Random description for seminar or research topic.
+Keywords: Grids, Computing, HPC, Research, VT
+Size: 142
+Record with ID 2 successfully deleted from the database
+Found record with ID 5:
+ID: 5, Title: Random Title 263
+Date: 02150240, Length: 30, X: 69, Y: 92, Cost: 60
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, Grids, Research, Seminar
+Insert FAILED - There is already a record with ID 10
+Insert FAILED - There is already a record with ID 9
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 270
+Date: 03311624, Length: 57, X: 91, Y: 25, Cost: 52
+Description: Random description for seminar or research topic.
+Keywords: HPC, Bioinformatics, VT, Seminar, Research
+Size: 149
+Hash table expanded to 32 records
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 271
+Date: 05261000, Length: 33, X: 65, Y: 13, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, HPC, HCI
+Size: 156
+Record with ID 6 successfully deleted from the database
+Record with ID 3 successfully deleted from the database
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(299,5) -> (458,151) -> (755,2) -> (902,145) -> (1349,699)
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(299,5) -> (458,151) -> (755,2) -> (902,145) -> (1349,699)
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(299,5) -> (458,299) -> (902,145) -> (1349,699)
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(299,5) -> (458,299) -> (902,145) -> (1349,699)
+Search FAILED -- There is no record with ID 3
+delete FAILED -- There is no record with ID 6
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(299,5) -> (458,299) -> (902,145) -> (1349,699)
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(299,5) -> (458,299) -> (902,145) -> (1349,699)
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(299,5) -> (458,299) -> (902,145) -> (1349,699)
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(299,5) -> (458,299) -> (902,145) -> (1349,699)
+Found record with ID 1:
+ID: 1, Title: Random Title 101
+Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, Seminar, HPC, HCI
+Search FAILED -- There is no record with ID 3
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 287
+Date: 08020525, Length: 99, X: 49, Y: 46, Cost: 50
+Description: Random description for seminar or research topic.
+Keywords: HCI, VT, Grids, Computing, Research
+Size: 142
+Found record with ID 4:
+ID: 4, Title: Random Title 287
+Date: 08020525, Length: 99, X: 49, Y: 46, Cost: 50
+Description: Random description for seminar or research topic.
+Keywords: HCI, VT, Grids, Computing, Research
+Search FAILED -- There is no record with ID 6
+Record with ID 5 successfully deleted from the database
+Search FAILED -- There is no record with ID 6
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (600,157) -> (902,145) -> (1349,699)
+delete FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 6
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (600,157) -> (902,145) -> (1349,699)
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (600,157) -> (902,145) -> (1349,699)
+Search FAILED -- There is no record with ID 5
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (600,157) -> (902,145) -> (1349,699)
+delete FAILED -- There is no record with ID 6
+Hashtable:
+1: 1
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,152) -> (600,157) -> (902,145) -> (1349,699)
+delete FAILED -- There is no record with ID 2
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 302
+Date: 06120507, Length: 87, X: 73, Y: 59, Cost: 55
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, HPC, Computing, VT
+Size: 148
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(300,4) -> (600,157) -> (902,145) -> (1349,699)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 304
+Date: 01310957, Length: 19, X: 55, Y: 37, Cost: 60
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Research, Computing, Computer_Science, HPC
+Size: 158
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 305
+Date: 10160602, Length: 85, X: 48, Y: 47, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: HCI, Grids, Seminar, HPC, Research
+Size: 141
+Found record with ID 1:
+ID: 1, Title: Random Title 101
+Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, Seminar, HPC, HCI
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 307
+Date: 01131903, Length: 41, X: 39, Y: 54, Cost: 49
+Description: Random description for seminar or research topic.
+Keywords: Computing, VT, Computer_Science, Grids, Bioinformatics
+Size: 161
+Record with ID 9 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 9
+Freeblock List:
+(300,158) -> (741,16) -> (902,145) -> (1668,380)
+Insert FAILED - There is already a record with ID 3
+Record with ID 3 successfully deleted from the database
+Found record with ID 7:
+ID: 7, Title: Random Title 271
+Date: 05261000, Length: 33, X: 65, Y: 13, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, HPC, HCI
+Record with ID 1 successfully deleted from the database
+delete FAILED -- There is no record with ID 9
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 7
+Freeblock List:
+(300,158) -> (600,447) -> (1668,380)
+Record with ID 4 successfully deleted from the database
+Record with ID 2 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(152,895) -> (1668,380)
+Insert FAILED - There is already a record with ID 10
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(152,895) -> (1668,380)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(152,895) -> (1668,380)
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 322
+Date: 03300405, Length: 88, X: 57, Y: 46, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, Bioinformatics, Seminar, HPC
+Size: 164
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 323
+Date: 11081319, Length: 97, X: 46, Y: 71, Cost: 95
+Description: Random description for seminar or research topic.
+Keywords: Research, Computer_Science, VT, Seminar, Computing
+Size: 157
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(473,574) -> (1668,380)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(473,574) -> (1668,380)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(473,574) -> (1668,380)
+Record with ID 8 successfully deleted from the database
+Insert FAILED - There is already a record with ID 10
+Found record with ID 6:
+ID: 6, Title: Random Title 304
+Date: 01310957, Length: 19, X: 55, Y: 37, Cost: 60
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Research, Computing, Computer_Science, HPC
+delete FAILED -- There is no record with ID 2
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 331
+Date: 09270043, Length: 46, X: 39, Y: 11, Cost: 100
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computer_Science, Computing, VT, Seminar
+Size: 152
+delete FAILED -- There is no record with ID 4
+Found record with ID 2:
+ID: 2, Title: Random Title 331
+Date: 09270043, Length: 46, X: 39, Y: 11, Cost: 100
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computer_Science, Computing, VT, Seminar
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(473,574) -> (1668,380)
+Record with ID 2 successfully deleted from the database
+delete FAILED -- There is no record with ID 2
+Record with ID 9 successfully deleted from the database
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 338
+Date: 11241929, Length: 38, X: 72, Y: 84, Cost: 51
+Description: Random description for seminar or research topic.
+Keywords: HPC, Research, HCI, Seminar, Bioinformatics
+Size: 150
+Found record with ID 3:
+ID: 3, Title: Random Title 322
+Date: 03300405, Length: 88, X: 57, Y: 46, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, Bioinformatics, Seminar, HPC
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(150,2) -> (316,731) -> (1668,380)
+Search FAILED -- There is no record with ID 9
+Record with ID 7 successfully deleted from the database
+delete FAILED -- There is no record with ID 8
+Found record with ID 10:
+ID: 10, Title: Random Title 245
+Date: 07201340, Length: 69, X: 35, Y: 78, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HCI, Computer_Science, HPC, VT
+Record with ID 5 successfully deleted from the database
+Record with ID 2 successfully deleted from the database
+Record with ID 6 successfully deleted from the database
+delete FAILED -- There is no record with ID 8
+Search FAILED -- There is no record with ID 1
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 350
+Date: 07021420, Length: 75, X: 79, Y: 42, Cost: 40
+Description: Random description for seminar or research topic.
+Keywords: Computing, Research, Computer_Science, Seminar, Grids
+Size: 160
+Search FAILED -- There is no record with ID 5
+Record with ID 4 successfully deleted from the database
+Insert FAILED - There is already a record with ID 10
+Search FAILED -- There is no record with ID 4
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 2
+Freeblock List:
+(0,152) -> (316,731) -> (1193,855)
+Found record with ID 3:
+ID: 3, Title: Random Title 322
+Date: 03300405, Length: 88, X: 57, Y: 46, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, Bioinformatics, Seminar, HPC
+delete FAILED -- There is no record with ID 8
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 2
+Freeblock List:
+(0,152) -> (316,731) -> (1193,855)
+Found record with ID 10:
+ID: 10, Title: Random Title 245
+Date: 07201340, Length: 69, X: 35, Y: 78, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HCI, Computer_Science, HPC, VT
+Insert FAILED - There is already a record with ID 10
+delete FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 1
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 2
+Freeblock List:
+(0,152) -> (316,731) -> (1193,855)
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 364
+Date: 03052356, Length: 79, X: 61, Y: 46, Cost: 17
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, HPC, HCI, Seminar
+Size: 138
+Search FAILED -- There is no record with ID 2
+Insert FAILED - There is already a record with ID 7
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 367
+Date: 02201417, Length: 54, X: 70, Y: 79, Cost: 61
+Description: Random description for seminar or research topic.
+Keywords: Grids, VT, Computer_Science, Computing, Seminar
+Size: 154
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(138,14) -> (470,577) -> (1193,855)
+Search FAILED -- There is no record with ID 6
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(138,14) -> (470,577) -> (1193,855)
+delete FAILED -- There is no record with ID 5
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(138,14) -> (470,577) -> (1193,855)
+delete FAILED -- There is no record with ID 8
+delete FAILED -- There is no record with ID 4
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(138,14) -> (470,577) -> (1193,855)
+delete FAILED -- There is no record with ID 8
+Insert FAILED - There is already a record with ID 7
+delete FAILED -- There is no record with ID 6
+delete FAILED -- There is no record with ID 1
+Insert FAILED - There is already a record with ID 7
+Insert FAILED - There is already a record with ID 2
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 382
+Date: 08280429, Length: 58, X: 77, Y: 27, Cost: 79
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, HCI, Computer_Science, Seminar
+Size: 151
+delete FAILED -- There is no record with ID 6
+delete FAILED -- There is no record with ID 9
+Insert FAILED - There is already a record with ID 7
+Record with ID 4 successfully deleted from the database
+delete FAILED -- There is no record with ID 1
+delete FAILED -- There is no record with ID 1
+Found record with ID 3:
+ID: 3, Title: Random Title 322
+Date: 03300405, Length: 88, X: 57, Y: 46, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, Bioinformatics, Seminar, HPC
+delete FAILED -- There is no record with ID 1
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(138,14) -> (470,577) -> (1193,855)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 392
+Date: 09161311, Length: 87, X: 60, Y: 100, Cost: 63
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, VT, HCI
+Size: 155
+Search FAILED -- There is no record with ID 1
+Search FAILED -- There is no record with ID 5
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 395
+Date: 01112249, Length: 72, X: 89, Y: 82, Cost: 75
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computing, Grids, VT, Research
+Size: 146
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(138,14) -> (771,276) -> (1193,855)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(138,14) -> (771,276) -> (1193,855)
+Insert FAILED - There is already a record with ID 4
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(138,14) -> (771,276) -> (1193,855)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(138,14) -> (771,276) -> (1193,855)
+Record with ID 10 successfully deleted from the database
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 402
+Date: 02301449, Length: 88, X: 50, Y: 67, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, Computing, Bioinformatics, Research
+Size: 169
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (940,1108)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (940,1108)
+Insert FAILED - There is already a record with ID 8
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (940,1108)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (940,1108)
+Found record with ID 3:
+ID: 3, Title: Random Title 322
+Date: 03300405, Length: 88, X: 57, Y: 46, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, Bioinformatics, Seminar, HPC
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (940,1108)
+Insert FAILED - There is already a record with ID 8
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 411
+Date: 02060631, Length: 64, X: 49, Y: 84, Cost: 17
+Description: Random description for seminar or research topic.
+Keywords: HCI, Seminar, Computer_Science, Research, HPC
+Size: 152
+Insert FAILED - There is already a record with ID 3
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(138,14) -> (1092,956)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(138,14) -> (1092,956)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(138,14) -> (1092,956)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(138,14) -> (1092,956)
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (625,146) -> (1092,956)
+Record with ID 6 successfully deleted from the database
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 420
+Date: 06280548, Length: 33, X: 21, Y: 39, Cost: 62
+Description: Random description for seminar or research topic.
+Keywords: Research, Seminar, Bioinformatics, HPC, Computing
+Size: 156
+Search FAILED -- There is no record with ID 10
+Search FAILED -- There is no record with ID 4
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (626,145) -> (1092,956)
+Found record with ID 2:
+ID: 2, Title: Random Title 367
+Date: 02201417, Length: 54, X: 70, Y: 79, Cost: 61
+Description: Random description for seminar or research topic.
+Keywords: Grids, VT, Computer_Science, Computing, Seminar
+Found record with ID 7:
+ID: 7, Title: Random Title 364
+Date: 03052356, Length: 79, X: 61, Y: 46, Cost: 17
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, HPC, HCI, Seminar
+Record with ID 8 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(138,14) -> (626,314) -> (1092,956)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 428
+Date: 08171944, Length: 71, X: 10, Y: 44, Cost: 65
+Description: Random description for seminar or research topic.
+Keywords: Computing, Grids, HCI, VT, Research
+Size: 142
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (768,172) -> (1092,956)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (768,172) -> (1092,956)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(138,14) -> (768,172) -> (1092,956)
+Insert FAILED - There is already a record with ID 3
+Found record with ID 2:
+ID: 2, Title: Random Title 367
+Date: 02201417, Length: 54, X: 70, Y: 79, Cost: 61
+Description: Random description for seminar or research topic.
+Keywords: Grids, VT, Computer_Science, Computing, Seminar
+Record with ID 6 successfully deleted from the database
+Search FAILED -- There is no record with ID 6
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 436
+Date: 09150831, Length: 41, X: 64, Y: 26, Cost: 94
+Description: Random description for seminar or research topic.
+Keywords: Grids, HPC, Bioinformatics, Computer_Science, Research
+Size: 161
+Record with ID 3 successfully deleted from the database
+delete FAILED -- There is no record with ID 10
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 439
+Date: 06031254, Length: 43, X: 76, Y: 80, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: Grids, Research, HCI, Computer_Science, Computing
+Size: 156
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(294,22) -> (787,153) -> (1092,956)
+Found record with ID 5:
+ID: 5, Title: Random Title 411
+Date: 02060631, Length: 64, X: 49, Y: 84, Cost: 17
+Description: Random description for seminar or research topic.
+Keywords: HCI, Seminar, Computer_Science, Research, HPC
+Found record with ID 10:
+ID: 10, Title: Random Title 439
+Date: 06031254, Length: 43, X: 76, Y: 80, Cost: 27
+Description: Random description for seminar or research topic.
+Keywords: Grids, Research, HCI, Computer_Science, Computing
+Insert FAILED - There is already a record with ID 4
+Insert FAILED - There is already a record with ID 7
+Record with ID 7 successfully deleted from the database
+delete FAILED -- There is no record with ID 3
+Search FAILED -- There is no record with ID 7
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(0,138) -> (294,22) -> (787,153) -> (1092,956)
+Search FAILED -- There is no record with ID 3
+Record with ID 5 successfully deleted from the database
+Search FAILED -- There is no record with ID 3
+Insert FAILED - There is already a record with ID 10
+Insert FAILED - There is already a record with ID 9
+delete FAILED -- There is no record with ID 6
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,138) -> (294,22) -> (787,1261)
+Search FAILED -- There is no record with ID 8
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,138) -> (294,22) -> (787,1261)
+Insert FAILED - There is already a record with ID 2
+delete FAILED -- There is no record with ID 1
+Insert FAILED - There is already a record with ID 10
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,138) -> (294,22) -> (787,1261)
+delete FAILED -- There is no record with ID 6
+Search FAILED -- There is no record with ID 3
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,138) -> (294,22) -> (787,1261)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,138) -> (294,22) -> (787,1261)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,138) -> (294,22) -> (787,1261)
+Record with ID 2 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 3
+Freeblock List:
+(0,138) -> (294,176) -> (787,1261)
+delete FAILED -- There is no record with ID 6
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 470
+Date: 01252336, Length: 29, X: 32, Y: 20, Cost: 37
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, VT, Computing, HCI, Bioinformatics
+Size: 159
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 4
+Freeblock List:
+(0,138) -> (453,17) -> (787,1261)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 472
+Date: 01161729, Length: 32, X: 79, Y: 46, Cost: 68
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, Seminar, Grids, HCI
+Size: 140
+delete FAILED -- There is no record with ID 8
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(0,138) -> (453,17) -> (927,1121)
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 475
+Date: 09311441, Length: 77, X: 16, Y: 27, Cost: 39
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Seminar, HCI, VT
+Size: 157
+delete FAILED -- There is no record with ID 7
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,138) -> (453,17) -> (1084,964)
+Insert FAILED - There is already a record with ID 10
+Found record with ID 9:
+ID: 9, Title: Random Title 420
+Date: 06280548, Length: 33, X: 21, Y: 39, Cost: 62
+Description: Random description for seminar or research topic.
+Keywords: Research, Seminar, Bioinformatics, HPC, Computing
+Found record with ID 3:
+ID: 3, Title: Random Title 470
+Date: 01252336, Length: 29, X: 32, Y: 20, Cost: 37
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, VT, Computing, HCI, Bioinformatics
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,138) -> (453,17) -> (1084,964)
+Search FAILED -- There is no record with ID 7
+Found record with ID 6:
+ID: 6, Title: Random Title 472
+Date: 01161729, Length: 32, X: 79, Y: 46, Cost: 68
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, Seminar, Grids, HCI
+Found record with ID 6:
+ID: 6, Title: Random Title 472
+Date: 01161729, Length: 32, X: 79, Y: 46, Cost: 68
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, Seminar, Grids, HCI
+Insert FAILED - There is already a record with ID 10
+Insert FAILED - There is already a record with ID 2
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,138) -> (453,17) -> (1084,964)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,138) -> (453,17) -> (1084,964)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,138) -> (453,17) -> (1084,964)
+Search FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 1
+Search FAILED -- There is no record with ID 7
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,138) -> (453,17) -> (1084,964)
+delete FAILED -- There is no record with ID 5
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(0,138) -> (453,17) -> (1084,964)
+delete FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 7
+Found record with ID 4:
+ID: 4, Title: Random Title 436
+Date: 09150831, Length: 41, X: 64, Y: 26, Cost: 94
+Description: Random description for seminar or research topic.
+Keywords: Grids, HPC, Bioinformatics, Computer_Science, Research
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 499
+Date: 10200812, Length: 24, X: 43, Y: 52, Cost: 20
+Description: Random description for seminar or research topic.
+Keywords: Computing, Grids, VT, Seminar, Bioinformatics
+Size: 152
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(0,138) -> (453,17) -> (1236,812)
+Found record with ID 2:
+ID: 2, Title: Random Title 475
+Date: 09311441, Length: 77, X: 16, Y: 27, Cost: 39
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Seminar, HCI, VT
+Insert FAILED - There is already a record with ID 9
+Insert FAILED - There is already a record with ID 6
+Record with ID 2 successfully deleted from the database
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 505
+Date: 11241521, Length: 72, X: 68, Y: 63, Cost: 40
+Description: Random description for seminar or research topic.
+Keywords: HCI, HPC, Computing, Bioinformatics, Grids
+Size: 149
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(0,138) -> (453,17) -> (1076,8) -> (1236,812)
+Record with ID 10 successfully deleted from the database
+Search FAILED -- There is no record with ID 1
+Insert FAILED - There is already a record with ID 7
+Insert FAILED - There is already a record with ID 8
+Found record with ID 8:
+ID: 8, Title: Random Title 505
+Date: 11241521, Length: 72, X: 68, Y: 63, Cost: 40
+Description: Random description for seminar or research topic.
+Keywords: HCI, HPC, Computing, Bioinformatics, Grids
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(0,294) -> (453,17) -> (1076,8) -> (1236,812)
+Found record with ID 3:
+ID: 3, Title: Random Title 470
+Date: 01252336, Length: 29, X: 32, Y: 20, Cost: 37
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, VT, Computing, HCI, Bioinformatics
+Found record with ID 7:
+ID: 7, Title: Random Title 499
+Date: 10200812, Length: 24, X: 43, Y: 52, Cost: 20
+Description: Random description for seminar or research topic.
+Keywords: Computing, Grids, VT, Seminar, Bioinformatics
+delete FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 5
+Record with ID 8 successfully deleted from the database
+delete FAILED -- There is no record with ID 2
+delete FAILED -- There is no record with ID 5
+Found record with ID 4:
+ID: 4, Title: Random Title 436
+Date: 09150831, Length: 41, X: 64, Y: 26, Cost: 94
+Description: Random description for seminar or research topic.
+Keywords: Grids, HPC, Bioinformatics, Computer_Science, Research
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 521
+Date: 08061613, Length: 25, X: 73, Y: 25, Cost: 31
+Description: Random description for seminar or research topic.
+Keywords: HCI, Bioinformatics, Computing, Research, HPC
+Size: 152
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 522
+Date: 09020906, Length: 77, X: 27, Y: 44, Cost: 78
+Description: Random description for seminar or research topic.
+Keywords: HCI, Seminar, VT, Computing, Bioinformatics
+Size: 150
+Record with ID 7 successfully deleted from the database
+Insert FAILED - There is already a record with ID 8
+Record with ID 9 successfully deleted from the database
+delete FAILED -- There is no record with ID 10
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 527
+Date: 06100847, Length: 49, X: 30, Y: 72, Cost: 31
+Description: Random description for seminar or research topic.
+Keywords: Grids, VT, Seminar, Research, HPC
+Size: 140
+Record with ID 4 successfully deleted from the database
+Record with ID 1 successfully deleted from the database
+Record with ID 3 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(292,495) -> (927,1121)
+Insert FAILED - There is already a record with ID 2
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 533
+Date: 07252210, Length: 35, X: 21, Y: 76, Cost: 98
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Seminar, Research, HCI
+Size: 163
+delete FAILED -- There is no record with ID 10
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(455,332) -> (927,1121)
+delete FAILED -- There is no record with ID 7
+Record with ID 2 successfully deleted from the database
+delete FAILED -- There is no record with ID 2
+Insert FAILED - There is already a record with ID 6
+delete FAILED -- There is no record with ID 5
+Insert FAILED - There is already a record with ID 4
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 542
+Date: 01190059, Length: 56, X: 74, Y: 51, Cost: 76
+Description: Random description for seminar or research topic.
+Keywords: Computing, Grids, Seminar, Research, Bioinformatics
+Size: 158
+delete FAILED -- There is no record with ID 3
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 544
+Date: 10131331, Length: 18, X: 52, Y: 83, Cost: 36
+Description: Random description for seminar or research topic.
+Keywords: Research, HPC, Computing, Grids, Bioinformatics
+Size: 154
+Insert FAILED - There is already a record with ID 4
+Record with ID 1 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(152,140) -> (455,158) -> (767,20) -> (927,1121)
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 548
+Date: 03301131, Length: 20, X: 100, Y: 75, Cost: 37
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Computer_Science, Grids, Computing, Research
+Size: 167
+Search FAILED -- There is no record with ID 1
+Search FAILED -- There is no record with ID 7
+Search FAILED -- There is no record with ID 9
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(152,140) -> (455,158) -> (767,20) -> (1094,954)
+Insert FAILED - There is already a record with ID 6
+Search FAILED -- There is no record with ID 1
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(152,140) -> (455,158) -> (767,20) -> (1094,954)
+delete FAILED -- There is no record with ID 2
+delete FAILED -- There is no record with ID 1
+delete FAILED -- There is no record with ID 2
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(152,140) -> (455,158) -> (767,20) -> (1094,954)
+Found record with ID 5:
+ID: 5, Title: Random Title 548
+Date: 03301131, Length: 20, X: 100, Y: 75, Cost: 37
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Computer_Science, Grids, Computing, Research
+Search FAILED -- There is no record with ID 9
+Record with ID 5 successfully deleted from the database
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 563
+Date: 06100329, Length: 99, X: 56, Y: 14, Cost: 77
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Bioinformatics, VT, Computer_Science, HCI
+Size: 157
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(152,303) -> (612,1) -> (767,20) -> (927,1121)
+delete FAILED -- There is no record with ID 7
+delete FAILED -- There is no record with ID 2
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 568
+Date: 02041657, Length: 41, X: 61, Y: 26, Cost: 58
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Research, VT, Grids
+Size: 160
+Found record with ID 6:
+ID: 6, Title: Random Title 472
+Date: 01161729, Length: 32, X: 79, Y: 46, Cost: 68
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, Seminar, Grids, HCI
+Found record with ID 7:
+ID: 7, Title: Random Title 568
+Date: 02041657, Length: 41, X: 61, Y: 26, Cost: 58
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Research, VT, Grids
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Search FAILED -- There is no record with ID 2
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Found record with ID 7:
+ID: 7, Title: Random Title 568
+Date: 02041657, Length: 41, X: 61, Y: 26, Cost: 58
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Research, VT, Grids
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Insert FAILED - There is already a record with ID 8
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (927,1121)
+delete FAILED -- There is no record with ID 9
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 584
+Date: 06191736, Length: 42, X: 73, Y: 26, Cost: 70
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, VT, Bioinformatics, Computing
+Size: 152
+Insert FAILED - There is already a record with ID 8
+Insert FAILED - There is already a record with ID 1
+delete FAILED -- There is no record with ID 2
+delete FAILED -- There is no record with ID 4
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (1079,969)
+Insert FAILED - There is already a record with ID 1
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(312,143) -> (612,1) -> (767,20) -> (1079,969)
+Record with ID 10 successfully deleted from the database
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 593
+Date: 01022341, Length: 72, X: 47, Y: 79, Cost: 29
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, VT, HCI, Seminar
+Size: 146
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(312,143) -> (758,29) -> (1079,969)
+Found record with ID 8:
+ID: 8, Title: Random Title 521
+Date: 08061613, Length: 25, X: 73, Y: 25, Cost: 31
+Description: Random description for seminar or research topic.
+Keywords: HCI, Bioinformatics, Computing, Research, HPC
+Record with ID 3 successfully deleted from the database
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 597
+Date: 03061457, Length: 35, X: 46, Y: 83, Cost: 31
+Description: Random description for seminar or research topic.
+Keywords: Grids, HPC, Bioinformatics, Computer_Science, HCI
+Size: 156
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(468,144) -> (758,29) -> (1079,969)
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(468,144) -> (758,29) -> (1079,969)
+Insert FAILED - There is already a record with ID 6
+Search FAILED -- There is no record with ID 3
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(468,144) -> (758,29) -> (1079,969)
+Found record with ID 7:
+ID: 7, Title: Random Title 568
+Date: 02041657, Length: 41, X: 61, Y: 26, Cost: 58
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Research, VT, Grids
+Search FAILED -- There is no record with ID 3
+Record with ID 9 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(312,300) -> (758,29) -> (1079,969)
+delete FAILED -- There is no record with ID 10
+delete FAILED -- There is no record with ID 3
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(312,300) -> (758,29) -> (1079,969)
+Record with ID 6 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(312,300) -> (758,169) -> (1079,969)
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 612
+Date: 06072242, Length: 14, X: 37, Y: 93, Cost: 73
+Description: Random description for seminar or research topic.
+Keywords: Computing, Bioinformatics, Seminar, Grids, VT
+Size: 152
+Search FAILED -- There is no record with ID 9
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(464,148) -> (758,169) -> (1079,969)
+Insert FAILED - There is already a record with ID 3
+Record with ID 3 successfully deleted from the database
+delete FAILED -- There is no record with ID 10
+Search FAILED -- There is no record with ID 6
+delete FAILED -- There is no record with ID 9
+delete FAILED -- There is no record with ID 9
+Search FAILED -- There is no record with ID 10
+Insert FAILED - There is already a record with ID 8
+Search FAILED -- There is no record with ID 3
+Search FAILED -- There is no record with ID 9
+delete FAILED -- There is no record with ID 4
+delete FAILED -- There is no record with ID 2
+Search FAILED -- There is no record with ID 3
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 628
+Date: 12170246, Length: 25, X: 81, Y: 77, Cost: 94
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Grids, VT, Bioinformatics, HCI
+Size: 155
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(467,145) -> (758,169) -> (1079,969)
+Insert FAILED - There is already a record with ID 1
+Search FAILED -- There is no record with ID 4
+Found record with ID 8:
+ID: 8, Title: Random Title 521
+Date: 08061613, Length: 25, X: 73, Y: 25, Cost: 31
+Description: Random description for seminar or research topic.
+Keywords: HCI, Bioinformatics, Computing, Research, HPC
+Found record with ID 5:
+ID: 5, Title: Random Title 593
+Date: 01022341, Length: 72, X: 47, Y: 79, Cost: 29
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, VT, HCI, Seminar
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 634
+Date: 08252214, Length: 35, X: 29, Y: 78, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HPC, Bioinformatics, VT, HCI
+Size: 144
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(611,1) -> (758,169) -> (1079,969)
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 636
+Date: 06261644, Length: 72, X: 59, Y: 55, Cost: 10
+Description: Random description for seminar or research topic.
+Keywords: HPC, Computer_Science, Computing, HCI, Seminar
+Size: 153
+Record with ID 8 successfully deleted from the database
+Insert FAILED - There is already a record with ID 6
+Record with ID 2 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(0,152) -> (467,145) -> (911,16) -> (1079,969)
+delete FAILED -- There is no record with ID 3
+delete FAILED -- There is no record with ID 2
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 643
+Date: 05212044, Length: 55, X: 75, Y: 19, Cost: 21
+Description: Random description for seminar or research topic.
+Keywords: HPC, Research, Seminar, Computer_Science, HCI
+Size: 152
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 6
+Freeblock List:
+(467,145) -> (911,16) -> (1079,969)
+Insert FAILED - There is already a record with ID 6
+Record with ID 6 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(312,300) -> (911,16) -> (1079,969)
+delete FAILED -- There is no record with ID 3
+Record with ID 1 successfully deleted from the database
+Found record with ID 2:
+ID: 2, Title: Random Title 643
+Date: 05212044, Length: 55, X: 75, Y: 19, Cost: 21
+Description: Random description for seminar or research topic.
+Keywords: HPC, Research, Seminar, Computer_Science, HCI
+delete FAILED -- There is no record with ID 4
+Search FAILED -- There is no record with ID 1
+Insert FAILED - There is already a record with ID 7
+Found record with ID 7:
+ID: 7, Title: Random Title 568
+Date: 02041657, Length: 41, X: 61, Y: 26, Cost: 58
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Research, VT, Grids
+Record with ID 10 successfully deleted from the database
+Record with ID 2 successfully deleted from the database
+delete FAILED -- There is no record with ID 1
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,152) -> (312,300) -> (758,1290)
+delete FAILED -- There is no record with ID 1
+Search FAILED -- There is no record with ID 4
+Search FAILED -- There is no record with ID 4
+delete FAILED -- There is no record with ID 3
+Insert FAILED - There is already a record with ID 7
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,152) -> (312,300) -> (758,1290)
+delete FAILED -- There is no record with ID 2
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 666
+Date: 03130947, Length: 52, X: 72, Y: 45, Cost: 85
+Description: Random description for seminar or research topic.
+Keywords: Computing, Seminar, HPC, Computer_Science, Grids
+Size: 155
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,152) -> (467,145) -> (758,1290)
+Search FAILED -- There is no record with ID 6
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,152) -> (467,145) -> (758,1290)
+delete FAILED -- There is no record with ID 9
+Search FAILED -- There is no record with ID 10
+Search FAILED -- There is no record with ID 8
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,152) -> (467,145) -> (758,1290)
+delete FAILED -- There is no record with ID 4
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 675
+Date: 12141013, Length: 58, X: 41, Y: 48, Cost: 50
+Description: Random description for seminar or research topic.
+Keywords: VT, Grids, HPC, Computing, Seminar
+Size: 141
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 676
+Date: 04181332, Length: 62, X: 76, Y: 36, Cost: 80
+Description: Random description for seminar or research topic.
+Keywords: HPC, Seminar, Computing, Grids, VT
+Size: 141
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 677
+Date: 12172255, Length: 100, X: 37, Y: 30, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Computer_Science, Computing, Grids, Seminar
+Size: 166
+Record with ID 5 successfully deleted from the database
+Search FAILED -- There is no record with ID 5
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(141,11) -> (608,150) -> (924,1124)
+Found record with ID 1:
+ID: 1, Title: Random Title 666
+Date: 03130947, Length: 52, X: 72, Y: 45, Cost: 85
+Description: Random description for seminar or research topic.
+Keywords: Computing, Seminar, HPC, Computer_Science, Grids
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(141,11) -> (608,150) -> (924,1124)
+Search FAILED -- There is no record with ID 6
+Record with ID 2 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(141,11) -> (467,291) -> (924,1124)
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 686
+Date: 10102057, Length: 41, X: 20, Y: 13, Cost: 84
+Description: Random description for seminar or research topic.
+Keywords: Grids, HCI, Computing, VT, HPC
+Size: 137
+Found record with ID 8:
+ID: 8, Title: Random Title 675
+Date: 12141013, Length: 58, X: 41, Y: 48, Cost: 50
+Description: Random description for seminar or research topic.
+Keywords: VT, Grids, HPC, Computing, Seminar
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(141,11) -> (604,154) -> (924,1124)
+Found record with ID 7:
+ID: 7, Title: Random Title 568
+Date: 02041657, Length: 41, X: 61, Y: 26, Cost: 58
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Bioinformatics, Research, VT, Grids
+Record with ID 3 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(141,11) -> (604,1444)
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 692
+Date: 07181843, Length: 99, X: 14, Y: 49, Cost: 30
+Description: Random description for seminar or research topic.
+Keywords: HCI, HPC, Grids, Computer_Science, Seminar
+Size: 149
+Insert FAILED - There is already a record with ID 2
+Insert FAILED - There is already a record with ID 1
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(141,11) -> (753,1295)
+Record with ID 3 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(141,11) -> (604,1444)
+Insert FAILED - There is already a record with ID 2
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(141,11) -> (604,1444)
+Record with ID 7 successfully deleted from the database
+delete FAILED -- There is no record with ID 7
+delete FAILED -- There is no record with ID 5
+Found record with ID 1:
+ID: 1, Title: Random Title 666
+Date: 03130947, Length: 52, X: 72, Y: 45, Cost: 85
+Description: Random description for seminar or research topic.
+Keywords: Computing, Seminar, HPC, Computer_Science, Grids
+Found record with ID 8:
+ID: 8, Title: Random Title 675
+Date: 12141013, Length: 58, X: 41, Y: 48, Cost: 50
+Description: Random description for seminar or research topic.
+Keywords: VT, Grids, HPC, Computing, Seminar
+Search FAILED -- There is no record with ID 10
+Search FAILED -- There is no record with ID 4
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(141,171) -> (604,1444)
+delete FAILED -- There is no record with ID 7
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 709
+Date: 11021116, Length: 28, X: 43, Y: 16, Cost: 38
+Description: Random description for seminar or research topic.
+Keywords: HPC, VT, Computer_Science, Research, Bioinformatics
+Size: 158
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(299,13) -> (604,1444)
+delete FAILED -- There is no record with ID 5
+Record with ID 8 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,141) -> (299,13) -> (604,1444)
+Search FAILED -- There is no record with ID 6
+Record with ID 1 successfully deleted from the database
+delete FAILED -- There is no record with ID 1
+delete FAILED -- There is no record with ID 9
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 718
+Date: 11070939, Length: 28, X: 22, Y: 49, Cost: 12
+Description: Random description for seminar or research topic.
+Keywords: HPC, Computing, Bioinformatics, Grids, HCI
+Size: 149
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 3
+Freeblock List:
+(0,141) -> (448,19) -> (604,1444)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 3
+Freeblock List:
+(0,141) -> (448,19) -> (604,1444)
+delete FAILED -- There is no record with ID 9
+Search FAILED -- There is no record with ID 3
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 3
+Freeblock List:
+(0,141) -> (448,19) -> (604,1444)
+Insert FAILED - There is already a record with ID 4
+delete FAILED -- There is no record with ID 6
+Record with ID 10 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,141) -> (299,168) -> (604,1444)
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 728
+Date: 12061620, Length: 99, X: 47, Y: 68, Cost: 25
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Computing, HPC, Seminar, Research
+Size: 156
+delete FAILED -- There is no record with ID 6
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,141) -> (455,12) -> (604,1444)
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 731
+Date: 01172327, Length: 86, X: 68, Y: 37, Cost: 70
+Description: Random description for seminar or research topic.
+Keywords: Grids, Bioinformatics, Research, HPC, VT
+Size: 147
+Record with ID 2 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,141) -> (455,149) -> (751,1297)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 734
+Date: 10131301, Length: 21, X: 87, Y: 70, Cost: 10
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, HCI, Computer_Science, Seminar, VT
+Size: 157
+Search FAILED -- There is no record with ID 2
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,299) -> (455,149) -> (908,1140)
+Insert FAILED - There is already a record with ID 3
+Insert FAILED - There is already a record with ID 3
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 740
+Date: 11230909, Length: 26, X: 63, Y: 41, Cost: 72
+Description: Random description for seminar or research topic.
+Keywords: Research, Computing, VT, Computer_Science, Seminar
+Size: 157
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(157,142) -> (455,149) -> (908,1140)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(157,142) -> (455,149) -> (908,1140)
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 743
+Date: 07280117, Length: 81, X: 57, Y: 63, Cost: 83
+Description: Random description for seminar or research topic.
+Keywords: Research, HCI, Seminar, Computer_Science, Grids
+Size: 154
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: 5
+6: 6
+7: TOMBSTONE
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(157,142) -> (455,149) -> (1062,986)
+delete FAILED -- There is no record with ID 2
+Insert FAILED - There is already a record with ID 6
+Record with ID 5 successfully deleted from the database
+Found record with ID 9:
+ID: 9, Title: Random Title 731
+Date: 01172327, Length: 86, X: 68, Y: 37, Cost: 70
+Description: Random description for seminar or research topic.
+Keywords: Grids, Bioinformatics, Research, HPC, VT
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(0,299) -> (455,149) -> (1062,986)
+Record with ID 3 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,604) -> (1062,986)
+Record with ID 9 successfully deleted from the database
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 753
+Date: 11131709, Length: 22, X: 22, Y: 74, Cost: 99
+Description: Random description for seminar or research topic.
+Keywords: Grids, Computing, Seminar, HCI, Computer_Science
+Size: 155
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 754
+Date: 12131348, Length: 17, X: 46, Y: 82, Cost: 66
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computer_Science, Grids, Bioinformatics, HPC
+Size: 156
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 755
+Date: 02051451, Length: 77, X: 80, Y: 73, Cost: 18
+Description: Random description for seminar or research topic.
+Keywords: Grids, Computing, VT, Seminar, HPC
+Size: 141
+delete FAILED -- There is no record with ID 9
+Insert FAILED - There is already a record with ID 5
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(452,299) -> (1062,986)
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 759
+Date: 12301145, Length: 69, X: 15, Y: 13, Cost: 43
+Description: Random description for seminar or research topic.
+Keywords: HPC, Seminar, VT, Research, Bioinformatics
+Size: 149
+Search FAILED -- There is no record with ID 2
+Insert FAILED - There is already a record with ID 1
+Record with ID 4 successfully deleted from the database
+Record with ID 7 successfully deleted from the database
+Record with ID 1 successfully deleted from the database
+Record with ID 5 successfully deleted from the database
+Search FAILED -- There is no record with ID 10
+Search FAILED -- There is no record with ID 5
+Found record with ID 8:
+ID: 8, Title: Random Title 743
+Date: 07280117, Length: 81, X: 57, Y: 63, Cost: 83
+Description: Random description for seminar or research topic.
+Keywords: Research, HCI, Seminar, Computer_Science, Grids
+Record with ID 6 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: 8
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 1
+Freeblock List:
+(0,908) -> (1062,986)
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 771
+Date: 07290711, Length: 32, X: 77, Y: 59, Cost: 35
+Description: Random description for seminar or research topic.
+Keywords: Research, HCI, Seminar, VT, Computing
+Size: 144
+Record with ID 8 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 1
+Freeblock List:
+(144,1904)
+Search FAILED -- There is no record with ID 6
+Search FAILED -- There is no record with ID 10
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 776
+Date: 09272352, Length: 36, X: 17, Y: 42, Cost: 79
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computer_Science, Bioinformatics, Research, Computing
+Size: 165
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(309,1739)
+Search FAILED -- There is no record with ID 9
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(309,1739)
+Record with ID 4 successfully deleted from the database
+Search FAILED -- There is no record with ID 4
+Search FAILED -- There is no record with ID 2
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 1
+Freeblock List:
+(0,144) -> (309,1739)
+Search FAILED -- There is no record with ID 9
+Search FAILED -- There is no record with ID 4
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 1
+Freeblock List:
+(0,144) -> (309,1739)
+delete FAILED -- There is no record with ID 10
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 1
+Freeblock List:
+(0,144) -> (309,1739)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 789
+Date: 01270215, Length: 36, X: 63, Y: 11, Cost: 98
+Description: Random description for seminar or research topic.
+Keywords: Research, Computer_Science, Bioinformatics, VT, Seminar
+Size: 162
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 790
+Date: 11202123, Length: 54, X: 34, Y: 26, Cost: 47
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, HPC, Bioinformatics, VT
+Size: 159
+Search FAILED -- There is no record with ID 1
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,144) -> (630,1418)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,144) -> (630,1418)
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,144) -> (630,1418)
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 795
+Date: 12081551, Length: 27, X: 44, Y: 58, Cost: 17
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, Research, Bioinformatics, HPC
+Size: 163
+Record with ID 6 successfully deleted from the database
+delete FAILED -- There is no record with ID 6
+Search FAILED -- There is no record with ID 4
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 799
+Date: 11130408, Length: 85, X: 85, Y: 79, Cost: 62
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Research, Bioinformatics, Grids, VT
+Size: 160
+Record with ID 7 successfully deleted from the database
+delete FAILED -- There is no record with ID 7
+Found record with ID 8:
+ID: 8, Title: Random Title 795
+Date: 12081551, Length: 27, X: 44, Y: 58, Cost: 17
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Computer_Science, Research, Bioinformatics, HPC
+Found record with ID 9:
+ID: 9, Title: Random Title 790
+Date: 11202123, Length: 54, X: 34, Y: 26, Cost: 47
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, HPC, Bioinformatics, VT
+Insert FAILED - There is already a record with ID 4
+Record with ID 8 successfully deleted from the database
+Search FAILED -- There is no record with ID 1
+Search FAILED -- There is no record with ID 7
+delete FAILED -- There is no record with ID 7
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,309) -> (469,2) -> (630,1418)
+Search FAILED -- There is no record with ID 2
+Search FAILED -- There is no record with ID 5
+delete FAILED -- There is no record with ID 2
+Search FAILED -- There is no record with ID 1
+Record with ID 9 successfully deleted from the database
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 0
+Freeblock List:
+(0,2048)
+delete FAILED -- There is no record with ID 10
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 818
+Date: 09031732, Length: 91, X: 78, Y: 69, Cost: 77
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, HCI, Bioinformatics, HPC, Research
+Size: 159
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 819
+Date: 11312007, Length: 31, X: 75, Y: 85, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, VT, Bioinformatics, HCI
+Size: 146
+Search FAILED -- There is no record with ID 9
+delete FAILED -- There is no record with ID 2
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 822
+Date: 12242218, Length: 69, X: 68, Y: 66, Cost: 26
+Description: Random description for seminar or research topic.
+Keywords: HPC, Research, Seminar, Bioinformatics, HCI
+Size: 150
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: TOMBSTONE
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(455,1593)
+Found record with ID 6:
+ID: 6, Title: Random Title 819
+Date: 11312007, Length: 31, X: 75, Y: 85, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, VT, Bioinformatics, HCI
+Search FAILED -- There is no record with ID 10
+delete FAILED -- There is no record with ID 9
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 827
+Date: 05281229, Length: 77, X: 24, Y: 14, Cost: 88
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, HCI, Research, Computer_Science, HPC
+Size: 159
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 828
+Date: 08222018, Length: 58, X: 41, Y: 89, Cost: 44
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, VT, Grids, Bioinformatics
+Size: 161
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(775,1273)
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 830
+Date: 01061851, Length: 72, X: 66, Y: 18, Cost: 65
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, HCI, Research, HPC
+Size: 148
+Search FAILED -- There is no record with ID 5
+Found record with ID 6:
+ID: 6, Title: Random Title 819
+Date: 11312007, Length: 31, X: 75, Y: 85, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, VT, Bioinformatics, HCI
+Found record with ID 2:
+ID: 2, Title: Random Title 822
+Date: 12242218, Length: 69, X: 68, Y: 66, Cost: 26
+Description: Random description for seminar or research topic.
+Keywords: HPC, Research, Seminar, Bioinformatics, HCI
+Successfully inserted record with ID 1
+ID: 1, Title: Random Title 834
+Date: 08170250, Length: 32, X: 63, Y: 65, Cost: 47
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, Bioinformatics, HCI, Computing
+Size: 153
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: 4
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(1076,972)
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(775,148) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(775,148) -> (1076,972)
+Found record with ID 6:
+ID: 6, Title: Random Title 819
+Date: 11312007, Length: 31, X: 75, Y: 85, Cost: 54
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, VT, Bioinformatics, HCI
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(775,148) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(775,148) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(775,148) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(775,148) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 6
+Freeblock List:
+(775,148) -> (1076,972)
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 845
+Date: 10250811, Length: 18, X: 60, Y: 20, Cost: 82
+Description: Random description for seminar or research topic.
+Keywords: HPC, Seminar, Computing, Grids, VT
+Size: 141
+Search FAILED -- There is no record with ID 8
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(916,7) -> (1076,972)
+Found record with ID 2:
+ID: 2, Title: Random Title 822
+Date: 12242218, Length: 69, X: 68, Y: 66, Cost: 26
+Description: Random description for seminar or research topic.
+Keywords: HPC, Research, Seminar, Bioinformatics, HCI
+Record with ID 6 successfully deleted from the database
+Found record with ID 3:
+ID: 3, Title: Random Title 818
+Date: 09031732, Length: 91, X: 78, Y: 69, Cost: 77
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, HCI, Bioinformatics, HPC, Research
+Record with ID 3 successfully deleted from the database
+Search FAILED -- There is no record with ID 3
+delete FAILED -- There is no record with ID 3
+Search FAILED -- There is no record with ID 3
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(0,305) -> (916,7) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(0,305) -> (916,7) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(0,305) -> (916,7) -> (1076,972)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 858
+Date: 01091807, Length: 86, X: 44, Y: 80, Cost: 41
+Description: Random description for seminar or research topic.
+Keywords: Research, Computer_Science, Seminar, HCI, HPC
+Size: 152
+delete FAILED -- There is no record with ID 8
+Insert FAILED - There is already a record with ID 10
+Insert FAILED - There is already a record with ID 10
+Search FAILED -- There is no record with ID 5
+Found record with ID 2:
+ID: 2, Title: Random Title 822
+Date: 12242218, Length: 69, X: 68, Y: 66, Cost: 26
+Description: Random description for seminar or research topic.
+Keywords: HPC, Research, Seminar, Bioinformatics, HCI
+Insert FAILED - There is already a record with ID 10
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(152,153) -> (916,7) -> (1076,972)
+Found record with ID 9:
+ID: 9, Title: Random Title 827
+Date: 05281229, Length: 77, X: 24, Y: 14, Cost: 88
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, HCI, Research, Computer_Science, HPC
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 867
+Date: 05152008, Length: 63, X: 39, Y: 36, Cost: 82
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Research, Bioinformatics, HCI, Seminar
+Size: 163
+Found record with ID 7:
+ID: 7, Title: Random Title 828
+Date: 08222018, Length: 58, X: 41, Y: 89, Cost: 44
+Description: Random description for seminar or research topic.
+Keywords: Computing, Computer_Science, VT, Grids, Bioinformatics
+Insert FAILED - There is already a record with ID 3
+delete FAILED -- There is no record with ID 8
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(152,153) -> (916,7) -> (1239,809)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(152,153) -> (916,7) -> (1239,809)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: 9
+10: 10
+total records: 7
+Freeblock List:
+(152,153) -> (916,7) -> (1239,809)
+Insert FAILED - There is already a record with ID 7
+Search FAILED -- There is no record with ID 5
+Search FAILED -- There is no record with ID 4
+Record with ID 6 successfully deleted from the database
+Insert FAILED - There is already a record with ID 2
+Search FAILED -- There is no record with ID 4
+Record with ID 10 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(0,305) -> (775,148) -> (1239,809)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(0,305) -> (775,148) -> (1239,809)
+Insert FAILED - There is already a record with ID 7
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(0,305) -> (775,148) -> (1239,809)
+Hashtable:
+1: 1
+2: 2
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 5
+Freeblock List:
+(0,305) -> (775,148) -> (1239,809)
+Record with ID 2 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(0,455) -> (775,148) -> (1239,809)
+delete FAILED -- There is no record with ID 8
+Insert FAILED - There is already a record with ID 7
+Search FAILED -- There is no record with ID 4
+Search FAILED -- There is no record with ID 6
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(0,455) -> (775,148) -> (1239,809)
+Record with ID 3 successfully deleted from the database
+Search FAILED -- There is no record with ID 5
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,455) -> (775,148) -> (1076,972)
+delete FAILED -- There is no record with ID 3
+Search FAILED -- There is no record with ID 3
+delete FAILED -- There is no record with ID 5
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: 9
+10: TOMBSTONE
+total records: 3
+Freeblock List:
+(0,455) -> (775,148) -> (1076,972)
+Search FAILED -- There is no record with ID 4
+delete FAILED -- There is no record with ID 6
+Insert FAILED - There is already a record with ID 9
+Record with ID 9 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 2
+Freeblock List:
+(0,614) -> (775,148) -> (1076,972)
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 905
+Date: 07121112, Length: 35, X: 83, Y: 15, Cost: 36
+Description: Random description for seminar or research topic.
+Keywords: Seminar, HPC, HCI, VT, Computer_Science
+Size: 146
+Successfully inserted record with ID 3
+ID: 3, Title: Random Title 906
+Date: 11040307, Length: 98, X: 22, Y: 37, Cost: 19
+Description: Random description for seminar or research topic.
+Keywords: Research, Seminar, Grids, VT, Computing
+Size: 146
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(292,322) -> (775,148) -> (1076,972)
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(292,322) -> (775,148) -> (1076,972)
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: 3
+4: TOMBSTONE
+5: TOMBSTONE
+6: 6
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: TOMBSTONE
+total records: 4
+Freeblock List:
+(292,322) -> (775,148) -> (1076,972)
+Search FAILED -- There is no record with ID 10
+Search FAILED -- There is no record with ID 8
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 912
+Date: 07060425, Length: 69, X: 39, Y: 62, Cost: 100
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Seminar, Computing, HPC, Research
+Size: 156
+Found record with ID 8:
+ID: 8, Title: Random Title 912
+Date: 07060425, Length: 69, X: 39, Y: 62, Cost: 100
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Seminar, Computing, HPC, Research
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 914
+Date: 04132308, Length: 59, X: 87, Y: 89, Cost: 56
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, Seminar, Bioinformatics, Grids
+Size: 153
+Insert FAILED - There is already a record with ID 3
+Search FAILED -- There is no record with ID 4
+Record with ID 6 successfully deleted from the database
+Found record with ID 1:
+ID: 1, Title: Random Title 834
+Date: 08170250, Length: 32, X: 63, Y: 65, Cost: 47
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, Bioinformatics, HCI, Computing
+Record with ID 3 successfully deleted from the database
+Record with ID 8 successfully deleted from the database
+Successfully inserted record with ID 10
+ID: 10, Title: Random Title 921
+Date: 07220238, Length: 31, X: 30, Y: 78, Cost: 33
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Seminar, Grids, HCI, VT
+Size: 148
+delete FAILED -- There is no record with ID 2
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(148,300) -> (601,13) -> (775,148) -> (1076,972)
+Insert FAILED - There is already a record with ID 1
+Search FAILED -- There is no record with ID 6
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 926
+Date: 06212258, Length: 23, X: 45, Y: 32, Cost: 18
+Description: Random description for seminar or research topic.
+Keywords: HPC, Seminar, Research, Computing, Grids
+Size: 147
+Found record with ID 5:
+ID: 5, Title: Random Title 914
+Date: 04132308, Length: 59, X: 87, Y: 89, Cost: 56
+Description: Random description for seminar or research topic.
+Keywords: HCI, Computing, Seminar, Bioinformatics, Grids
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 5
+Freeblock List:
+(295,153) -> (601,13) -> (775,148) -> (1076,972)
+Search FAILED -- There is no record with ID 6
+Record with ID 4 successfully deleted from the database
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: 5
+6: TOMBSTONE
+7: 7
+8: TOMBSTONE
+9: TOMBSTONE
+10: 10
+total records: 4
+Freeblock List:
+(148,300) -> (601,13) -> (775,148) -> (1076,972)
+Record with ID 5 successfully deleted from the database
+Search FAILED -- There is no record with ID 4
+Insert FAILED - There is already a record with ID 1
+delete FAILED -- There is no record with ID 3
+Found record with ID 1:
+ID: 1, Title: Random Title 834
+Date: 08170250, Length: 32, X: 63, Y: 65, Cost: 47
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, Bioinformatics, HCI, Computing
+Search FAILED -- There is no record with ID 8
+Insert FAILED - There is already a record with ID 1
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 939
+Date: 08061004, Length: 77, X: 58, Y: 55, Cost: 44
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, Computer_Science, Grids, HCI
+Size: 149
+Search FAILED -- There is no record with ID 5
+Found record with ID 1:
+ID: 1, Title: Random Title 834
+Date: 08170250, Length: 32, X: 63, Y: 65, Cost: 47
+Description: Random description for seminar or research topic.
+Keywords: Seminar, Grids, Bioinformatics, HCI, Computing
+delete FAILED -- There is no record with ID 8
+Successfully inserted record with ID 8
+ID: 8, Title: Random Title 943
+Date: 04291253, Length: 58, X: 75, Y: 96, Cost: 53
+Description: Random description for seminar or research topic.
+Keywords: VT, Computing, Research, Seminar, Bioinformatics
+Size: 155
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: TOMBSTONE
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 5
+Freeblock List:
+(452,162) -> (775,148) -> (1076,972)
+Insert FAILED - There is already a record with ID 10
+Search FAILED -- There is no record with ID 3
+Insert FAILED - There is already a record with ID 1
+Successfully inserted record with ID 4
+ID: 4, Title: Random Title 948
+Date: 07210913, Length: 69, X: 30, Y: 69, Cost: 41
+Description: Random description for seminar or research topic.
+Keywords: VT, Research, Computer_Science, HCI, Seminar
+Size: 151
+Hashtable:
+1: 1
+2: TOMBSTONE
+3: TOMBSTONE
+4: 4
+5: TOMBSTONE
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 6
+Freeblock List:
+(603,11) -> (775,148) -> (1076,972)
+Record with ID 9 successfully deleted from the database
+Record with ID 7 successfully deleted from the database
+Successfully inserted record with ID 7
+ID: 7, Title: Random Title 952
+Date: 12071947, Length: 89, X: 79, Y: 82, Cost: 82
+Description: Random description for seminar or research topic.
+Keywords: HPC, Computer_Science, VT, HCI, Computing
+Size: 148
+Successfully inserted record with ID 2
+ID: 2, Title: Random Title 953
+Date: 03280115, Length: 96, X: 23, Y: 37, Cost: 11
+Description: Random description for seminar or research topic.
+Keywords: Research, HCI, Seminar, Bioinformatics, Computer_Science
+Size: 163
+Insert FAILED - There is already a record with ID 2
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 955
+Date: 06202024, Length: 85, X: 25, Y: 93, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Grids, HCI, Research, VT, Seminar
+Size: 140
+Insert FAILED - There is already a record with ID 10
+delete FAILED -- There is no record with ID 9
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 7
+Freeblock List:
+(296,1) -> (906,17) -> (1076,972)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: TOMBSTONE
+10: 10
+total records: 7
+Freeblock List:
+(296,1) -> (906,17) -> (1076,972)
+Insert FAILED - There is already a record with ID 7
+Successfully inserted record with ID 9
+ID: 9, Title: Random Title 961
+Date: 07252007, Length: 65, X: 90, Y: 72, Cost: 81
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, VT, Computing
+Size: 161
+Found record with ID 10:
+ID: 10, Title: Random Title 921
+Date: 07220238, Length: 31, X: 30, Y: 78, Cost: 33
+Description: Random description for seminar or research topic.
+Keywords: Computer_Science, Seminar, Grids, HCI, VT
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: 10
+total records: 8
+Freeblock List:
+(296,1) -> (906,17) -> (1237,811)
+Found record with ID 9:
+ID: 9, Title: Random Title 961
+Date: 07252007, Length: 65, X: 90, Y: 72, Cost: 81
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, VT, Computing
+Record with ID 10 successfully deleted from the database
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1237,811)
+Found record with ID 5:
+ID: 5, Title: Random Title 955
+Date: 06202024, Length: 85, X: 25, Y: 93, Cost: 89
+Description: Random description for seminar or research topic.
+Keywords: Grids, HCI, Research, VT, Seminar
+Search FAILED -- There is no record with ID 6
+Found record with ID 9:
+ID: 9, Title: Random Title 961
+Date: 07252007, Length: 65, X: 90, Y: 72, Cost: 81
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, VT, Computing
+Found record with ID 9:
+ID: 9, Title: Random Title 961
+Date: 07252007, Length: 65, X: 90, Y: 72, Cost: 81
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, VT, Computing
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1237,811)
+Insert FAILED - There is already a record with ID 9
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1237,811)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1237,811)
+Insert FAILED - There is already a record with ID 7
+Search FAILED -- There is no record with ID 10
+Insert FAILED - There is already a record with ID 2
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1237,811)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: TOMBSTONE
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1237,811)
+Insert FAILED - There is already a record with ID 7
+Successfully inserted record with ID 6
+ID: 6, Title: Random Title 981
+Date: 11230403, Length: 57, X: 76, Y: 80, Cost: 24
+Description: Random description for seminar or research topic.
+Keywords: VT, Computer_Science, HPC, Computing, Bioinformatics
+Size: 159
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 8
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1396,652)
+delete FAILED -- There is no record with ID 3
+Insert FAILED - There is already a record with ID 2
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 8
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1396,652)
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 8
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1396,652)
+Insert FAILED - There is already a record with ID 7
+Insert FAILED - There is already a record with ID 6
+Hashtable:
+1: 1
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 8
+Freeblock List:
+(0,148) -> (296,1) -> (906,17) -> (1396,652)
+Record with ID 1 successfully deleted from the database
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,170) -> (1396,652)
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(0,148) -> (296,1) -> (906,170) -> (1396,652)
+Search FAILED -- There is no record with ID 1
+Found record with ID 9:
+ID: 9, Title: Random Title 961
+Date: 07252007, Length: 65, X: 90, Y: 72, Cost: 81
+Description: Random description for seminar or research topic.
+Keywords: Bioinformatics, Grids, Computer_Science, VT, Computing
+Record with ID 5 successfully deleted from the database
+Successfully inserted record with ID 5
+ID: 5, Title: Random Title 996
+Date: 09061440, Length: 11, X: 30, Y: 98, Cost: 83
+Description: Random description for seminar or research topic.
+Keywords: VT, HCI, Seminar, HPC, Research
+Size: 138
+Search FAILED -- There is no record with ID 3
+Hashtable:
+1: TOMBSTONE
+2: 2
+3: TOMBSTONE
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: TOMBSTONE
+total records: 7
+Freeblock List:
+(138,10) -> (296,1) -> (766,310) -> (1396,652)
+Insert FAILED - There is already a record with ID 4
+Insert FAILED - There is already a record with ID 6
