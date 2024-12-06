@@ -2,10 +2,11 @@
 /**
  * Creates a simple node to be used in DLL with a next and previous pointer.
  * 
- * @author Austin Anderson 
+ * @author Austin Anderson
  * @author Andres Zaidan
  * @version Sep 17, 2024
- * @param <T> generic for data such that we want to interchange
+ * @param <T>
+ *            generic for data such that we want to interchange
  */
 public class Node<T> {
 
@@ -19,7 +20,8 @@ public class Node<T> {
      * Create a new Node object.
      * 
      * @param data
-     * @param index
+     *            the data
+     * 
      */
     public Node(T data) {
         this.data = data;

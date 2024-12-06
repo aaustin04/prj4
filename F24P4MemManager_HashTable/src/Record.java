@@ -24,11 +24,10 @@
  * 
  * @author Andres Zaidan
  * @version Sep 4, 2024
- * @param <E> generic typing for ease of use
+ * @param <E>
+ *            generic typing for ease of use
  */
-public class Record<E>
-    implements Comparable<Record<E>>
-{
+public class Record<E> implements Comparable<Record<E>> {
 
     private int theKey;
 
@@ -43,49 +42,46 @@ public class Record<E>
      * @param v
      *            the value
      */
-    public Record(int k, E v)
-    {
+    public Record(int k, E v) {
         theKey = k;
         theVal = v;
     }
 
-
-//    /**
-//     * Compares against a keyvalue pair.
-//     * 
-//     * @param it
-//     *            the object to compare
-//     * @return It bigger than 0 smaller, lower than 0 larger
-//     */
-//    public int compareTo1(Record<E> it)
-//    {
-//        return Integer.compare(this.theKey, it.theKey);
-//    }
-
+// /**
+// * Compares against a keyvalue pair.
+// *
+// * @param it
+// * the object to compare
+// * @return It bigger than 0 smaller, lower than 0 larger
+// */
+// public int compareTo1(Record<E> it)
+// {
+// return Integer.compare(this.theKey, it.theKey);
+// }
 
     // Compare against a key
     // ----------------------------------------------------------
-//    /**
-//     * Compares against a key
-//     * 
-//     * @param key
-//     *            the key to compare
-//     * @return Int bigger than 0 smaller, lower than 0 larger
-//     */
-//    public int compareTo(int key)
-//    {
-//        return Integer.compare(this.theKey, key);
-//    }
+// /**
+// * Compares against a key
+// *
+// * @param key
+// * the key to compare
+// * @return Int bigger than 0 smaller, lower than 0 larger
+// */
+// public int compareTo(int key)
+// {
+// return Integer.compare(this.theKey, key);
+// }
 //
+
 
     // ----------------------------------------------------------
     /**
      * returns the key
      * 
-     * @return key
+     * @return key the key
      */
-    public int key()
-    {
+    public int key() {
         return theKey;
     }
 
@@ -94,21 +90,15 @@ public class Record<E>
     /**
      * returns the value
      * 
-     * @return val
+     * @return val the value
      */
-    public E value()
-    {
-        if (theVal != null)
-        {
-            return theVal;
-        }
-        return null;
+    public E value() {
+        return theVal;
     }
 
 
     @Override
-    public int compareTo(Record<E> o)
-    {
+    public int compareTo(Record<E> o) {
         return 0;
     }
 }

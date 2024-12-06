@@ -6,33 +6,28 @@
  * @author Austin
  * @version Nov 18, 2024
  */
-public class MemManager
-{
+public class MemManager {
     private byte[] memoryPool;
     private DoubleLL<FreeBlock> freeBlockList;
     private int blockSize;
 
-    private class FreeBlock
-    {
+    private class FreeBlock {
         private int start;
         private int size;
 
-        FreeBlock(int start, int size)
-        {
+        FreeBlock(int start, int size) {
             this.start = start;
             this.size = size;
 
         }
 
 
-        public void setStart(int nS)
-        {
+        public void setStart(int nS) {
             this.start = nS;
         }
 
 
-        public void setSize(int s)
-        {
+        public void setSize(int s) {
             this.size = s;
 
         }
@@ -46,12 +41,44 @@ public class MemManager
      * @param poolsize
      *            defines the size of the memory pool in bytes
      */
-    MemManager(int poolsize)
-    {
+    MemManager(int poolsize) {
         memoryPool = new byte[poolsize];
         blockSize = poolsize;
         freeBlockList = new DoubleLL<>();
         freeBlockList.add(new FreeBlock(0, poolsize));
+    }
+
+
+    // ----------------------------------------------------------
+    /**
+     * gets the blocksize used for tests
+     * 
+     * @return the blocksize
+     */
+    int getBlockSize() {
+        return blockSize;
+    }
+
+
+    // ----------------------------------------------------------
+    /**
+     * gets the memorypool used for tests
+     * 
+     * @return the memory pool
+     */
+    byte[] getMem() {
+        return memoryPool;
+    }
+
+
+    // ----------------------------------------------------------
+    /**
+     * returns the freeblocklist
+     * 
+     * @return freeblocklist
+     */
+    DoubleLL<FreeBlock> freeBlockList() {
+        return freeBlockList;
     }
 
 
@@ -66,29 +93,24 @@ public class MemManager
      *            the size of the smerinar
      * @return the handle where the seminar was added to the mem pool.
      */
-    public Handle insert(byte[] sem, int semSize)
-    {
+    public Handle insert(byte[] sem, int semSize) {
         Handle handle = null;
 
-        for (int i = 0; i < freeBlockList.size(); i++)
-        {
+        for (int i = 0; i < freeBlockList.size(); i++) {
 
             FreeBlock block = freeBlockList.get(i);
 
-            if (block.size >= semSize)
-            {
+            if (block.size >= semSize) {
                 // Insert the seminar into the storage
                 System.arraycopy(sem, 0, memoryPool, block.start, semSize);
                 handle = new Handle(block.start, semSize);
                 // Update the free block list
-                if (block.size == semSize)
-                {
+                if (block.size == semSize) {
                     // Exact fit, remove the block
                     freeBlockList.remove(i);
 
                 }
-                else
-                {
+                else {
                     // Partial fit, reduce the size of the block
                     block.setStart(block.start + semSize);
                     block.setSize(block.size - semSize);
@@ -108,36 +130,19 @@ public class MemManager
 
     // ----------------------------------------------------------
     /**
-     * Return the length of the record associated with theHandle
-     * 
-     * @param theHandle
-     *            takes in the records start and length
-     * @return the length of the record
-     */
-    public int length(Handle theHandle)
-    {
-        return 0;
-    }
-
-
-    // ----------------------------------------------------------
-    /**
      * Free a block at the position specified by theHandle. Merge adjacent free
      * blocks.
      * 
      * @param theHandle
      *            the handle of a record.
      */
-    public void remove(Handle theHandle)
-    {
+    public void remove(Handle theHandle) {
         int index = 0;
 
         // get the index to add the free block in a sorted order
-        for (int i = 0; i < freeBlockList.size(); i++)
-        {
+        for (int i = 0; i < freeBlockList.size(); i++) {
             FreeBlock free = freeBlockList.get(i);
-            if (free.start > theHandle.getStart())
-            {
+            if (free.start > theHandle.getStart()) {
                 index = i;
                 break;
             }
@@ -145,9 +150,8 @@ public class MemManager
         }
 
         // Insert the freeblock at the index
-        freeBlockList.add(
-            index,
-            new FreeBlock(theHandle.getStart(), theHandle.getLength()));
+        freeBlockList.add(index, new FreeBlock(theHandle.getStart(), theHandle
+            .getLength()));
 
         // Merge
         merge();
@@ -158,28 +162,22 @@ public class MemManager
     /**
      * Merges adjacent blocks together
      */
-    public void merge()
-    {
-        if (freeBlockList.size() > 1)
-        {
+    public void merge() {
+        if (freeBlockList.size() > 1) {
             DoubleLL<FreeBlock> mergedList = new DoubleLL<FreeBlock>();
             FreeBlock prev = null;
 
-            for (int i = 0; i < freeBlockList.size(); i++)
-            {
+            for (int i = 0; i < freeBlockList.size(); i++) {
                 FreeBlock curr = freeBlockList.get(i);
-                if (prev == null)
-                {
+                if (prev == null) {
                     // Start with the first block
                     prev = curr;
                 }
-                else if (prev.start + prev.size == curr.start)
-                {
+                else if (prev.start + prev.size == curr.start) {
                     // Blocks are adjacent, merge them
                     prev.size += curr.size;
                 }
-                else
-                {
+                else {
                     // No adjacency, add the current block to the merged list
                     // and move to the next
                     mergedList.add(prev);
@@ -188,8 +186,7 @@ public class MemManager
             }
 
             // Add the last block
-            if (prev != null)
-            {
+            if (prev != null) {
                 mergedList.add(prev);
             }
 
@@ -204,8 +201,7 @@ public class MemManager
     /**
      * expands the memory pool by the blocksize;
      */
-    public void expand()
-    {
+    public void expand() {
 
         byte[] newpool = new byte[memoryPool.length + blockSize];
         System.arraycopy(memoryPool, 0, newpool, 0, memoryPool.length);
@@ -215,8 +211,8 @@ public class MemManager
         merge(); // merge the block we just added.
 
         memoryPool = newpool;
-        System.out
-            .println("Memory pool expanded to " + memoryPool.length + " bytes");
+        System.out.println("Memory pool expanded to " + memoryPool.length
+            + " bytes");
     }
 
 
@@ -224,25 +220,20 @@ public class MemManager
     /**
      * Dump a printout of the freeblock list
      */
-    public void print()
-    {
+    public void print() {
 
-        if (freeBlockList.size() == 0)
-        {
+        if (freeBlockList.size() == 0) {
             System.out.println("There are no freeblocks in the memory pool");
         }
-        else
-        {
+        else {
             StringBuilder result = new StringBuilder();
 
-            for (int i = 0; i < freeBlockList.size(); i++)
-            {
+            for (int i = 0; i < freeBlockList.size(); i++) {
                 FreeBlock block = freeBlockList.get(i);
-                result.append("(").append(block.start).append(",")
-                    .append(block.size).append(")");
+                result.append("(").append(block.start).append(",").append(
+                    block.size).append(")");
 
-                if (i < freeBlockList.size() - 1)
-                {
+                if (i < freeBlockList.size() - 1) {
                     result.append(" -> "); // Add arrow except for the last
                                            // block
                 }

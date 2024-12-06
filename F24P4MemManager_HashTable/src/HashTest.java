@@ -25,20 +25,19 @@ import student.TestCase;
  * @author Andres Zaidan
  * @version 2, Sept 2024
  */
-public class HashTest
-    extends TestCase
-{
+public class HashTest extends TestCase {
 
     private Hash<String> testHash;
+    private Hash<String> hash;
 
     /**
      * Sets up the tests that follow. In general, used for initialization
      */
-    public void setUp()
-    {
+    public void setUp() {
         testHash = new Hash<>(4);
-    }
+        hash = new Hash<>(4);
 
+    }
 
 //
 // /**
@@ -345,12 +344,12 @@ public class HashTest
 // assertTrue(Hash.h("long Lonesome Blues", 10000) == 4667);
 // }
 
- // ----------------------------------------------------------
+
+    // ----------------------------------------------------------
     /**
      * IDk what this method does.
      */
-    public void setUp1()
-    {
+    public void setUp1() {
         testHash = new Hash<>(4);
     }
 
@@ -359,8 +358,7 @@ public class HashTest
     /**
      * Tests inserting
      */
-    public void testInsertConditions()
-    {
+    public void testInsertConditions() {
 
         testHash.insert(1, "A");
         testHash.insert(2, "B");
@@ -387,8 +385,7 @@ public class HashTest
     /**
      * Hopefully tests the arithmetic?
      */
-    public void testPosCalculationMutations()
-    {
+    public void testPosCalculationMutations() {
         testHash = new Hash<>(8);
 
         testHash.insert(1, "A");
@@ -422,8 +419,7 @@ public class HashTest
      * Tests insert again mor mutations
      */
     @SuppressWarnings("unchecked")
-    public void testInsert1()
-    {
+    public void testInsert1() {
         testHash.insert(1, "a");
         assertEquals(1, testHash.getNumOfRecords());
         assertTrue(testHash.find(1));
@@ -444,8 +440,7 @@ public class HashTest
      * Tests the collisions
      */
     @SuppressWarnings("unchecked")
-    public void testInsertCollisionTombstone1()
-    {
+    public void testInsertCollisionTombstone1() {
         testHash.insert(1, "a");
         assertEquals(1, testHash.getNumOfRecords());
         testHash.insert(2, "b");
@@ -464,8 +459,7 @@ public class HashTest
     /**
      * Tests inserting the first
      */
-    public void testInsertFirst1()
-    {
+    public void testInsertFirst1() {
         testHash.insert(1, "a");
         assertEquals(1, testHash.getNumOfRecords());
         testHash.insert(2, "b");
@@ -479,8 +473,7 @@ public class HashTest
     /**
      * Tests remove
      */
-    public void testRemove()
-    {
+    public void testRemove() {
         testHash.insert(1, "a");
         testHash.remove(2);
         assertEquals(1, testHash.getNumOfRecords());
@@ -493,13 +486,11 @@ public class HashTest
     /**
      * Tests remove on a no item hash table
      */
-    public void testRemoveNoItems()
-    {
+    public void testRemoveNoItems() {
         assertEquals(0, testHash.getNumOfRecords());
         testHash.remove(1);
         assertEquals(0, testHash.getNumOfRecords());
-        for (int i = 0; i < 4; i++)
-        {
+        for (int i = 0; i < 4; i++) {
             assertNull(testHash.getAllRecords()[i]);
         }
     }
@@ -509,8 +500,7 @@ public class HashTest
     /**
      * Remove tombstones
      */
-    public void testRemoveTombstone()
-    {
+    public void testRemoveTombstone() {
         testHash.insert(1, "a");
         assertEquals(1, testHash.getNumOfRecords());
         testHash.remove(1);
@@ -523,8 +513,7 @@ public class HashTest
     /**
      * Tests find method
      */
-    public void testFind()
-    {
+    public void testFind() {
         testHash.insert(1, "a");
         testHash.insert(2, "b");
         assertTrue(testHash.find(2));
@@ -538,8 +527,7 @@ public class HashTest
     /**
      * Tests resize
      */
-    public void testResize()
-    {
+    public void testResize() {
         testHash.insert(1, "a");
         assertEquals(4, testHash.getAllRecords().length);
         testHash.insert(2, "b");
@@ -553,8 +541,7 @@ public class HashTest
     /**
      * Tests print
      */
-    public void testPrint()
-    {
+    public void testPrint() {
         testHash.insert(1, "a");
         testHash.insert(2, "b");
         testHash.insert(3, "c");
@@ -563,4 +550,136 @@ public class HashTest
         testHash.print();
 
     }
+
+    // mine
+
+
+    /**
+     * Test insert
+     */
+    public void testInsert2() {
+
+        hash.insert(1, "Record1");
+        assertEquals(1, hash.getNumOfRecords());
+        assertEquals("Record1", hash.getRecord(1).value());
+
+        hash.insert(5, "Record2");
+        assertEquals(2, hash.getNumOfRecords());
+        assertEquals("Record2", hash.getRecord(5).value());
+
+        hash.insert(9, "Record3");
+        hash.insert(13, "Record4");
+        assertEquals(4, hash.getNumOfRecords());
+        assertEquals(8, hash.getAllRecords().length);
+    }
+
+
+    /**
+     * Test remove
+     */
+    public void testRemove1() {
+        hash.insert(1, "Record1");
+        hash.insert(5, "Record2");
+        hash.remove(1);
+
+        assertEquals(1, hash.getNumOfRecords());
+        assertEquals(-1, hash.getAllRecords()[1].key());
+
+        assertFalse(hash.find(1));
+
+        hash.insert(1, "Record3");
+        assertEquals(2, hash.getNumOfRecords());
+        assertEquals("Record3", hash.getRecord(1).value());
+    }
+
+
+    /**
+     * Tests find
+     */
+    public void testFind1() {
+        hash.insert(1, "Record1");
+        hash.insert(5, "Record2");
+
+        assertTrue(hash.find(1));
+        assertTrue(hash.find(5));
+
+        assertFalse(hash.find(9));
+
+        hash.remove(1);
+        assertFalse(hash.find(1));
+    }
+
+
+    /**
+     * Tests resize.
+     */
+    public void testResize1() {
+        hash.insert(1, "Record1");
+        hash.insert(5, "Record2");
+        hash.insert(9, "Record3");
+
+        assertEquals(3, hash.getNumOfRecords());
+        assertEquals(8, hash.getAllRecords().length);
+
+        assertEquals("Record1", hash.getRecord(1).value());
+        assertEquals("Record2", hash.getRecord(5).value());
+        assertEquals("Record3", hash.getRecord(9).value());
+    }
+
+
+    /**
+     * Test getRecord
+     */
+    public void testGetRecord() {
+        hash.insert(1, "Record1");
+
+        assertNotNull(hash.getRecord(1));
+        assertEquals("Record1", hash.getRecord(1).value());
+
+        assertNull(hash.getRecord(9));
+    }
+
+
+    /**
+     * Tests inserting, removing, and reinserting
+     */
+    public void testInsertRemoveReinsert() {
+        hash.insert(1, "Record1");
+        hash.remove(1);
+        hash.insert(5, "Record2");
+        hash.insert(1, "Record3");
+
+        assertEquals(2, hash.getNumOfRecords());
+        assertTrue(hash.find(1));
+        assertEquals("Record3", hash.getRecord(1).value());
+    }
+
+
+    /**
+     * Tests collisions
+     */
+    public void testCollision() {
+        hash.insert(1, "Record1");
+        hash.insert(5, "Record2");
+        hash.insert(9, "Record3");
+
+        assertEquals(3, hash.getNumOfRecords());
+        assertEquals("Record1", hash.getRecord(1).value());
+        assertEquals("Record2", hash.getRecord(5).value());
+        assertEquals("Record3", hash.getRecord(9).value());
+    }
+
+
+    /**
+     * Tests the getterss
+     */
+    public void testGetters() {
+        hash.insert(1, "Record1");
+        assertEquals(1, hash.getNumOfRecords());
+        assertNotNull(hash.getAllRecords());
+
+        hash.remove(1);
+        assertEquals(0, hash.getNumOfRecords());
+    }
+
 }

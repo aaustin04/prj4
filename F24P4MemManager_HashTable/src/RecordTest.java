@@ -27,9 +27,7 @@ import student.TestCase;
  * @author Andres Zaidan
  * @version Sep 11, 2024
  */
-public class RecordTest
-    extends TestCase
-{
+public class RecordTest extends TestCase {
     // ~ Fields ................................................................
     private Record<Integer> testRecord;
     private int testNum;
@@ -38,8 +36,7 @@ public class RecordTest
     /**
      * Sets up the tests that follow. In general, used for initialization
      */
-    public void setUp()
-    {
+    public void setUp() {
         testNum = 1;
         testRecord = new Record<Integer>(1, testNum);
     }
@@ -49,21 +46,28 @@ public class RecordTest
     /**
      * Test methods for both Key and Node Getter methods.
      */
-    public void testGetters()
-    {
+    public void testGetters() {
         assertTrue(testNum == testRecord.value());
         assertEquals(1, testRecord.key());
     }
-    
-    public void testNull() 
-    {
-        Record<Integer> n = new Record<Integer>(1,null);
+
+
+    // ----------------------------------------------------------
+    /**
+     * test value is null
+     */
+    public void testNull() {
+        Record<Integer> n = new Record<Integer>(1, null);
         assertNull(n.value());
     }
-    
-    public void testCompare() 
-    {
-        assertEquals(0,testRecord.compareTo(testRecord));
+
+
+    // ----------------------------------------------------------
+    /**
+     * compare
+     */
+    public void testCompare() {
+        assertEquals(0, testRecord.compareTo(testRecord));
     }
 
 }
