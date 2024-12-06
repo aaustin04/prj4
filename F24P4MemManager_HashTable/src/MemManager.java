@@ -25,13 +25,13 @@ public class MemManager
         }
 
 
-        void setStart(int nS)
+        public void setStart(int nS)
         {
             this.start = nS;
         }
 
 
-        void setSize(int s)
+        public void setSize(int s)
         {
             this.size = s;
 
@@ -114,7 +114,7 @@ public class MemManager
      *            takes in the records start and length
      * @return the length of the record
      */
-    int length(Handle theHandle)
+    public int length(Handle theHandle)
     {
         return 0;
     }
@@ -128,7 +128,7 @@ public class MemManager
      * @param theHandle
      *            the handle of a record.
      */
-    void remove(Handle theHandle)
+    public void remove(Handle theHandle)
     {
         int index = 0;
 
@@ -158,7 +158,7 @@ public class MemManager
     /**
      * Merges adjacent blocks together
      */
-    void merge()
+    public void merge()
     {
         if (freeBlockList.size() > 1)
         {
@@ -204,7 +204,7 @@ public class MemManager
     /**
      * expands the memory pool by the blocksize;
      */
-    void expand()
+    public void expand()
     {
 
         byte[] newpool = new byte[memoryPool.length + blockSize];
@@ -224,7 +224,7 @@ public class MemManager
     /**
      * Dump a printout of the freeblock list
      */
-    void print()
+    public void print()
     {
 
         if (freeBlockList.size() == 0)

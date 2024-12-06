@@ -31,7 +31,7 @@ Description: Seminar about the Computing systems research at VT
 Keywords: high_performance_computing, grids, VT, computer_science
 Record with ID 2 successfully deleted from the database
 Search FAILED -- There is no record with ID 2
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Successfully inserted record with ID 2
 ID: 2, Title: Much More Computational Biology and Bioinformatics in CS at Virginia Tech
 Date: 0610071600, Length: 60, X: 20, Y: 10, Cost: 30

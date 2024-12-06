@@ -3,13 +3,14 @@
  * This class creates the Doubly Linked List with a head and tail node.
  * 
  * @author Harini Ramaswamy and Austin Anderson Lifted from cs2114 course given
- *         code
+ *             code
  * @version Sep 20, 2024
  * @param <T>
  *            generic type
  */
 
-public class DoubleLL<T> {
+public class DoubleLL<T>
+{
     private Node<T> head;
     private Node<T> tail;
     private int size;
@@ -17,14 +18,15 @@ public class DoubleLL<T> {
     // ----------------------------------------------------------
     /**
      * Create a new DoubleLL object by calling the init() method.
-     * 
      */
-    public DoubleLL() {
+    public DoubleLL()
+    {
         init();
     }
 
 
-    private void init() {
+    private void init()
+    {
         head = new Node<T>(null);
         tail = new Node<T>(null);
         head.setNext(tail);
@@ -38,10 +40,10 @@ public class DoubleLL<T> {
      * Checks if the list is empty. Returns true if the size is equal to 0, and
      * false is not.
      * 
-     * @return boolean
-     *         Returns if size is equal to 0.
+     * @return boolean Returns if size is equal to 0.
      */
-    public boolean isEmpty() {
+    public boolean isEmpty()
+    {
         return size == 0;
     }
 
@@ -50,10 +52,10 @@ public class DoubleLL<T> {
     /**
      * Returns the size of the doubly linked list.
      * 
-     * @return size
-     *         The current size of the doubly linked list.
+     * @return size The current size of the doubly linked list.
      */
-    public int size() {
+    public int size()
+    {
         return size;
     }
 
@@ -63,7 +65,8 @@ public class DoubleLL<T> {
      * Clears the current doubly linked list by reinitializing all the fields in
      * the object.
      */
-    public void clear() {
+    public void clear()
+    {
         init();
     }
 
@@ -73,10 +76,10 @@ public class DoubleLL<T> {
      * Returns the head node of the doubly linked list that leads the rest of
      * the values.
      * 
-     * @return Node<T> head
-     *         the first node in the DLL
+     * @return Node<T> head the first node in the DLL
      */
-    public Node<T> getHead() {
+    public Node<T> getHead()
+    {
         return head;
     }
 
@@ -86,10 +89,10 @@ public class DoubleLL<T> {
      * Returns the head node of the doubly linked list that leads the rest of
      * the values.
      * 
-     * @return Node<T> head
-     *         the first node in the DLL
+     * @return Node<T> head the first node in the DLL
      */
-    public Node<T> getTail() {
+    public Node<T> getTail()
+    {
         return tail;
     }
 
@@ -101,13 +104,12 @@ public class DoubleLL<T> {
      * 
      * @param obj
      *            the generic object to check if DLL contains
-     * @return boolean
-     *         Returns true if DLL contains specified object, false if not.
+     * @return boolean Returns true if DLL contains specified object, false if
+     *             not.
      */
-    public boolean contains(T obj) {
-        if (obj == null) {
-            return false;
-        }
+    public boolean contains(T obj)
+    {
+
         return lastIndexOf(obj) != -1;
     }
 
@@ -118,10 +120,10 @@ public class DoubleLL<T> {
      * 
      * @param index
      *            index to retrieve object
-     * @return T
-     *         object present at specified index
+     * @return T object present at specified index
      */
-    public T get(int index) {
+    public T get(int index)
+    {
         return getNodeAtIndex(index).getData();
     }
 
@@ -134,7 +136,8 @@ public class DoubleLL<T> {
      * @param newEntry
      *            the generic object that needs to be added
      */
-    public void add(T newEntry) {
+    public void add(T newEntry)
+    {
         add(size(), newEntry);
     }
 
@@ -149,20 +152,22 @@ public class DoubleLL<T> {
      * @param obj
      *            the generic object that needs to be added
      */
-    public void add(int index, T obj) {
-        if (index < 0 || size < index) {
-            throw new IndexOutOfBoundsException();
-        }
-        if (obj == null) {
-            throw new IllegalArgumentException("Cannot add null "
-                + "objects to a list");
+    public void add(int index, T obj)
+    {
+
+        if (obj == null)
+        {
+            throw new IllegalArgumentException(
+                "Cannot add null " + "objects to a list");
         }
 
         Node<T> nodeAfter;
-        if (index == size) {
+        if (index == size)
+        {
             nodeAfter = tail;
         }
-        else {
+        else
+        {
             nodeAfter = getNodeAtIndex(index);
         }
 
@@ -183,28 +188,27 @@ public class DoubleLL<T> {
      *            the generic object that intends to be added
      */
     // Method to add a node to the end of the list
-    public void addToEnd(T data) {
+    public void addToEnd(T data)
+    {
         Node<T> newNode = new Node<T>(data);
+        Node<T> nullNode = new Node<T>(null);
 
-        // If the list is empty
-        if (head == null) {
-            head = newNode;
-            tail = newNode;
-        }
-        else {
-            // Link the current tail to the new node
+        
             add(size, data);
-        }
+        
     }
 
 
-    private Node<T> getNodeAtIndex(int index) {
-        if (index < 0 || size() <= index) {
-            throw new IndexOutOfBoundsException("No element exists at "
-                + index);
+    private Node<T> getNodeAtIndex(int index)
+    {
+        if (index < 0 || size() <= index)
+        {
+            throw new IndexOutOfBoundsException(
+                "No element exists at " + index);
         }
         Node<T> current = head.getNext();
-        for (int i = 0; i < index; i++) {
+        for (int i = 0; i < index; i++)
+        {
             current = current.getNext();
         }
         return current;
@@ -217,13 +221,15 @@ public class DoubleLL<T> {
      * 
      * @param obj
      *            the generic object that is being searched for
-     * @return index
-     *         the last index where the object is present
+     * @return index the last index where the object is present
      */
-    public int lastIndexOf(T obj) {
+    public int lastIndexOf(T obj)
+    {
         Node<T> current = tail.getPrev();
-        for (int i = size() - 1; i >= 0; i--) {
-            if (current.getData().equals(obj)) {
+        for (int i = size() - 1; i >= 0; i--)
+        {
+            if (current.getData().equals(obj))
+            {
                 return i;
             }
             current = current.getPrev();
@@ -239,10 +245,10 @@ public class DoubleLL<T> {
      * 
      * @param index
      *            the index at which the node is being removed
-     * @return boolean
-     *         true if object was removed, false if not
+     * @return boolean true if object was removed, false if not
      */
-    public boolean remove(int index) {
+    public boolean remove(int index)
+    {
         Node<T> nodeToRemove = getNodeAtIndex(index);
         nodeToRemove.getPrev().setNext(nodeToRemove.getNext());
         nodeToRemove.getNext().setPrev(nodeToRemove.getPrev());
@@ -258,13 +264,15 @@ public class DoubleLL<T> {
      * 
      * @param data
      *            the generic object that is being removed
-     * @return boolean
-     *         true if removed, false if not
+     * @return boolean true if removed, false if not
      */
-    public boolean remove(T data) {
+    public boolean remove(T data)
+    {
         Node<T> curr = head.getNext();
-        while (!curr.equals(tail)) {
-            if (curr.getData().equals(data)) {
+        while (!curr.equals(tail))
+        {
+            if (curr.getData().equals(data))
+            {
                 curr.getPrev().setNext(curr.getNext());
             }
             curr.getNext().setPrev(curr.getPrev());
@@ -280,8 +288,7 @@ public class DoubleLL<T> {
     /**
      * Prints the entire DLL into a String representation.
      * 
-     * @return String
-     *         printed DLL
+     * @return String printed DLL
      */
 // @Override
 // public String toString() {

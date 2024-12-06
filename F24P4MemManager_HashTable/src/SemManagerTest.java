@@ -84,7 +84,7 @@ public class SemManagerTest
 
         // Compare the two outputs
 
-        assertFuzzyEquals(expectedOutput, actualOutput);
+        assertEquals(expectedOutput, actualOutput);
 
     }
     
@@ -145,7 +145,7 @@ public class SemManagerTest
 
         // Compare the two outputs
 
-        assertFuzzyEquals(expectedOutput, actualOutput);
+        assertEquals(expectedOutput, actualOutput);
 
     }
 

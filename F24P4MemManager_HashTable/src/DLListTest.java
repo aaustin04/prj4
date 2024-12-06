@@ -229,6 +229,10 @@ public class DLListTest extends TestCase {
         list.add("B1");
         assertEquals(4, list.size());
         assertEquals("B1", list.get(3));
+        DoubleLL<String> list2 = new DoubleLL<String>();
+        assertNotNull(list2.getHead());
+        list2.addToEnd("BB");
+       
     }
 
 
@@ -311,6 +315,15 @@ public class DLListTest extends TestCase {
         assertEquals(3, list.size());
         list.clear();
         assertEquals(0, list.size());
+    }
+    
+    // ----------------------------------------------------------
+    /**
+     * Mutants crusher.
+     */
+    public void testMutants()
+    {
+        assertFalse(list.contains(null));
     }
 
 }

@@ -1,5 +1,5 @@
 Search FAILED -- There is no record with ID 1
-delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 1
 Search FAILED -- There is no record with ID 9
 Search FAILED -- There is no record with ID 6
 Hashtable:
@@ -8,7 +8,7 @@ Freeblock List:
 (0,512)
 Search FAILED -- There is no record with ID 2
 Search FAILED -- There is no record with ID 3
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Successfully inserted record with ID 3
 ID: 3, Title: Random Title 9
 Date: 01041935, Length: 36, X: 34, Y: 41, Cost: 94
@@ -25,7 +25,7 @@ Hashtable:
 total records: 1
 Freeblock List:
 (149,363)
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Hashtable:
 3: 3
 total records: 1
@@ -80,7 +80,7 @@ total records: 1
 Freeblock List:
 (157,355)
 Search FAILED -- There is no record with ID 1
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Hashtable:
 1: 9
 2: TOMBSTONE
@@ -95,7 +95,7 @@ Hashtable:
 total records: 1
 Freeblock List:
 (157,355)
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Hashtable:
 1: 9
 2: TOMBSTONE
@@ -116,7 +116,7 @@ Hashtable:
 total records: 2
 Freeblock List:
 (308,204)
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Hashtable:
 1: 9
 2: 1
@@ -125,7 +125,7 @@ total records: 2
 Freeblock List:
 (308,204)
 Record with ID 1 successfully deleted from the database
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Found record with ID 9:
 ID: 9, Title: Random Title 18
 Date: 10130404, Length: 20, X: 15, Y: 81, Cost: 33
@@ -139,7 +139,7 @@ Date: 10041951, Length: 72, X: 33, Y: 76, Cost: 54
 Description: Random description for seminar or research topic.
 Keywords: HPC, HCI, Grids, Seminar, Computing
 Size: 141
-delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 10
 Successfully inserted record with ID 8
 ID: 8, Title: Random Title 43
 Date: 05071033, Length: 61, X: 97, Y: 14, Cost: 28
@@ -298,8 +298,8 @@ Record with ID 4 successfully deleted from the database
 Search FAILED -- There is no record with ID 9
 Record with ID 2 successfully deleted from the database
 Search FAILED -- There is no record with ID 6
-delete FAILED -- There is no record with ID 2
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 7
 Hashtable:
 0: TOMBSTONE
 1: TOMBSTONE
@@ -359,8 +359,8 @@ Hashtable:
 total records: 3
 Freeblock List:
 (312,132) -> (612,412)
-delete FAILED -- There is no record with ID 5
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 9
 Insert FAILED - There is already a record with ID 2
 Successfully inserted record with ID 7
 ID: 7, Title: Random Title 95
@@ -429,7 +429,7 @@ ID: 4, Title: Random Title 105
 Date: 12160756, Length: 73, X: 48, Y: 49, Cost: 81
 Description: Random description for seminar or research topic.
 Keywords: Grids, Computing, Bioinformatics, VT, Seminar
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Record with ID 4 successfully deleted from the database
 Search FAILED -- There is no record with ID 4
 Found record with ID 8:
@@ -469,7 +469,7 @@ ID: 1, Title: Random Title 101
 Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
 Description: Random description for seminar or research topic.
 Keywords: Research, Computing, Seminar, HPC, HCI
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Found record with ID 2:
 ID: 2, Title: Random Title 90
 Date: 06031451, Length: 89, X: 36, Y: 51, Cost: 72
@@ -488,7 +488,7 @@ total records: 5
 Freeblock List:
 (312,132) -> (612,145) -> (1059,477)
 Search FAILED -- There is no record with ID 3
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Hashtable:
 1: 1
 2: 2
@@ -590,7 +590,7 @@ Hashtable:
 total records: 6
 Freeblock List:
 (0,159) -> (312,132) -> (612,145) -> (1390,146)
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Record with ID 9 successfully deleted from the database
 Memory pool expanded to 2048 bytes
 Successfully inserted record with ID 6
@@ -628,7 +628,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (0,444) -> (612,145) -> (902,157) -> (1390,658)
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -670,7 +670,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (0,444) -> (612,145) -> (902,157) -> (1390,658)
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -684,7 +684,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (0,444) -> (612,145) -> (902,157) -> (1390,658)
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Successfully inserted record with ID 9
 ID: 9, Title: Random Title 156
 Date: 08142057, Length: 78, X: 65, Y: 82, Cost: 73
@@ -767,7 +767,7 @@ Hashtable:
 total records: 7
 Freeblock List:
 (302,142) -> (612,145) -> (1048,11) -> (1390,658)
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Found record with ID 5:
 ID: 5, Title: Random Title 168
 Date: 11192028, Length: 73, X: 27, Y: 45, Cost: 75
@@ -821,7 +821,7 @@ ID: 10, Title: Random Title 65
 Date: 10240130, Length: 39, X: 72, Y: 88, Cost: 19
 Description: Random description for seminar or research topic.
 Keywords: Computing, Research, Seminar, Computer_Science, Bioinformatics
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Hashtable:
 1: 1
 2: 2
@@ -891,7 +891,7 @@ Search FAILED -- There is no record with ID 6
 Insert FAILED - There is already a record with ID 4
 Insert FAILED - There is already a record with ID 7
 Insert FAILED - There is already a record with ID 7
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Found record with ID 1:
 ID: 1, Title: Random Title 101
 Date: 07220255, Length: 12, X: 87, Y: 30, Cost: 46
@@ -920,7 +920,7 @@ ID: 9, Title: Random Title 156
 Date: 08142057, Length: 78, X: 65, Y: 82, Cost: 73
 Description: Random description for seminar or research topic.
 Keywords: HCI, Research, HPC, Computer_Science, Seminar
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -966,7 +966,7 @@ Hashtable:
 total records: 2
 Freeblock List:
 (0,152) -> (304,453) -> (902,1146)
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -1007,7 +1007,7 @@ Date: 12090518, Length: 95, X: 49, Y: 32, Cost: 27
 Description: Random description for seminar or research topic.
 Keywords: Seminar, HPC, Computer_Science, Computing, VT
 Size: 152
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Search FAILED -- There is no record with ID 4
 Hashtable:
 1: 1
@@ -1037,7 +1037,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (458,299) -> (902,1146)
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Successfully inserted record with ID 2
 ID: 2, Title: Random Title 224
 Date: 08230557, Length: 50, X: 73, Y: 37, Cost: 77
@@ -1228,7 +1228,7 @@ total records: 6
 Freeblock List:
 (152,152) -> (755,2) -> (902,145) -> (1193,855)
 Insert FAILED - There is already a record with ID 1
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Found record with ID 9:
 ID: 9, Title: Random Title 217
 Date: 02100122, Length: 74, X: 19, Y: 96, Cost: 59
@@ -1358,7 +1358,7 @@ total records: 6
 Freeblock List:
 (299,5) -> (458,299) -> (902,145) -> (1349,699)
 Search FAILED -- There is no record with ID 3
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Hashtable:
 1: 1
 3: TOMBSTONE
@@ -1444,7 +1444,7 @@ Hashtable:
 total records: 6
 Freeblock List:
 (152,152) -> (600,157) -> (902,145) -> (1349,699)
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Search FAILED -- There is no record with ID 6
 Hashtable:
 1: 1
@@ -1486,7 +1486,7 @@ Hashtable:
 total records: 6
 Freeblock List:
 (152,152) -> (600,157) -> (902,145) -> (1349,699)
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Hashtable:
 1: 1
 3: TOMBSTONE
@@ -1500,7 +1500,7 @@ Hashtable:
 total records: 6
 Freeblock List:
 (152,152) -> (600,157) -> (902,145) -> (1349,699)
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Successfully inserted record with ID 2
 ID: 2, Title: Random Title 302
 Date: 06120507, Length: 87, X: 73, Y: 59, Cost: 55
@@ -1567,7 +1567,7 @@ Date: 05261000, Length: 33, X: 65, Y: 13, Cost: 89
 Description: Random description for seminar or research topic.
 Keywords: Bioinformatics, Grids, Computer_Science, HPC, HCI
 Record with ID 1 successfully deleted from the database
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -1688,14 +1688,14 @@ ID: 6, Title: Random Title 304
 Date: 01310957, Length: 19, X: 55, Y: 37, Cost: 60
 Description: Random description for seminar or research topic.
 Keywords: Seminar, Research, Computing, Computer_Science, HPC
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Successfully inserted record with ID 2
 ID: 2, Title: Random Title 331
 Date: 09270043, Length: 46, X: 39, Y: 11, Cost: 100
 Description: Random description for seminar or research topic.
 Keywords: HCI, Computer_Science, Computing, VT, Seminar
 Size: 152
-delete FAILED -- There is no record with ID 4
+Delete FAILED -- There is no record with ID 4
 Found record with ID 2:
 ID: 2, Title: Random Title 331
 Date: 09270043, Length: 46, X: 39, Y: 11, Cost: 100
@@ -1716,7 +1716,7 @@ total records: 7
 Freeblock List:
 (473,574) -> (1668,380)
 Record with ID 2 successfully deleted from the database
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Record with ID 9 successfully deleted from the database
 Successfully inserted record with ID 2
 ID: 2, Title: Random Title 338
@@ -1745,7 +1745,7 @@ Freeblock List:
 (150,2) -> (316,731) -> (1668,380)
 Search FAILED -- There is no record with ID 9
 Record with ID 7 successfully deleted from the database
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Found record with ID 10:
 ID: 10, Title: Random Title 245
 Date: 07201340, Length: 69, X: 35, Y: 78, Cost: 89
@@ -1754,7 +1754,7 @@ Keywords: Seminar, HCI, Computer_Science, HPC, VT
 Record with ID 5 successfully deleted from the database
 Record with ID 2 successfully deleted from the database
 Record with ID 6 successfully deleted from the database
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Search FAILED -- There is no record with ID 1
 Successfully inserted record with ID 4
 ID: 4, Title: Random Title 350
@@ -1785,7 +1785,7 @@ ID: 3, Title: Random Title 322
 Date: 03300405, Length: 88, X: 57, Y: 46, Cost: 30
 Description: Random description for seminar or research topic.
 Keywords: Computing, Computer_Science, Bioinformatics, Seminar, HPC
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Hashtable:
 1: TOMBSTONE
 2: TOMBSTONE
@@ -1806,7 +1806,7 @@ Date: 07201340, Length: 69, X: 35, Y: 78, Cost: 89
 Description: Random description for seminar or research topic.
 Keywords: Seminar, HCI, Computer_Science, HPC, VT
 Insert FAILED - There is already a record with ID 10
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Search FAILED -- There is no record with ID 1
 Hashtable:
 1: TOMBSTONE
@@ -1865,7 +1865,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (138,14) -> (470,577) -> (1193,855)
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -1880,8 +1880,8 @@ Hashtable:
 total records: 4
 Freeblock List:
 (138,14) -> (470,577) -> (1193,855)
-delete FAILED -- There is no record with ID 8
-delete FAILED -- There is no record with ID 4
+Delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 4
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -1896,10 +1896,10 @@ Hashtable:
 total records: 4
 Freeblock List:
 (138,14) -> (470,577) -> (1193,855)
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Insert FAILED - There is already a record with ID 7
-delete FAILED -- There is no record with ID 6
-delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 1
 Insert FAILED - There is already a record with ID 7
 Insert FAILED - There is already a record with ID 2
 Successfully inserted record with ID 4
@@ -1908,18 +1908,18 @@ Date: 08280429, Length: 58, X: 77, Y: 27, Cost: 79
 Description: Random description for seminar or research topic.
 Keywords: VT, Research, HCI, Computer_Science, Seminar
 Size: 151
-delete FAILED -- There is no record with ID 6
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 9
 Insert FAILED - There is already a record with ID 7
 Record with ID 4 successfully deleted from the database
-delete FAILED -- There is no record with ID 1
-delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 1
 Found record with ID 3:
 ID: 3, Title: Random Title 322
 Date: 03300405, Length: 88, X: 57, Y: 46, Cost: 30
 Description: Random description for seminar or research topic.
 Keywords: Computing, Computer_Science, Bioinformatics, Seminar, HPC
-delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 1
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -2278,7 +2278,7 @@ Description: Random description for seminar or research topic.
 Keywords: Grids, HPC, Bioinformatics, Computer_Science, Research
 Size: 161
 Record with ID 3 successfully deleted from the database
-delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 10
 Successfully inserted record with ID 10
 ID: 10, Title: Random Title 439
 Date: 06031254, Length: 43, X: 76, Y: 80, Cost: 27
@@ -2312,7 +2312,7 @@ Keywords: Grids, Research, HCI, Computer_Science, Computing
 Insert FAILED - There is already a record with ID 4
 Insert FAILED - There is already a record with ID 7
 Record with ID 7 successfully deleted from the database
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Search FAILED -- There is no record with ID 7
 Hashtable:
 1: TOMBSTONE
@@ -2333,7 +2333,7 @@ Record with ID 5 successfully deleted from the database
 Search FAILED -- There is no record with ID 3
 Insert FAILED - There is already a record with ID 10
 Insert FAILED - There is already a record with ID 9
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -2364,7 +2364,7 @@ total records: 4
 Freeblock List:
 (0,138) -> (294,22) -> (787,1261)
 Insert FAILED - There is already a record with ID 2
-delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 1
 Insert FAILED - There is already a record with ID 10
 Hashtable:
 1: TOMBSTONE
@@ -2380,7 +2380,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (0,138) -> (294,22) -> (787,1261)
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Search FAILED -- There is no record with ID 3
 Hashtable:
 1: TOMBSTONE
@@ -2439,7 +2439,7 @@ Hashtable:
 total records: 3
 Freeblock List:
 (0,138) -> (294,176) -> (787,1261)
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Successfully inserted record with ID 3
 ID: 3, Title: Random Title 470
 Date: 01252336, Length: 29, X: 32, Y: 20, Cost: 37
@@ -2466,7 +2466,7 @@ Date: 01161729, Length: 32, X: 79, Y: 46, Cost: 68
 Description: Random description for seminar or research topic.
 Keywords: VT, Research, Seminar, Grids, HCI
 Size: 140
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Hashtable:
 1: TOMBSTONE
 2: TOMBSTONE
@@ -2487,7 +2487,7 @@ Date: 09311441, Length: 77, X: 16, Y: 27, Cost: 39
 Description: Random description for seminar or research topic.
 Keywords: Computer_Science, Bioinformatics, Seminar, HCI, VT
 Size: 157
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -2599,7 +2599,7 @@ Hashtable:
 total records: 6
 Freeblock List:
 (0,138) -> (453,17) -> (1084,964)
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -2614,7 +2614,7 @@ Hashtable:
 total records: 6
 Freeblock List:
 (0,138) -> (453,17) -> (1084,964)
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Search FAILED -- There is no record with ID 7
 Found record with ID 4:
 ID: 4, Title: Random Title 436
@@ -2702,11 +2702,11 @@ ID: 7, Title: Random Title 499
 Date: 10200812, Length: 24, X: 43, Y: 52, Cost: 20
 Description: Random description for seminar or research topic.
 Keywords: Computing, Grids, VT, Seminar, Bioinformatics
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Search FAILED -- There is no record with ID 5
 Record with ID 8 successfully deleted from the database
-delete FAILED -- There is no record with ID 2
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 5
 Found record with ID 4:
 ID: 4, Title: Random Title 436
 Date: 09150831, Length: 41, X: 64, Y: 26, Cost: 94
@@ -2727,7 +2727,7 @@ Size: 150
 Record with ID 7 successfully deleted from the database
 Insert FAILED - There is already a record with ID 8
 Record with ID 9 successfully deleted from the database
-delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 10
 Successfully inserted record with ID 2
 ID: 2, Title: Random Title 527
 Date: 06100847, Length: 49, X: 30, Y: 72, Cost: 31
@@ -2758,7 +2758,7 @@ Date: 07252210, Length: 35, X: 21, Y: 76, Cost: 98
 Description: Random description for seminar or research topic.
 Keywords: Computer_Science, Bioinformatics, Seminar, Research, HCI
 Size: 163
-delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 10
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -2773,11 +2773,11 @@ Hashtable:
 total records: 4
 Freeblock List:
 (455,332) -> (927,1121)
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Record with ID 2 successfully deleted from the database
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Insert FAILED - There is already a record with ID 6
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Insert FAILED - There is already a record with ID 4
 Successfully inserted record with ID 1
 ID: 1, Title: Random Title 542
@@ -2785,7 +2785,7 @@ Date: 01190059, Length: 56, X: 74, Y: 51, Cost: 76
 Description: Random description for seminar or research topic.
 Keywords: Computing, Grids, Seminar, Research, Bioinformatics
 Size: 158
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Successfully inserted record with ID 10
 ID: 10, Title: Random Title 544
 Date: 10131331, Length: 18, X: 52, Y: 83, Cost: 36
@@ -2847,9 +2847,9 @@ Hashtable:
 total records: 5
 Freeblock List:
 (152,140) -> (455,158) -> (767,20) -> (1094,954)
-delete FAILED -- There is no record with ID 2
-delete FAILED -- There is no record with ID 1
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 2
 Hashtable:
 1: TOMBSTONE
 2: TOMBSTONE
@@ -2892,8 +2892,8 @@ Hashtable:
 total records: 4
 Freeblock List:
 (152,303) -> (612,1) -> (767,20) -> (927,1121)
-delete FAILED -- There is no record with ID 7
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 2
 Successfully inserted record with ID 7
 ID: 7, Title: Random Title 568
 Date: 02041657, Length: 41, X: 61, Y: 26, Cost: 58
@@ -3043,7 +3043,7 @@ Hashtable:
 total records: 5
 Freeblock List:
 (312,143) -> (612,1) -> (767,20) -> (927,1121)
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Successfully inserted record with ID 1
 ID: 1, Title: Random Title 584
 Date: 06191736, Length: 42, X: 73, Y: 26, Cost: 70
@@ -3052,8 +3052,8 @@ Keywords: Seminar, Grids, VT, Bioinformatics, Computing
 Size: 152
 Insert FAILED - There is already a record with ID 8
 Insert FAILED - There is already a record with ID 1
-delete FAILED -- There is no record with ID 2
-delete FAILED -- There is no record with ID 4
+Delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 4
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -3181,8 +3181,8 @@ Hashtable:
 total records: 5
 Freeblock List:
 (312,300) -> (758,29) -> (1079,969)
-delete FAILED -- There is no record with ID 10
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 3
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -3235,16 +3235,16 @@ Freeblock List:
 (464,148) -> (758,169) -> (1079,969)
 Insert FAILED - There is already a record with ID 3
 Record with ID 3 successfully deleted from the database
-delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 10
 Search FAILED -- There is no record with ID 6
-delete FAILED -- There is no record with ID 9
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Search FAILED -- There is no record with ID 10
 Insert FAILED - There is already a record with ID 8
 Search FAILED -- There is no record with ID 3
 Search FAILED -- There is no record with ID 9
-delete FAILED -- There is no record with ID 4
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 4
+Delete FAILED -- There is no record with ID 2
 Search FAILED -- There is no record with ID 3
 Successfully inserted record with ID 6
 ID: 6, Title: Random Title 628
@@ -3321,8 +3321,8 @@ Hashtable:
 total records: 5
 Freeblock List:
 (0,152) -> (467,145) -> (911,16) -> (1079,969)
-delete FAILED -- There is no record with ID 3
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 2
 Successfully inserted record with ID 2
 ID: 2, Title: Random Title 643
 Date: 05212044, Length: 55, X: 75, Y: 19, Cost: 21
@@ -3359,14 +3359,14 @@ Hashtable:
 total records: 5
 Freeblock List:
 (312,300) -> (911,16) -> (1079,969)
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Record with ID 1 successfully deleted from the database
 Found record with ID 2:
 ID: 2, Title: Random Title 643
 Date: 05212044, Length: 55, X: 75, Y: 19, Cost: 21
 Description: Random description for seminar or research topic.
 Keywords: HPC, Research, Seminar, Computer_Science, HCI
-delete FAILED -- There is no record with ID 4
+Delete FAILED -- There is no record with ID 4
 Search FAILED -- There is no record with ID 1
 Insert FAILED - There is already a record with ID 7
 Found record with ID 7:
@@ -3376,7 +3376,7 @@ Description: Random description for seminar or research topic.
 Keywords: Computer_Science, Bioinformatics, Research, VT, Grids
 Record with ID 10 successfully deleted from the database
 Record with ID 2 successfully deleted from the database
-delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 1
 Hashtable:
 1: TOMBSTONE
 2: TOMBSTONE
@@ -3391,10 +3391,10 @@ Hashtable:
 total records: 2
 Freeblock List:
 (0,152) -> (312,300) -> (758,1290)
-delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 1
 Search FAILED -- There is no record with ID 4
 Search FAILED -- There is no record with ID 4
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Insert FAILED - There is already a record with ID 7
 Hashtable:
 1: TOMBSTONE
@@ -3410,7 +3410,7 @@ Hashtable:
 total records: 2
 Freeblock List:
 (0,152) -> (312,300) -> (758,1290)
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Successfully inserted record with ID 1
 ID: 1, Title: Random Title 666
 Date: 03130947, Length: 52, X: 72, Y: 45, Cost: 85
@@ -3446,7 +3446,7 @@ Hashtable:
 total records: 3
 Freeblock List:
 (0,152) -> (467,145) -> (758,1290)
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Search FAILED -- There is no record with ID 10
 Search FAILED -- There is no record with ID 8
 Hashtable:
@@ -3463,7 +3463,7 @@ Hashtable:
 total records: 3
 Freeblock List:
 (0,152) -> (467,145) -> (758,1290)
-delete FAILED -- There is no record with ID 4
+Delete FAILED -- There is no record with ID 4
 Successfully inserted record with ID 8
 ID: 8, Title: Random Title 675
 Date: 12141013, Length: 58, X: 41, Y: 48, Cost: 50
@@ -3631,8 +3631,8 @@ total records: 4
 Freeblock List:
 (141,11) -> (604,1444)
 Record with ID 7 successfully deleted from the database
-delete FAILED -- There is no record with ID 7
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 5
 Found record with ID 1:
 ID: 1, Title: Random Title 666
 Date: 03130947, Length: 52, X: 72, Y: 45, Cost: 85
@@ -3659,7 +3659,7 @@ Hashtable:
 total records: 3
 Freeblock List:
 (141,171) -> (604,1444)
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Successfully inserted record with ID 4
 ID: 4, Title: Random Title 709
 Date: 11021116, Length: 28, X: 43, Y: 16, Cost: 38
@@ -3680,7 +3680,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (299,13) -> (604,1444)
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Record with ID 8 successfully deleted from the database
 Hashtable:
 1: 1
@@ -3698,8 +3698,8 @@ Freeblock List:
 (0,141) -> (299,13) -> (604,1444)
 Search FAILED -- There is no record with ID 6
 Record with ID 1 successfully deleted from the database
-delete FAILED -- There is no record with ID 1
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 1
+Delete FAILED -- There is no record with ID 9
 Successfully inserted record with ID 10
 ID: 10, Title: Random Title 718
 Date: 11070939, Length: 28, X: 22, Y: 49, Cost: 12
@@ -3734,7 +3734,7 @@ Hashtable:
 total records: 3
 Freeblock List:
 (0,141) -> (448,19) -> (604,1444)
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Search FAILED -- There is no record with ID 3
 Hashtable:
 1: TOMBSTONE
@@ -3751,7 +3751,7 @@ total records: 3
 Freeblock List:
 (0,141) -> (448,19) -> (604,1444)
 Insert FAILED - There is already a record with ID 4
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Record with ID 10 successfully deleted from the database
 Hashtable:
 1: TOMBSTONE
@@ -3773,7 +3773,7 @@ Date: 12061620, Length: 99, X: 47, Y: 68, Cost: 25
 Description: Random description for seminar or research topic.
 Keywords: Bioinformatics, Computing, HPC, Seminar, Research
 Size: 156
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Hashtable:
 1: TOMBSTONE
 2: 2
@@ -3887,7 +3887,7 @@ Hashtable:
 total records: 5
 Freeblock List:
 (157,142) -> (455,149) -> (1062,986)
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Insert FAILED - There is already a record with ID 6
 Record with ID 5 successfully deleted from the database
 Found record with ID 9:
@@ -3943,7 +3943,7 @@ Date: 02051451, Length: 77, X: 80, Y: 73, Cost: 18
 Description: Random description for seminar or research topic.
 Keywords: Grids, Computing, VT, Seminar, HPC
 Size: 141
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Insert FAILED - There is already a record with ID 5
 Hashtable:
 1: TOMBSTONE
@@ -4084,7 +4084,7 @@ Hashtable:
 total records: 1
 Freeblock List:
 (0,144) -> (309,1739)
-delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 10
 Hashtable:
 1: TOMBSTONE
 2: TOMBSTONE
@@ -4161,7 +4161,7 @@ Description: Random description for seminar or research topic.
 Keywords: Seminar, Computer_Science, Research, Bioinformatics, HPC
 Size: 163
 Record with ID 6 successfully deleted from the database
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Search FAILED -- There is no record with ID 4
 Successfully inserted record with ID 4
 ID: 4, Title: Random Title 799
@@ -4170,7 +4170,7 @@ Description: Random description for seminar or research topic.
 Keywords: Computer_Science, Research, Bioinformatics, Grids, VT
 Size: 160
 Record with ID 7 successfully deleted from the database
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Found record with ID 8:
 ID: 8, Title: Random Title 795
 Date: 12081551, Length: 27, X: 44, Y: 58, Cost: 17
@@ -4185,7 +4185,7 @@ Insert FAILED - There is already a record with ID 4
 Record with ID 8 successfully deleted from the database
 Search FAILED -- There is no record with ID 1
 Search FAILED -- There is no record with ID 7
-delete FAILED -- There is no record with ID 7
+Delete FAILED -- There is no record with ID 7
 Hashtable:
 1: TOMBSTONE
 2: TOMBSTONE
@@ -4202,7 +4202,7 @@ Freeblock List:
 (0,309) -> (469,2) -> (630,1418)
 Search FAILED -- There is no record with ID 2
 Search FAILED -- There is no record with ID 5
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Search FAILED -- There is no record with ID 1
 Record with ID 9 successfully deleted from the database
 Record with ID 4 successfully deleted from the database
@@ -4220,7 +4220,7 @@ Hashtable:
 total records: 0
 Freeblock List:
 (0,2048)
-delete FAILED -- There is no record with ID 10
+Delete FAILED -- There is no record with ID 10
 Successfully inserted record with ID 3
 ID: 3, Title: Random Title 818
 Date: 09031732, Length: 91, X: 78, Y: 69, Cost: 77
@@ -4234,7 +4234,7 @@ Description: Random description for seminar or research topic.
 Keywords: Seminar, Grids, VT, Bioinformatics, HCI
 Size: 146
 Search FAILED -- There is no record with ID 9
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Successfully inserted record with ID 2
 ID: 2, Title: Random Title 822
 Date: 12242218, Length: 69, X: 68, Y: 66, Cost: 26
@@ -4261,7 +4261,7 @@ Date: 11312007, Length: 31, X: 75, Y: 85, Cost: 54
 Description: Random description for seminar or research topic.
 Keywords: Seminar, Grids, VT, Bioinformatics, HCI
 Search FAILED -- There is no record with ID 10
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Successfully inserted record with ID 9
 ID: 9, Title: Random Title 827
 Date: 05281229, Length: 77, X: 24, Y: 14, Cost: 88
@@ -4463,7 +4463,7 @@ Description: Random description for seminar or research topic.
 Keywords: Computer_Science, HCI, Bioinformatics, HPC, Research
 Record with ID 3 successfully deleted from the database
 Search FAILED -- There is no record with ID 3
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Search FAILED -- There is no record with ID 3
 Hashtable:
 1: 1
@@ -4513,7 +4513,7 @@ Date: 01091807, Length: 86, X: 44, Y: 80, Cost: 41
 Description: Random description for seminar or research topic.
 Keywords: Research, Computer_Science, Seminar, HCI, HPC
 Size: 152
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Insert FAILED - There is already a record with ID 10
 Insert FAILED - There is already a record with ID 10
 Search FAILED -- There is no record with ID 5
@@ -4554,7 +4554,7 @@ Date: 08222018, Length: 58, X: 41, Y: 89, Cost: 44
 Description: Random description for seminar or research topic.
 Keywords: Computing, Computer_Science, VT, Grids, Bioinformatics
 Insert FAILED - There is already a record with ID 3
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Hashtable:
 1: 1
 2: 2
@@ -4676,7 +4676,7 @@ Hashtable:
 total records: 4
 Freeblock List:
 (0,455) -> (775,148) -> (1239,809)
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Insert FAILED - There is already a record with ID 7
 Search FAILED -- There is no record with ID 4
 Search FAILED -- There is no record with ID 6
@@ -4710,9 +4710,9 @@ Hashtable:
 total records: 3
 Freeblock List:
 (0,455) -> (775,148) -> (1076,972)
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Search FAILED -- There is no record with ID 3
-delete FAILED -- There is no record with ID 5
+Delete FAILED -- There is no record with ID 5
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -4728,7 +4728,7 @@ total records: 3
 Freeblock List:
 (0,455) -> (775,148) -> (1076,972)
 Search FAILED -- There is no record with ID 4
-delete FAILED -- There is no record with ID 6
+Delete FAILED -- There is no record with ID 6
 Insert FAILED - There is already a record with ID 9
 Record with ID 9 successfully deleted from the database
 Hashtable:
@@ -4834,7 +4834,7 @@ Date: 07220238, Length: 31, X: 30, Y: 78, Cost: 33
 Description: Random description for seminar or research topic.
 Keywords: Computer_Science, Seminar, Grids, HCI, VT
 Size: 148
-delete FAILED -- There is no record with ID 2
+Delete FAILED -- There is no record with ID 2
 Hashtable:
 1: 1
 2: TOMBSTONE
@@ -4895,7 +4895,7 @@ Freeblock List:
 Record with ID 5 successfully deleted from the database
 Search FAILED -- There is no record with ID 4
 Insert FAILED - There is already a record with ID 1
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Found record with ID 1:
 ID: 1, Title: Random Title 834
 Date: 08170250, Length: 32, X: 63, Y: 65, Cost: 47
@@ -4915,7 +4915,7 @@ ID: 1, Title: Random Title 834
 Date: 08170250, Length: 32, X: 63, Y: 65, Cost: 47
 Description: Random description for seminar or research topic.
 Keywords: Seminar, Grids, Bioinformatics, HCI, Computing
-delete FAILED -- There is no record with ID 8
+Delete FAILED -- There is no record with ID 8
 Successfully inserted record with ID 8
 ID: 8, Title: Random Title 943
 Date: 04291253, Length: 58, X: 75, Y: 96, Cost: 53
@@ -4981,7 +4981,7 @@ Description: Random description for seminar or research topic.
 Keywords: Grids, HCI, Research, VT, Seminar
 Size: 140
 Insert FAILED - There is already a record with ID 10
-delete FAILED -- There is no record with ID 9
+Delete FAILED -- There is no record with ID 9
 Hashtable:
 1: 1
 2: 2
@@ -5167,7 +5167,7 @@ Hashtable:
 total records: 8
 Freeblock List:
 (0,148) -> (296,1) -> (906,17) -> (1396,652)
-delete FAILED -- There is no record with ID 3
+Delete FAILED -- There is no record with ID 3
 Insert FAILED - There is already a record with ID 2
 Hashtable:
 1: 1

@@ -125,7 +125,7 @@ public class Controller
         else
         {
             System.out.println(
-                "delete FAILED -- There is no record with ID " + semId);
+                "Delete FAILED -- There is no record with ID " + semId);
         }
 
     }
